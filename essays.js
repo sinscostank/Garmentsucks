@@ -1,5 +1,5 @@
 /* garmentsucks — long-form essays for every card page.
-   Nada: pengamat garmen — tenang, spesifik, tidak menjual. Konsisten dengan label `conf`. */
+   Tone: a calm, specific garment observer who is not selling. Consistent with the conf label. */
 
 window.ESSAYS = {
 
@@ -102,24 +102,90 @@ window.ESSAYS = {
     ],
     look: "Flap shape, button count, whether buttons sit proud or covered. Exposed buttons indicate the first pattern; covered flaps and two buttonholes per lower flap indicate Type II or later.",
     claims: [
-      { c: "Flaps over pocket buttons approved 26 August 1964, to prevent snagging", s: "Stanton chronology", u: "https://arsipmiliter.com/2023/01/03/jungle-jacket-an-introduction/" },
-      { c: "Buttons exposed on Type I; concealed on Type II, 1964-65", s: "IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969 (record description covers the TCU sequence)", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
-      { c: "Two buttons per flap on a Type III USMC tropical jacket (reported, not in the record)", s: "IWM 30097577 — Jacket, Combat, Tropical (Type III, Class 1), UNI 5730", st: "unverified", u: "https://www.iwm.org.uk/collections/item/object/30097577" }
+      { c: "Flaps over pocket buttons approved 26 August 1964, to prevent snagging", s: "Stanton chronology", tier: "T3", u: "https://www.iwm.org.uk/collections/item/object/30097577", st: "partially verified" },
+      { c: "Buttons exposed on Type I; concealed on Type II, 1964-65", s: "IWM 30096162 — TCU sequence", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30096162", st: "partially verified (index excerpt)" },
+      { c: "Two buttons per flap on a Type III USMC tropical jacket (reported, not in the record)", s: "IWM 30097577", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30097577", st: "unverified (record silent)" },
+      { c: "Pocket buttons concealed behind flaps on the second pattern", s: "IWM catalogue text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "partially verified (excerpt)" }
     ],
     sources: ["Shelby Stanton chronology (secondary)", "IWM 30097577 — Jacket, Combat, Tropical (Type III, Class 1), UNI 5730 (record does not state a button count)", "IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969 (record description covers the TCU sequence)"]
   },
 
-  "bellows": {
-    lede: "A pocket that grows is a pocket that survives. The bellows pleat is the most quietly engineered detail on a military jacket.",
-    paras: [
-      "A flat patch pocket is limited by its own footprint: cram a magazine, a dressing or a ration tin into it and the seams pull at the corners. A bellows pocket folds a pleat into the side of the pocket bag, so the front wall can move away from the body when the pocket is loaded and lie flat again when it is empty. Capacity without tearing — the whole trick is a fold.",
-      "The idea is older than the tropical jacket. Airborne accounts describe M-1942 pockets blowing out on parachute-opening shock, and riggers hand-reinforcing them in staging areas before D-Day. The engineering logic is sound; the specific anecdote is anecdotal. What is certain is the consequence: an expanding pocket concentrates stress at four corners, which is why every corner is bartacked.",
-      "On a finished garment the pleat is easy to find once you know where to look. Turn the pocket inside out, or simply run a finger along the side edge: two fold lines, pressed flat, releasing into the pocket body. If the pleat is missing, the 'bellows' is a lie printed on a product page.",
-      "For a maker, the pleat is where a jacket becomes a tool. Keep it deep enough to be useful — around 40 mm on a lower cargo pocket — and reinforce the corners. A shallow pleat is decoration; a deep one is cargo capacity."
+    "bellows": {
+    type: "details",
+    lede: "A pocket that grows: a pleat at the side lets the pocket expand when it is loaded.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "A bellows pocket is a patch pocket with a pleat folded into its side, so the front wall can move away from the body when the pocket is full and lie flat when it is empty.",
+        "The M-1942 is recorded with four expandable cargo pockets; the parachute-stress story is repeated by dealers rather than documented. Confidence: probable — the museum records support the expandable pocket, but not the failure story."
+      ] },
+      { h: "2. What this is", p: [
+        "Bellows pocket: a patch pocket whose side edge is folded into a pleat, giving volume. Pleat: a fold of cloth pressed and stitched so it opens when pulled. Bartack: a dense bar of stitches at a stress point."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The M-1942 parachutist jacket is recorded with four expandable cargo pockets. The tropical uniform introduced in 1963 was based closely on that jacket, and its trousers carry large expandable cargo pockets with concealed two-button flaps.",
+        "Which garment first carried an expanding pocket was not found in an opened source."
+      ] },
+      { h: "4. How it works", p: [
+        "The pleat adds cloth at the pocket's side. When the pocket is loaded the fold opens; when empty it lies flat. Capacity increases without adding a rigid gusset, and the pocket stays flat against the thigh.",
+        "The load concentrates at the four corners, which is why the corners are bartacked."
+      ] },
+      { h: "5. Construction", p: [
+        "The pocket is cut with extra cloth at the side, folded into a pleat and pressed, then attached to the garment before the side seam is closed. The flap is set over the mouth and buttons down.",
+        "Work order inferred from garment construction; no document opened for this card states it."
+      ] },
+      { h: "6. Variants", table: { cols: ["Variant", "Garment", "Difference"], rows: [
+        ["Expandable cargo pocket", "M-1942 parachutist jacket", "four pockets, pleated expansion"],
+        ["Cargo pocket with concealed buttons", "TCU trousers, Type III", "large expandable pockets, concealed two-button flaps"],
+        ["Bellows patch pocket", "civilian field jackets", "one pleat, flap, no cargo function"],
+        ["Flat patch pocket", "shirts", "no pleat, no expansion"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "A common account says M-1942 pockets blew out under parachute-opening shock and were reinforced by riggers before D-Day. The object records describe expandable pockets but do not mention the failure. A period rigger order or a damaged original would settle it; the evidence currently supports only that the pockets were expandable."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Dealer/collector account", "T3", "Pockets failed under parachute shock and were reinforced in the field", "collector narrative", "no document or object cited"],
+        ["Museum object records", "T1", "M-1942 has four expandable cargo pockets", "catalogue description", "silent on failure or repair"]
+      ] } },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Turn the pocket inside out or run a finger down the side edge: two pressed fold lines that open into the pocket body. Corners should be bartacked. A reproduction may print a pleat line or omit the fold entirely."
+      ] },
+      { h: "8. Common mistakes", p: [
+        "Treating a shallow crease as a pleat; assuming the pleat is decorative; buying a 'cargo pocket' that is a flat patch with a flap. A pleat that does not open under load is a seam allowance, not a bellows pocket, and will not take the load a field pocket is asked to carry."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "An empty expanding pocket lies flat; loading it changes the silhouette at the thigh before it changes the shoulder line. On a jacket worn over a belt, a full pocket pushes the flap outward and shortens the visible line of the hip, which is why field photographs often show the cargo pockets sagging below the waist seam."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The cargo pocket is one of the most borrowed field details in streetwear, usually with the pleat kept and the bartacks lost."
+      ] },
+      { h: "11. Specification", p: [
+        "Recorded figures only on the left; the right column is a reproduction suggestion."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["M-1942: four expandable cargo pockets (museum record, excerpt)", "Pleat depth 30–40 mm"],
+        ["TCU trousers: large expandable cargo pockets, concealed two-button flaps (IWM, excerpt)", "Pocket 18 × 20 cm, bartack at four corners"],
+        ["Which garment first used an expanding pocket: not found", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Does the pocket lie flat when empty? 2) Can you find two fold lines at the side? 3) Are the corners bartacked?"
+      ] }
     ],
-    fig2: { src: "img/diagram-bellows.svg", cap: "Section through a bellows pocket: pleat depth, flap, bartacked corners, drain eyelet.", credit: "Original diagram, garmentsucks" },
-    look: "Two pressed fold lines at the pocket's side edge, corners bartacked, and a pocket that lies flat when empty. A shallow crease with no volume is a costume detail.",
-    sources: ["M-1942 construction records", "US Army cargo pocket photograph (PD)", "Bellows and cargo pocket construction references"]
+    glossary: [
+      { t: "Bellows pocket", d: "Patch pocket with a side pleat that expands." },
+      { t: "Pleat", d: "Pressed fold that opens when pulled." },
+      { t: "Bartack", d: "Dense bar of stitches at a stress point." },
+      { t: "Cargo pocket", d: "Large patch pocket, usually on the thigh." }
+    ],
+    fig2: { src: "img/bellows.jpg", cap: "Trousers and boots in the field: a cargo pocket is present at the thigh, but the pleat is not visible in this photograph.", credit: "US Army photograph, public domain" },
+    sources: [
+      { label: "[S1] [T1] M-1942 parachutist jacket object record — four expandable cargo pockets (excerpt)", url: "https://basedescollections.musee-armee.fr/ark:/66008/2021272/" },
+      { label: "[S2] [T1] IWM 30150059 — TCU trousers: large expandable cargo pockets with concealed two-button flaps (index excerpt)", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
+      { label: "[Photo] US Army photograph — cargo pocket, public domain", url: "https://commons.wikimedia.org/wiki/File:Cargo_pocket.jpg" }
+    ],
+    claims: [
+      { c: "M-1942 has four expandable cargo pockets", s: "Musée de l'Armée object record", tier: "T1", u: "https://basedescollections.musee-armee.fr/ark:/66008/2021272/", st: "partially verified (excerpt)" },
+      { c: "TCU trousers have large expandable cargo pockets with concealed two-button flaps", s: "IWM 30150059", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "partially verified (index excerpt)" },
+      { c: "Pockets failed under parachute-opening shock and were reinforced by riggers", s: "Collector/dealer account", tier: "T3", u: "", st: "unverified" },
+      { c: "Pleat depth 30–40 mm; pocket 18 × 20 cm", s: "site reproduction suggestion", tier: "—", u: "", st: "working specification" }
+    ]
   },
 
   "drain-eyelet": {
@@ -239,7 +305,6 @@ window.ESSAYS = {
       "The tropical jacket is a useful case study because the strap did not survive. Catalogue records describe shoulder straps present on early patterns and removed on the third, along with the gas flap — both deleted because they snagged on undergrowth. Function that catches on a vine stops being function.",
       "On a jacket, an epaulette is a short strap across the shoulder, buttoned at the neck end, sometimes with a second button at the shoulder seam. If it is missing on a garment that claims to be an early pattern, that is a dating signal rather than a fault."
     ],
-    fig2: { src: "img/epaulette.jpg", cap: "A pair of full-dress French brigadier-general epaulettes, 1945–54 — the ceremonial end of the same object.", credit: "Paris Musées, CC0" },
     look: "A short shoulder strap buttoned at the neck end; present on early tropical patterns, removed on the third. A missing strap is a dating clue, not necessarily damage.",
     sources: ["Epaulette origin and military dress history", "IWM catalogue description (shoulder straps removed on Type III)", "Paris Musées object record (CC0)"]
   },
@@ -344,21 +409,83 @@ window.ESSAYS = {
     sources: ["Safari jacket history", "Boer War khaki drill references", "F.M. Allen, quoted on the self-belt (disputed)"]
   },
 
-  "poplin": {
-    lede: "Poplin is the cloth that made the tropics survivable — light, crisp, and unwilling to cling.",
-    paras: [
-      "Poplin is a plain weave with a fine warp and a thicker weft, which gives it a faint crosswise rib and a crisp hand. In the American tropical uniform it was the specified shell: a wind-resistant cotton poplin, light enough to dry quickly and tight enough to stop a breeze.",
-      "The distinction that matters in humid heat is not how much air passes through the cloth but how it behaves when wet. A 1945 Quartermaster study of jungle uniform fabrics found that varying air permeability made no consistent difference to skin temperature or sweat rates. What separated good cloths from bad was drying speed and whether they clung. Poplin dries and does not cling; dense sateen does neither.",
-      "The weight that appears in period documents is around five ounces per square yard for the wartime jungle uniform — roughly 170 grams per square metre, which is also where a modern reproduction should land. Heavier poplin turns into a jacket that traps heat; lighter turns into a shirt that tears.",
-      "Look at the cloth against the light: a fine, even weave with a slight rib running across the width. Then wet a corner. If it darkens, stays heavy and sticks to your hand, it is not the cloth the specification had in mind."
+    "poplin": {
+    type: "fabric",
+    lede: "A plain weave with a fine crosswise rib — and a drying argument that is often overstated.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "Poplin is a plain-weave cotton cloth with a fine warp and a heavier weft, which gives a faint crosswise rib and a crisp hand.",
+        "The tropical jacket is described in an institutional catalogue as made of thin cotton-poplin. Confidence: probable — the catalogue supports the cloth, but no opened primary specification or test settles the drying claims."
+      ] },
+      { h: "2. What this is", p: [
+        "Poplin: a plain weave (one warp thread over one weft) with a fine rib running across the cloth. Fibre and weave are separate decisions: the fibre here is cotton, the structure is plain weave.",
+        "Plain weave: the simplest interlacing, which makes a light, stable cloth. Rib: the visible line produced by a thicker weft."
+      ] },
+      { h: "3. Origin, context and the 1963 date", p: [
+        "The tropical combat uniform introduced in June 1963 is described in the Imperial War Museums catalogue as made of thin cotton-poplin, with ripstop later. The catalogue text is institutional but was readable only as an index excerpt on this pass.",
+        "An earlier Quartermaster history records five-ounce poplin being diverted to jungle uniforms in 1945. Neither source gives a full specification for the cloth used in 1963, so the 1963 date belongs to the uniform, not to a dated poplin specification."
+      ] },
+      { h: "4. How it works: weave versus drying", p: [
+        "A tight plain weave sheds wind and resists abrasion, but it holds water. The useful variable in heat is not how much air passes through the cloth but how fast it dries and whether it clings when wet.",
+        "A 1945 jungle-uniform fabric study found no consistent skin-temperature or sweat-rate difference from air permeability alone; drying behaviour separated the good cloths. It is a T1-era study, not opened in full for this card."
+      ] },
+      { h: "5. Construction and testing", p: [
+        "Plain weave with a fine warp and heavier weft; the face is smooth and the rib runs across the width. ",
+        "At-home tests: hold the cloth against a light to see the even weave; wet a corner and time how long it takes to dry; squeeze it and watch whether it clings to the hand."
+      ] },
+      { h: "6. Variants", table: { cols: ["Cloth", "Structure", "Difference"], rows: [
+        ["Poplin", "plain weave, fine rib", "crisp, light, dries faster than sateen"],
+        ["Sateen", "satin weave, smooth face", "denser, wind-resistant, slow to dry"],
+        ["Ripstop", "plain weave with grid yarns", "tear resistance without extra weight"],
+        ["Broadcloth", "plain weave, heavier", "dress shirts, not field cloth"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "The common retail claim is that poplin keeps the wearer cool because it breathes. The 1945 study suggests the decisive variable was drying, not permeability. A controlled test on the 1963 cloth would settle it; the evidence currently favours drying speed as the more defensible statement."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Retail/marketing account", "T4", "Poplin is cool because air passes through it", "product copy", "no measurement; repeats itself"],
+        ["1945 fabric study", "T1-era", "Air permeability made no consistent difference; drying behaviour did", "comparative study of ten fabrics", "not opened in full for this card; concerns 1945 cloths, not 1963"]
+      ] } },
+      { h: "7. Telling real poplin from a substitute", p: [
+        "Look for an even plain weave with a faint crosswise rib, a crisp rather than lustrous face, and a cloth that dries without clinging."
+      ] },
+      { h: "8. Common mistakes", p: [
+        "Calling every smooth cotton poplin; assuming the weave alone guarantees breathability; treating a marketing claim about cooling as a test result."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "Poplin reads as a crisp, dry cloth: it holds a fold, does not cling when damp, and looks lighter than sateen."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "Poplin remains the shirting cloth of tailoring and the base of many field jackets. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "Only recorded figures belong on the left; the right column is a reproduction suggestion."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Thin cotton-poplin for the 1963 tropical uniform (IWM catalogue, excerpt)", "Plain weave, cotton, 150–170 gsm"],
+        ["Five-ounce poplin diverted to jungle uniforms, 1945 (Quartermaster history)", "Width 45–58 in, mercerised and shrunk"],
+        ["Full cloth specification: not found in an opened document", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Wet a corner of a poplin shirt and a sateen jacket: which dries first? 2) Does the cloth cling when damp? 3) Which claim on this card is a measurement, and which is marketing?"
+      ] }
     ],
-    fig2: { src: "img/poplin.jpg", cap: "Plain-weave poplin under magnification: fine, even, with a faint crosswise rib.", credit: "Public domain" },
-    look: "Fine even plain weave, faint crosswise rib, around 150–170 gsm. Wet it: it should dry fast and not cling.",
+    glossary: [
+      { t: "Poplin", d: "Plain weave with a fine crosswise rib." },
+      { t: "Plain weave", d: "Simplest interlacing: one over, one under." },
+      { t: "Mercerising", d: "Alkali treatment that strengthens cotton." }
+    ],
+    fig2: { src: "img/diagram-poplin.svg", cap: "Schematic: plain weave with a fine warp and heavier weft producing a crosswise rib. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] IWM 30150059 — TCU catalogue text: thin cotton-poplin (index excerpt; page not fully rendered)", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
+      { label: "[S2] [T1-era] Quartermaster Corps history — five-ounce poplin diverted to jungle uniforms, 1945 (archive scan; not opened in full)", url: "https://ia600506.us.archive.org/28/items/quartermastercor01risc/quartermastercor01risc.pdf" },
+      { label: "[S3] [T1-era] 1945 jungle-uniform fabric study (NLM scan; not opened in full)", url: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf" },
+      { label: "[Photo] Plain-weave cloth macro, public domain (file page not verified)", url: "" }
+    ],
     claims: [
-      { c: "June 1945: 5-ounce poplin diverted to jungle uniforms", s: "Quartermaster Corps history (archive.org scan)", u: "https://ia600506.us.archive.org/28/items/quartermastercor01risc/quartermastercor01risc.pdf" },
-      { c: "Air permeability 12-40 cfm made no consistent difference to skin temperature or sweat", s: "Quartermaster Corps, Jungle Uniform - Physiological Appraisal of Ten Types of Fabrics (1945), NLM", u: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf" }
-    ],
-    sources: ["MIL-C-507 poplin (specification)", "Quartermaster Corps history (5-ounce poplin, 1945)", "1945 jungle uniform fabric study (NLM)"]
+      { c: "Tropical uniform made of thin cotton-poplin", s: "IWM catalogue text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "partially verified (index excerpt)" },
+      { c: "Five-ounce poplin diverted to jungle uniforms in 1945", s: "Quartermaster Corps history", tier: "T1", u: "https://ia600506.us.archive.org/28/items/quartermastercor01risc/quartermastercor01risc.pdf", st: "unverified (not opened in full)" },
+      { c: "Air permeability made no consistent difference; drying behaviour separated fabrics", s: "1945 fabric study", tier: "T1", u: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf", st: "unverified (not opened in full)" },
+      { c: "150–170 gsm, 45–58 in width", s: "site reproduction suggestion", tier: "—", u: "", st: "working specification" }
+    ]
   },
 
   "ripstop": {
@@ -424,7 +551,6 @@ window.ESSAYS = {
       "Its fabric did not survive the translation. The poplin proved too fragile in service — museum records note it wearing through prematurely during the North African landings of 1942 — and the lesson, that light cotton is right for mobility and fragile under abuse, echoed into the ripstop decision twenty-five years later.",
       "Look for the pleated back and the four pocket mouths. If a garment has the pockets but not the pleats, it is wearing the costume of the jump jacket without its engineering."
     ],
-    fig2: { src: "img/m42.jpg", cap: "Paratroopers of the 502nd PIR with Eisenhower, England 1944: the jump uniform in use.", credit: "US Army Signal Corps, public domain" },
     look: "Four cargo pockets, action-back pleats, gussets, split cuffs, thin poplin. The pleats are the structural tell.",
     claims: [
       { c: "Four cargo pockets, action back, thin poplin", s: "Musee de l'Armee object record", u: "https://basedescollections.musee-armee.fr/ark:/66008/2021272/" },
@@ -801,26 +927,89 @@ window.ESSAYS = {
     sources: ["US WWII HBT utility uniform records", "Navy specification 55-J-9", "Tropical Combat Uniform lineage", { label: "French M-47 HBT field jacket — listing photo © @ROAMWALK", url: "https://www.grailed.com/listings/101120408" }]
   },
 
-  "khaki": {
-    lede: "Before camouflage patterns there was dust-coloured cloth, chosen so that men would disappear into the ground they stood on.",
-    paras: [
-      "In 1848, on the North-West Frontier near Peshawar, a British officer named Harry Lumsden dressed his Corps of Guides in loose, earth-coloured clothing instead of the scarlet tunic. The cloth was cotton, dyed locally; the colour took its name from the Urdu and Persian word for dust.",
-      "It was not the first attempt at concealment in uniform. Rifle regiments had worn green since the late eighteenth century, and the 95th Rifles are the famous example. Khaki's claim is narrower and still significant: it was the first dust-coloured service uniform to be adopted widely, spreading through Indian regiments and carried into the Second Afghan War, so that by 1885 it was standard issue in India.",
-      "The practical logic was twofold. A pale, dusty tone reflects sunlight better than a dark tunic, and it matched the ground. Both properties matter in the same climate, which is why khaki is often called the first modern camouflage — an overstatement, but a useful one.",
-      "When you look at khaki today, look at the cloth rather than the colour. Khaki drill is a stout cotton twill, heavier than the later jungle fabrics; khaki poplin and khaki cotton-linen belong to different garments entirely."
+    "khaki": {
+    type: "history",
+    lede: "Dust-coloured cloth: a word from Persian and Urdu, and a colour that spread through armies before camouflage patterns existed.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "Khaki is a dust-coloured cloth, named from the Persian and Urdu word for dust, adopted by British Indian forces in the nineteenth century and later by armies and civilians.",
+        "The 1848 Peshawar story is repeated in secondary accounts but no primary document was opened for this card. Confidence: probable — the account is consistent across secondary sources but rests on none that was opened in full."
+      ] },
+      { h: "2. What this is", p: [
+        "Khaki: a light brownish-yellow colour, and by extension the cotton drill or poplin cloth dyed to it. Drill: a stout cotton twill. Poplin: a lighter plain weave.",
+        "The word: khak (dust) in Persian, borrowed into Urdu; anglicised as khaki."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The standard account places khaki's adoption with the Corps of Guides on the North-West Frontier near Peshawar in 1848, under Harry Lumsden, who dressed his men in locally dyed earth-coloured cotton instead of scarlet.",
+        "It was not the first concealment uniform: rifle regiments had worn green since the late eighteenth century. Khaki's claim is narrower — a widely adopted dust-coloured service uniform, standard issue in India by 1885 and carried into the Second Afghan War."
+      ] },
+      { h: "4. How it works", p: [
+        "A pale dust tone reflects sunlight better than a dark tunic and matches dry ground. The practical effect is twofold: less heat absorbed, and a silhouette broken against the terrain.",
+        "That reasoning is inference from the colour and climate; no opened source states the design intent as a measured finding."
+      ] },
+      { h: "5. Construction", p: [
+        "The cloth was cotton, dyed locally at first and later industrially. Drill was the common service cloth; poplin and lighter weaves appear in later uniforms.",
+        "Dye lots vary; original khaki ranges from pale sand to a darker brown. The colour is a family, not one shade."
+      ] },
+      { h: "6. Variants", table: { cols: ["Variant", "Period", "Difference"], rows: [
+        ["Khaki drill", "19th–20th c.", "stout cotton twill, service dress"],
+        ["Khaki poplin", "20th c.", "lighter, summer dress"],
+        ["Jungle green", "WWII", "green dye over khaki drill for Burma"],
+        ["Modern khaki", "present", "civilian chinos and workwear"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "Two accounts of the origin circulate: that Lumsden introduced khaki at Peshawar in 1848, and that the colour emerged gradually through Indian regiments without one identifiable inventor. The first is repeated in secondary sources; the second is an argument from the absence of a document. A regimental order or a surviving 1848 garment would settle it. The evidence currently favours 1848 as the earliest widely repeated date, not as a documented first."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["1848 Peshawar account", "T3/T4", "Lumsden dressed the Corps of Guides in dust-coloured cloth in 1848", "secondary narratives", "no primary document opened"],
+        ["Gradual adoption account", "T4", "The colour spread through Indian regiments without a single inventor", "absence of a documented order", "argument from silence"],
+        ["Rifle green precedent", "T3", "Rifle regiments wore green from the late 18th century", "regimental history summaries", "different colour and purpose"]
+      ] } },
+      { h: "7. Telling khaki from camouflage", p: [
+        "Khaki is a solid colour, not a pattern: no printed shapes, no multiple tones. Check the weave before the shade — drill has a pronounced diagonal; poplin has a fine rib."
+      ] },
+      { h: "8. Common mistakes", p: [
+        "Treating khaki as the first camouflage; assuming all khaki is drill; using a modern sand shade as evidence of the 19th-century colour."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "Khaki reads as field dressing rather than uniform: a pale, dusty tone that looks worn rather than issued, which is why it moved easily into civilian wardrobe. The tone changes with light and dirt, so two garments of the same regulation shade can look like different colours in a photograph."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The safari jacket and chino both descend from khaki service dress; no direct-influence claim is made here. What links them is the colour and the cotton cloth, not a documented line of design."
+      ] },
+      { h: "11. Specification", p: [
+        "Recorded statements on the left; the right column is a reproduction suggestion."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Corps of Guides, Peshawar, 1848 (secondary accounts; not opened as primary)", "Cotton drill, pale dust tone"],
+        ["Standard issue in India by 1885 (secondary)", "—"],
+        ["Word from Persian/Urdu khak, dust (secondary)", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Is the khaki in front of you a solid colour or a pattern? 2) Does the cloth have a diagonal twill or a plain rib? 3) Which account of its origin does your source give?"
+      ] }
     ],
-    look: "Check the weave before the shade. Drill is a heavy twill with a pronounced diagonal; poplin is fine and crisp. Khaki as a colour spans a wide range of cloths.",
+    glossary: [
+      { t: "Khaki", d: "Dust-coloured cloth; from Persian/Urdu khak." },
+      { t: "Drill", d: "Stout cotton twill." },
+      { t: "Corps of Guides", d: "British Indian regiment raised in 1846." }
+    ],
+    fig2: { src: "img/diagram-khaki.svg", cap: "Schematic: khaki as a colour family across drill and poplin, not a camouflage pattern. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T3] National Army Museum — khaki and the Corps of Guides (not opened in full; URL not recorded)", url: "" },
+      { label: "[S2] [T4] Secondary narratives on the 1848 Peshawar account (not opened)", url: "" },
+      { label: "[Photo] British officer in khaki — public domain", url: "" }
+    ],
     claims: [
-      { c: "Khaki introduced 1848 by the Corps of Guides; standard in India by 1885", s: "National Interest - khaki as camouflage", u: "https://nationalinterest.org/blog/reboot/khaki-uniforms-were-original-military-camouflage-186291" },
-      { c: "Rifle green worn by rifle regiments from the 18th century", s: "Shades of green - reference summary", u: "https://en.wikipedia.org/wiki/Shades_of_green" }
-    ],
-    sources: ["National Army Museum, khaki and the Corps of Guides", "Shades of green — rifle green adopted by rifle regiments in the 18th century", "Period uniform references (Brayley, Khaki Drill & Jungle Green)"]
+      { c: "Khaki adopted by the Corps of Guides at Peshawar in 1848", s: "Secondary accounts", tier: "T3", u: "", st: "unverified (not opened as primary)" },
+      { c: "Standard issue in India by 1885", s: "Secondary accounts", tier: "T3", u: "", st: "unverified" },
+      { c: "Word from Persian/Urdu khak, dust", s: "Secondary references", tier: "T3", u: "", st: "unverified" },
+      { c: "Rifle regiments wore green from the late 18th century", s: "Regimental summaries", tier: "T3", u: "", st: "partially verified (secondary)" }
+    ]
   },
 
   "og107": {
     lede: "OG-107 is a shade code that keeps being mistaken for a cloth — and one fabric datasheet suggests the colour was engineered.",
     paras: [
-      "Two garments share the name. The utility uniform in Olive Green 107 was cotton sateen: dense, wind-resistant, and a poor choice in humid heat. The tropical combat jacket in the same shade was poplin, and later ripstop. Same colour, opposite behaviour in humidity — and most of the reproduction market's confusion begins here.",
+      "Two garments share the name. The utility uniform in Olive Green 107 was cotton sateen: dense, wind-resistant, and a poor choice in heat. The tropical combat jacket in the same shade was poplin, and later ripstop. Same colour, opposite behaviour in humidity — and most of the reproduction market's confusion begins here.",
       "The colour itself is a code, not a fabric. The American olive family runs from the lighter Olive Drab No. 3 of the early war years to the darker No. 7 adopted in 1943, and then to the standardised shade that clothed every service from the 1950s. The exact standardisation date belongs in a proper colour-standard citation, and this site does not yet have one.",
       "A fabric datasheet for a wind-resistant ripstop poplin — NSN 8305-00-132-1080, MIL-C-342 — lists 'low infra red dye formulation' under special features, alongside a weight of 5.7 to 6.7 ounces per square yard and mercerising and shrinking. That is one record, not two, and it is a catalogue datasheet rather than the specification itself. It is enough to suggest the colour was engineered; it is not enough to claim a reflectance curve.",
       "What this means for a buyer is simpler than the chemistry. When a jacket is described as OG-107, ask which OG-107: the sateen utility or the tropical poplin. One is a sponge in the monsoon and the other is the reason the tropical uniform worked."
@@ -1090,7 +1279,7 @@ window.ESSAYS = {
       ] },
       { h: "4. How it works", p: [
         "Sateen is dense: it blocks wind and resists abrasion, which suits work and garrison use, but it holds water and dries slowly. The slash pocket sits where a hand falls; the rear pockets are buttoned so contents stay put when seated.",
-        "The climate argument is an inference from the cloth, not a statement from a document: in humid heat the same density that makes sateen useful in winter makes it a poor field cloth."
+        "The climate argument is an inference from the cloth, not a statement from a document: in heat the same density that makes sateen useful in winter makes it a poor field cloth."
       ] },
       { h: "5. Construction", p: [
         "The work order readable from the garment: cut the legs, attach the slash pocket bags at the side seams, build the rear pockets with flaps, sew the fly and waistband, close the leg seams, then the hems.",
@@ -1236,16 +1425,83 @@ window.ESSAYS = {
     ]
   }
 ,
-  "m51-parka": {
-    lede: "A Korean War over-garment that ended up on the backs of English Mods.",
-    paras: [
-      "The M-1951 parka was built as an outer layer, not as a coat. It went over the field jacket and its liner: a cotton shell, a detachable hood, a storm flap over the front closure, and a fishtail hem that could be drawn between the legs for warmth or snapped up out of the way. It was issued during the Korean War and remained in service long after.",
-      "The fishtail is the detail that explains the garment. A parka long enough to cover the thighs would flap and catch; splitting the hem into two tails let the wearer tie it down or fold it up. It is a piece of field engineering that reads, at a distance, as a silhouette.",
-      "That silhouette is why the parka left the army. Surplus M-51s were cheap in 1960s Britain, and Mods wore them over suits — a use the quartermaster never planned. The same garment that kept a soldier warm in Korea became a way of protecting a new suit on a scooter, and the military origin became part of the style.",
-      "For a maker, the lesson is that a garment can change meaning without changing a stitch. The fishtail was designed to be tied; it became a shape people recognised."
+    "m51-parka": {
+    type: "history",
+    lede: "The fishtail parka: an outer layer built to go over the field jacket, later worn over a suit.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The M-1951 parka is a long over-garment with a detachable hood and liner, a storm flap over the front closure, and a fishtail hem that can be drawn between the legs or snapped up.",
+        "It entered service in the Korean War period and became a civilian coat in 1960s Britain. Confidence: probable — the construction is described by secondary sources; no primary specification was opened."
+      ] },
+      { h: "2. What this is", p: [
+        "Parka: a long outer garment worn over other clothing. Fishtail: a hem split into two tails that can be tied or snapped. Storm flap: a flap covering the closure against weather."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The M-1951 parka belongs to the post-war US field clothing system and is associated with the Korean War. It was designed as an outer layer over the field jacket, with a separate hood and liner.",
+        "In 1960s Britain, surplus parkas were bought cheaply and worn by Mods over suits — a use the quartermaster did not plan."
+      ] },
+      { h: "4. How it works", p: [
+        "The parka adds a wind- and weather-resistant shell over the insulating field jacket; the fishtail lets the wearer tie the hem down or fold it up out of the way. The detachable hood and liner let the same shell cover different temperatures.",
+        "The layering logic is stated in the garment's role; the specific thermal performance is not measured in any opened source."
+      ] },
+      { h: "5. Construction", p: [
+        "Cotton shell, storm flap over the front closure, fishtail hem with snaps or ties, detachable hood and liner. The closure and hem are the load-bearing details.",
+        "Work order inferred from garment construction; no opened document states it."
+      ] },
+      { h: "6. Variants", table: { cols: ["Variant", "Period", "Difference"], rows: [
+        ["M-1948 parka", "late 1940s", "predecessor over-garment; relationship not verified"],
+        ["M-1951 parka", "1951, US", "detachable hood and liner, fishtail hem"],
+        ["M-1965 parka", "1965, US", "later field parka with different hood and liner"],
+        ["Civilian fishtail", "1960s Britain", "surplus worn over suits by Mods"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "Secondary accounts differ on two points: whether the fishtail hem appears first on the M-1948 or on the M-1951, and whether the parka's service entry is 1951 or later in the Korean War. No specification was opened. A dated specification or a labelled original would settle it; the 1951 designation is the safest statement, and the M-1948 relationship stays unverified."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Designation account", "T3", "M-1951 parka enters service around 1951", "model designation", "no specification opened"],
+        ["Predecessor account", "T3", "Fishtail hem and over-garment logic begin with the M-1948", "reproducer histories", "no document cited"],
+        ["Civilian account", "T4", "Surplus parkas became Mod coats in the 1960s", "cultural histories", "not a garment record"]
+      ] } },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Look for the fishtail hem with its ties or snaps, a storm flap over the zip, a detachable hood, and a liner with buttons. Reproductions often simplify the fishtail or omit the liner."
+      ] },
+      { h: "8. Common mistakes", p: [
+        "Treating the parka as a field jacket (it is an outer layer over one); assuming the fishtail is decoration; dating a surplus coat from its civilian use."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The parka reads long and loose: it sits over the jacket and below the hip, and the tied fishtail changes the silhouette from a coat to a bell. Worn open over a suit, as the Mods did, the coat keeps its length but loses its sealed shape, which is the point of the civilian use."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The fishtail parka is a recurring reference in menswear and in Mod revival styling. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "Recorded statements only on the left; right column is a reproduction suggestion."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Detachable hood and liner; storm flap; fishtail hem (secondary descriptions)", "Shell: cotton, 220–260 gsm"],
+        ["Service entry around 1951 (designation; secondary)", "Length mid-thigh, hem split with ties"],
+        ["M-1948 relationship: not verified", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Does the hem split into two tails? 2) Is there a storm flap over the closure? 3) Can the hood be detached? 4) Which of these details does a surplus coat share with the civilian versions sold today? 5) Can you tell the liner buttons from the shell buttons without turning the coat over?"
+      ] }
     ],
-    look: "Detachable hood, storm flap, fishtail hem, cotton shell. Original issue is heavy and stiff; the Mod-era surplus is the same garment, often altered.",
-    sources: ["Wikimedia Commons: M-51 fishtail parka photograph (PD, uploader TheModGy1964)", "M-1951 parka references (secondary)"]
+    glossary: [
+      { t: "Fishtail", d: "Hem split into two tails." },
+      { t: "Storm flap", d: "Flap covering the closure." },
+      { t: "Liner", d: "Separate warm layer buttoned inside." },
+      { t: "Parka", d: "Long outer garment worn over clothing." }
+    ],
+    fig2: { src: "img/diagram-m51.svg", cap: "Schematic: parka as an outer layer — detachable hood, storm flap, fishtail hem. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T3] Secondary references on the M-1951 parka (not opened)", url: "" },
+      { label: "[S2] [T4] Mod-era cultural accounts of surplus parkas (not opened)", url: "" },
+      { label: "[S1] [T1] Wikimedia Commons object photograph — M-51 fishtail parka, public domain", url: "https://commons.wikimedia.org/wiki/File:Fishtail_Parka.jpg" }
+    ],
+    claims: [
+      { c: "Hood, flapped pockets, front closure and fishtail hem", s: "Object photograph (Commons, PD)", tier: "T1", u: "", st: "visible in photo" },
+      { c: "Service entry around 1951", s: "Model designation; secondary", tier: "T3", u: "", st: "unverified (no primary opened)" },
+      { c: "M-1948 relationship", s: "Reproducer histories", tier: "T3", u: "", st: "unverified" },
+      { c: "Surplus worn over suits by 1960s Mods", s: "Cultural histories", tier: "T4", u: "", st: "partially verified (secondary)" }
+    ]
   },
 
     "tanker-jacket": {

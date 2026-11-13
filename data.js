@@ -3,7 +3,7 @@
      established — bukti primer/institusional + korroborasi
      probable    — kuat tapi satu sumber atau inferensial
      unresolved  — sumber bertentangan / legenda / belum ada bukti
-   Aturan: klaim tanpa sumber tidak boleh naik kelas demi narasi. */
+   Rule: claims without a source may not be upgraded for narrative effect. */
 
 window.FEED = [
   {
@@ -22,9 +22,9 @@ window.FEED = [
   },
   {
     id: "bellows", cat: "details", era: "1942", conf: "probable",
-    title: "The pleat that absorbed a parachute",
-    dek: "An expanding pocket survives loading. Airborne accounts say the stress was real.",
-    body: "A bellows pocket gives capacity without tearing, because the pleat lets the front wall move away. Repro and collector accounts describe M-1942 pockets blowing out on parachute-opening shock, and riggers hand-reinforcing them before D-Day. The engineering logic is sound; the specific anecdote is not yet backed by a primary document. On a garment, look for the two fold lines inside the pocket edge — that is the pleat.",
+    title: "The bellows pocket: a pleat that adds volume",
+    dek: "A side pleat lets the pocket expand when loaded and lie flat when empty. The parachute story is dealer-reported.",
+    body: "A bellows pocket has a pleat folded into its side so it expands when loaded. The M-1942 is recorded with four expandable cargo pockets; the parachute-stress explanation is repeated by dealers, not documented.",
     src: "M-1942 construction · airborne rigger accounts (anecdotal)"
   },
   {
@@ -77,10 +77,10 @@ window.FEED = [
     src: "Safari jacket history · F.M. Allen (disputed)"
   },
   {
-    id: "poplin", cat: "fabric", era: "1963", conf: "established",
-    title: "Poplin: the cloth that dries",
-    dek: "Plain weave, light, and it does not cling when wet.",
-    body: "The tropical combat jacket was specified as 'Coat, Man's, Cotton Wind Resistant Poplin, OG-107'. Poplin's open plain weave and fine twisted yarns move air and release moisture, and the crisp hand means it does not stick to the body when soaked — the property that matters in humid heat. Commercial and military poplin runs roughly 150–170 gsm.",
+    id: "poplin", cat: "fabric", era: "1963", conf: "probable",
+    title: "Poplin: plain weave, fine rib, and a drying argument",
+    dek: "A plain-weave cotton with a fine crosswise rib — and a cooling claim that outruns the evidence.",
+    body: "Poplin is a plain-weave cotton cloth with a fine crosswise rib, used for the 1963 tropical uniform as thin cotton-poplin. The drying behaviour is often overstated; air permeability alone did not separate fabrics in a 1945 study.",
     src: "Garment nomenclature · MIL-C-507 poplin"
   },
   {
@@ -113,9 +113,9 @@ window.FEED = [
   },
   {
     id: "khaki", cat: "history", era: "1848", conf: "probable",
-    title: "Khaki was born in the dust",
-    dek: "1848, Peshawar: the first uniform colour chosen to disappear.",
-    body: "Khaki was introduced in 1848 by the Corps of Guides on the North-West Frontier, and it spread through Indian regiments until it was standard issue there by 1885. The colour took its name from the Urdu and Persian word for dust, and it matched the ground. It was not the first attempt at concealment — rifle regiments had worn green since the late eighteenth century — but it was the first widely adopted dust-coloured service uniform, which is a narrower and defensible claim.",
+    title: "Khaki: the colour named after dust",
+    dek: "A dust-coloured cloth from Persian and Urdu, adopted by British Indian forces and later by armies and civilians.",
+    body: "Khaki is a dust-coloured cloth named from Persian/Urdu khak. The 1848 Peshawar account is secondary; rifle green was an earlier concealment uniform. Khaki is a colour family, not a camouflage pattern.",
     src: "Corps of Guides · National Army Museum"
   },
   {
@@ -260,13 +260,13 @@ window.FEED = [
   },
   {
     id: "m51-parka", cat: "history", era: "1951", conf: "probable",
-    title: "M-51: the fishtail parka",
-    dek: "A Korean War over-garment that ended up on the backs of English Mods.",
-    body: "The M-1951 parka was designed as an outer layer to be worn over the field jacket: a cotton shell with a detachable hood and liner, a fishtail hem that could be drawn between the legs or snapped up, and a front closure covered by a storm flap. It was issued in the Korean War and stayed in service long after. In the 1960s it was bought surplus in Britain and became the coat of the Mod movement — the fishtail worn over a suit, a use the army never intended. It is the clearest example in this archive of a garment leaving its issue and becoming a style.",
+    title: "The M-1951 fishtail parka: an outer layer, later a coat",
+    dek: "Detachable hood and liner, storm flap, fishtail hem — a Korean War over-garment that became a 1960s Mod coat.",
+    body: "The M-1951 parka is a long over-garment with detachable hood and liner, storm flap and fishtail hem, issued in the Korean War period and later worn by Mods over suits.",
     src: "Wikimedia Commons (PD photograph) · M-1951 parka references"
   },
   {
-    id: "tanker-jacket", cat: "construction", era: "1941", conf: "probable",
+    id: "tanker-jacket", cat: "construction", era: "1942", conf: "probable",
     title: "The tanker jacket: short body, knit seals, zip front",
     dek: "The Winter Combat Jacket issued to US armoured crews — and a specification story that does not agree with itself.",
     body: "Jacket, Combat, Winter: short cotton-twill jacket with wool blanket lining, zip front, knit collar, cuffs and waistband, and slash pockets, issued to US armoured crews in the Second World War. Specification number and dates rest on conflicting reproducer accounts.",

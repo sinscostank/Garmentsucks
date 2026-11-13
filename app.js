@@ -21,7 +21,7 @@
     "ripstop": "img/ripstop.jpg",
     "epaulette": "img/epaulette.jpg",
     "cuff-tab": "img/m1943.jpg",
-    "bellows": "img/bellows.jpg",
+    "bellows": "img/diagram-bellows.svg",
     "poplin": "img/poplin.jpg",
     "pom": "img/pom.jpg",
     "m42": "img/m42.jpg",

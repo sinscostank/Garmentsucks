@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="420"/><rect class="fr" x="14" y="14" width="792" height="392"/><text class="caps" x="40" y="52">KHAKI / COLOUR FAMILY</text><text class="lab" x="60" y="88">khaki is a colour family, not a pattern</text><rect x="90" y="130" width="170" height="150" fill="#d8c9a3" stroke="#1b1b18" stroke-width="1"/><text class="small" x="90" y="310">pale sand</text><rect x="300" y="130" width="170" height="150" fill="#b9a578" stroke="#1b1b18" stroke-width="1"/><text class="small" x="300" y="310">service khaki</text><rect x="510" y="130" width="170" height="150" fill="#8a7448" stroke="#1b1b18" stroke-width="1"/><text class="small" x="510" y="310">dark brown</text><rect x="90" y="340" width="170" height="20" fill="#6b7a4f" stroke="#1b1b18"/><rect x="100" y="344" width="40" height="12" fill="#8a8f5e"/><text class="small" x="280" y="356">a camouflage pattern is printed, not dyed one shade</text><text class="small" x="60" y="400">Original diagram — garmentsucks. Schematic; not to scale.</text></svg>

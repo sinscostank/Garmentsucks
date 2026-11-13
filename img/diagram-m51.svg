@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="520"/><rect class="fr" x="14" y="14" width="792" height="492"/><text class="caps" x="40" y="52">M-1951 PARKA / LAYERS</text><text class="lab" x="60" y="88">parka over a field jacket</text><path class="dash" d="M300,150 L490,150 L490,330 L300,330 Z"/><text class="small" x="310" y="250">field jacket</text><path class="o" d="M260,120 L530,120 L530,400 L470,470 L430,400 L360,400 L320,470 L260,400 Z"/><path class="f2" d="M360,120 L430,120 L430,170 L360,170 Z"/><text class="lab" x="445" y="150">detachable hood</text><line class="acc" x1="395" y1="170" x2="395" y2="400"/><text class="lab" x="445" y="210">storm flap</text><text class="lab" x="540" y="450">fishtail hem</text><text class="small" x="60" y="504">Original diagram — garmentsucks. Schematic; not to scale.</text></svg>

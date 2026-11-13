@@ -148,3 +148,11 @@ table.cmp tr:last-child td{border-bottom:none}
   text-transform:uppercase;color:var(--olive);margin:0 0 8px;font-weight:600}
 .glossary dt{font-size:13px;font-weight:600;color:var(--ink);margin-top:8px}
 .glossary dd{margin:2px 0 0;font-size:13px;color:var(--muted);line-height:1.5}
+
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+.table-wrap > table { min-width: 520px; }
+.skip { position: absolute; left: -9999px; top: 0; background: #1f2418; color: #f4f2ec; padding: 10px 14px; z-index: 50; }
+.skip:focus { left: 12px; top: 12px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid #8a8f5e; outline-offset: 2px; }
+.blk h2.bh { font-size: 1.02rem; letter-spacing: .04em; text-transform: uppercase; margin: 1.6em 0 .5em; color: #3b3f2a; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
