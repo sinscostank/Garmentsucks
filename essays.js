@@ -4,29 +4,28 @@
 window.ESSAYS = {
 
   "slant-pocket": {
-    lede: "The slant is the one piece of military detailing that almost nobody reproduces correctly — and the reason for it is not style.",
+    lede: "A slant exists on surviving jackets. The explanation usually given for it is not documented.",
     paras: [
-      "Look at a tropical combat jacket from the mid-sixties and the chest line reads before anything else. Two pockets tilted inward, like a shrug made permanent. On a cheap reproduction they are level, and the garment loses something hard to name: the sense that it was designed around a body doing work rather than a body standing for a photograph.",
-      "The explanation begins with the jacket's ancestor. The M-1942 jump jacket was issued to airborne troops, and its records describe the breast pockets as set at an inward angle so that a trooper wearing a parachute harness, pistol belt and suspenders could reach them with the opposite hand. A level pocket asks the hand to drop straight down; a diagonal one meets the arm as it sweeps across the chest. When the tropical uniform was drawn up in 1963, the slant survived on every pattern.",
-      "There is a quieter second reason, and it is worth marking as inference rather than record: an inward slant turns the pocket mouth up and toward the centre, so a man bending, crawling or lying prone is less likely to tip his contents into the mud. Field evaluations of clothing pockets — written for trousers, but the logic travels — recommend slanting openings precisely because contents fall out when the wearer is horizontal.",
-      "For a maker, the lesson is blunt. If you draw a level chest pocket you have copied the shape of a jacket without copying its grammar. Keep the angle, keep the flap covering the mouth, and keep the pocket deep enough that the slant does not become decoration."
+      "Look at a tropical combat jacket and the chest line reads before anything else: two pockets tilted inward. The slant is real and it is on the surviving garments. What is much less certain is why.",
+      "The usual account is biomechanical. Dealer and museum descriptions of the M-1942 jump jacket say the breast pockets were angled inward so a trooper wearing a parachute harness, pistol belt and suspenders could reach them with the opposite hand. That is a plausible reading of an object, but it is not a specification we could open, and the same descriptions are written by people with an interest in the garment being special.",
+      "A second reason is often offered: an inward slant turns the pocket mouth up and toward the centre, so a man bending or prone is less likely to tip his contents out. Field evaluations of clothing pockets do recommend slanted openings for exactly that reason — for trousers. Applying it to the chest pocket is inference.",
+      "The numbers on this site are a construction choice, not a period figure. 15° with a ±1° working tolerance, 120 mm below the shoulder seam, 50 mm from the centre front: that is what a reproduction pattern might do, and it should be labelled as such. Period garments vary widely, and no open document states a millimetre figure.",
+      "So treat this card as a question rather than an answer. The slant is evidence of a design decision; the reason for it is still being argued."
     ],
-    fig2: { src: "img/nmaahc_2013_11_1.jpg", cap: "A fatigue shirt of 1970: four pockets, flaps, no slant on the shirt — the angle belongs to the jacket's harness problem.", credit: "Smithsonian NMAAHC, CC0" },
-    look: "Measure the chest-pocket line against the horizontal: surviving jackets sit roughly 10–18° off level. The working specification is 15° ± 1°, with the pocket 120 mm below the shoulder seam and 50 mm from the centre front.",
-    sources: ["M-1942 jump jacket records (museum and dealer descriptions)", "Tropical Combat Uniform pattern records, 1963–67", "US Army field evaluation of trouser pockets (NLM scan)"]
+    look: "Measure the slant against the horizontal on any jacket you handle. Record it as an observation, not a specification — and do not use an angle alone to date a garment.",
+    sources: ["Dealer and museum descriptions of the M-1942 jump jacket", "US Army field evaluation of trouser pockets (NLM scan)", "Site construction spec — reproduction working figures, not period spec"]
   },
 
   "flap-pocket": {
-    lede: "First-pattern jungle jackets had their pocket buttons exposed. Two years later they were hidden behind flaps — and the paperwork survives.",
+    lede: "The flaps were already there. In 1964 the buttons on them were covered — and the record for that is unusually clean.",
     paras: [
-      "A pocket without a flap is a cup. It works beautifully in a shop and badly in a jungle: the mouth catches on vines, the button catches the light, and everything inside ends up on the ground the first time its owner crawls. The flap is the least glamorous detail on a military jacket and the one that most clearly separates a field garment from a fashion object.",
-      "The first pattern of the tropical combat jacket, introduced in 1963, had exposed pocket buttons. The record of what happened next is unusually clean. Shelby Stanton's chronology places the approval of coat pocket flaps over pocket buttons at 26 August 1964, explicitly to prevent snagging. The Imperial War Museums' catalogue description of the later Type III garments corroborates the sequence independently: buttons exposed on Type I, concealed beneath flaps on Type II, introduced in 1964–65.",
-      "What the army did not do is instructive. It did not switch the front closure to a zip. It kept the buttons and covered them, because a button that snags can be re-sewn in the field while a zipper that seizes cannot. The flap was a repair to the interface between cloth and undergrowth, not a change of philosophy.",
-      "So when you look at a jacket, look at the flap twice. Once for the shape — period flaps are asymmetric and pointed, not the neat rectangle of a modern parka — and once for the buttonholes. Two vertical buttonholes per lower flap, one on the chest, is the grammar of the tropical pattern. A single snap instead tells you the maker was thinking about cost."
+      "A pocket without a flap is a cup. It works in a shop and badly in a jungle: the mouth catches on vines, the button catches the light, and everything inside ends up on the ground the first time its owner crawls.",
+      "The first pattern of the tropical combat jacket carried pocket flaps, but the buttons sat exposed on them. Shelby Stanton's chronology places the approval of coat pocket flaps over pocket buttons at 26 August 1964, explicitly to prevent snagging. The Imperial War Museums' catalogue text corroborates the sequence independently: buttons exposed on Type I, concealed in Type II, introduced in 1964–65. Two records, different kinds — that is what supports a date.",
+      "What the army did not do is instructive. It did not switch the front closure to a zip. It kept the buttons and covered them, because a button that snags can be re-sewn in the field while a zipper that seizes cannot.",
+      "On a garment, look at the flap twice: once for shape — period flaps are asymmetric and pointed — and once for the buttons. On the Type III USMC jacket in the IWM collection, each flap closes with two buttons, which means two buttonholes. A single snap is a later, cheaper solution, not a period one."
     ],
-    fig2: { src: "img/placket.jpg", cap: "A placket sampler, Germany 1871: the buttonhole-and-placket problem was already old when the jungle jacket arrived.", credit: "Cooper Hewitt, public domain" },
-    look: "Flap shape, button count, and whether the buttons sit proud or are covered. Exposed buttons place a jacket before the 1964–65 change; covered flaps place it after.",
-    sources: ["Shelby Stanton chronology (secondary)", "IWM catalogue description, Tropical Combat Uniform types (institutional)", "Object records, Smithsonian NMAAHC"]
+    look: "Flap shape, button count, whether buttons sit proud or covered. Exposed buttons indicate the first pattern; covered flaps and two buttonholes per lower flap indicate Type II or later.",
+    sources: ["Shelby Stanton chronology (secondary)", "IWM object 30097577 — description of a Type III USMC tropical jacket (two buttons per flap)", "IWM object 30096162 — Tropical Combat Uniform pattern sequence"]
   },
 
   "bellows": {
@@ -58,14 +57,13 @@ window.ESSAYS = {
   "buttons": {
     lede: "In the jungle the button outlived the zipper — and the famous story about why is mostly legend.",
     paras: [
-      "There is a story that American soldiers in the First World War were trapped in zippered coats when mud and blood seized the teeth, and that the army abandoned zippers for buttons as a result. It is a good story. It is also almost certainly folklore: the separable fastener was patented in 1913 and did not become common in clothing until the 1930s, so mass-issued zippered combat uniforms in 1917 are implausible.",
-      "What the record does show is more interesting. The tropical combat jacket kept a button front through every pattern, and from the second pattern the buttons were hidden behind flaps. A button does not corrode shut in monsoon humidity, does not seize on grit, and can be re-sewn with a needle and thread in the field. A zipper is a single continuous mechanism: one damaged tooth and the garment is finished.",
-      "The placket itself is a small design system. A folded strip stiffens the front, the buttonholes are worked keyhole-shaped so the shank has room, and the mouth of the jacket can be left partially open for airflow — a ventilation feature disguised as a closure.",
+      "The separable fastener was designed by Gideon Sundbäck in 1913 and patented in 1917; it did not become common in clothing until the 1930s. That timeline matters, because the story that First World War soldiers were trapped in zippered coats is almost certainly folklore — there were no mass-issued zippered combat uniforms to be trapped in.",
+      "What the record shows is more interesting. The tropical combat jacket kept a button front through every pattern, and from the second the buttons were hidden behind flaps. A button does not corrode shut in monsoon humidity, does not seize on grit, and can be re-sewn with a needle and thread in the field. A zipper is a single continuous mechanism: one damaged tooth and the garment is finished.",
+      "The placket itself is a small system. A folded strip stiffens the front, buttonholes are worked keyhole-shaped so the shank has room, and the mouth of the jacket can be left partly open for airflow — a ventilation feature disguised as a closure.",
       "When you handle a jacket, work the buttons. Tight, evenly spaced, keyhole buttonholes with a bartack at the end suggest a maker who understood the load. Loose shanks and round holes tell you the front is a decoration."
     ],
-    fig2: { src: "img/placket.jpg", cap: "Placket sampler, 1871: buttonholes, buttons and thread loops worked as a construction exercise.", credit: "Cooper Hewitt, public domain" },
     look: "Five buttons on the period pattern, keyhole buttonholes, bartacked ends, and a placket that can be worn open. A zip on the main closure is a later, non-tropical decision.",
-    sources: ["Zipper history (Sundbäck 1913)", "IWM catalogue description, tropical uniform types", "Garment records, Smithsonian"]
+    sources: ["Gideon Sundbäck — separable fastener designed 1913, patent granted 1917 (US 1,219,881)", "IWM catalogue description, tropical uniform types", "Garment records, Smithsonian"]
   },
 
   "gas-flap": {
@@ -180,7 +178,6 @@ window.ESSAYS = {
       "The trade-offs are real. Extra-long-staple cotton is a small fraction of the world crop, so Ventile is expensive; it is heavier than a synthetic shell; and it needs a little care to keep its performance. What it buys is a different feel: quiet, matte, cotton, with none of the rustle of nylon.",
       "Look for a dense, matte cotton with a slight stiffness when wet, and be sceptical of anything described as Ventile that feels like a coated synthetic. The name belongs to a specific cloth, not a marketing mood."
     ],
-    fig2: { src: "img/ripstop.jpg", cap: "The other direction: a lightweight ripstop shell in the field.", credit: "NARA, public domain" },
     look: "Dense matte cotton, stiffens when wet, breathes when dry. A trademarked cloth — check the maker, not the adjective.",
     sources: ["Ventile history (Shirley Institute, 1943)", "Textile references on high-density cotton"]
   },
@@ -253,14 +250,13 @@ window.ESSAYS = {
   "yohji": {
     lede: "Yohji Yamamoto treats cloth as the subject, and the body as something it falls past.",
     paras: [
-      "The military reference is there in almost every Yohji collection, but it arrives turned inside out. Instead of copying a field jacket, the house takes its proportions — dropped shoulder, wide body, long hem — and cuts them in high-density cotton or wool gabardine heavy enough to hang.",
-      "The construction follows the fabric. Raw-cut edges are left as ornament, linings are replaced with softer cloth, and internal structure is removed so the garment moves. Y's Resort 2023 used cotton twill with cut edges exposing coloured weft threads, and swapped hair canvas for wrinkled linen.",
-      "The result is a jacket that reads as military from a distance and as drapery up close. That distance is the whole point: the utility is a memory, not a function.",
-      "For a maker the transferable move is the one every serious label copies — keep the pocket architecture, drop the cloth weight and the stiffness, and let the seams show."
+      "The military reference is unmistakable in much of Yohji's work, but it arrives turned inside out. Instead of copying a field jacket, the house takes a proportion — volume through the body, a long hem, a shoulder that sits away from the body — and cuts it in high-density cotton or wool gabardine heavy enough to hang.",
+      "The dropped shoulder is worth being precise about. It is not a feature of the standard M-65 or M-1943 field jacket, which are boxy but set-in at the shoulder. The over-garments are different: the M-51 fishtail parka and the M-65 were cut large because they were worn over other clothing and equipment. Yohji's volume can be traced to both that over-garment logic and to Japanese flat-pattern cutting, which builds a garment from rectangles rather than a tailored shoulder.",
+      "The construction follows the fabric. Raw-cut edges are left as ornament, structure is removed so the garment moves, and linings are replaced with softer cloth. Y's Resort 2023 used cotton twill with cut edges exposing coloured weft threads, and swapped hair canvas for wrinkled linen. Y's is a separate line from the main collection; the example belongs to the line, not to the house as a whole.",
+      "For a maker the transferable move is the one every serious label copies: keep the pocket architecture, drop the cloth weight and the stiffness, and let the seams show."
     ],
-    fig2: { src: "img/margiela-top.jpg", cap: "A different Belgian answer to the same question: a Margiela semi-couture top (1997), garment as construction study.", credit: "CC0" },
-    look: "Dropped shoulder, oversized body, raw-cut hems, heavy drape. Garment reads military at distance, textile at close range.",
-    sources: ["Yohji Yamamoto archive references", "Y's Resort 2023 notes"]
+    look: "Volume through the body, dropped shoulder, raw-cut hems, heavy drape. Garment reads military at a distance, textile at close range.",
+    sources: ["Y's Resort 2023 collection notes (cotton twill, raw-cut edges)", "Yohji Yamamoto archive references (secondary)"]
   },
 
   "junya": {
@@ -284,7 +280,6 @@ window.ESSAYS = {
       "What makes the work useful for study is that the source is legible. You can see the field jacket in the object, and you can see exactly which decision was reversed. That legibility is rarer than it sounds.",
       "For a maker, the lesson is to deconstruct deliberately: choose one structural rule — the shoulder line, the pocket placement, the closure — and break only that."
     ],
-    fig2: { src: "img/margiela-bodice.jpg", cap: "Margiela's 1999 trompe-l'œil bodice: another house treating structure as the material.", credit: "CC0" },
     look: "Asymmetric seams, grafted pockets, raw hems, tropical-weight wool. The source garment should still be legible.",
     sources: ["CDG Homme Plus collection notes (FW25)", "Retailer archive descriptions"]
   },
@@ -297,7 +292,6 @@ window.ESSAYS = {
       "There is a practical lesson buried in the theatrics. Splicing a cotton front to a nylon back is a way of putting weather-resistance where it is needed and breathability where it is not — an engineering solution wearing the costume of a collage.",
       "For a maker, the move to copy is the splice: change the fabric across a seam line rather than across the whole garment."
     ],
-    fig2: { src: "img/m41.jpg", cap: "A mid-century field jacket: the kind of utility source Mihara cuts apart.", credit: "Paris Musées, CC0" },
     look: "Visible joins, mixed fabrics across seams, sun-faded or washed finishes. The construction is the concept.",
     sources: ["Mihara Yasuhiro SS26 / AW26 references", "Archive retailer descriptions"]
   },
@@ -310,7 +304,6 @@ window.ESSAYS = {
       "That is a genuinely useful model for anyone reissuing military clothing in a hot climate. You do not need to abandon the pattern to make it wearable; you need to change the cloth and keep the grammar.",
       "On a garment, the tell is the hand: a fatigue shirt that feels like shirting rather than canvas has been through this translation."
     ],
-    fig2: { src: "img/nmaahc_2013_11_1.jpg", cap: "A fatigue shirt of 1970: the pattern Hysteric reissues in a lighter cloth.", credit: "Smithsonian NMAAHC, CC0" },
     look: "Period pocket architecture in a lighter cloth. The pattern should be intact even if the fabric has been modernised.",
     sources: ["Hysteric Glamour line notes", "Smithsonian fatigue shirt record"]
   },
@@ -355,18 +348,17 @@ window.ESSAYS = {
   },
 
   "margiela": {
-    lede: "The most influential fashion house of the last forty years is also the one that refused to be seen.",
+    lede: "A white label inside, four white stitches outside, and a house that let the clothes speak.",
     paras: [
-      "Maison Martin Margiela was founded in Paris in 1988 by the Belgian designer Martin Margiela and Jenny Meirens. It arrived with a set of refusals: no portrait of the designer, no logo, no seasonal narrative, no bow at the end of the show. The label carried four white stitches holding a white rectangle — a mark visible only to the person wearing the garment.",
-      "The house organised its output in numbers rather than names, sorting collections and lines by a numeric code, so that a category could be treated as a category rather than as a campaign. The Artisanal line, its most radical, was made from found and vintage garments re-cut into new pieces. The tabi boot — a split-toe shoe derived from Japanese work socks — became the house's most recognisable object after being introduced in the late 1980s.",
-      "The reasons behind the anonymity are worth taking seriously, because they are not mystique for its own sake. Margiela's training was with Jean Paul Gaultier, where the designer was already a public figure; the new house chose the opposite. If the clothes were the only evidence, then the clothes had to do the talking. A collection could be about a sleeve, a lining, a reused glove — not about a personality.",
-      "That decision has an afterlife. In an industry now built on personal brands, Margiela remains the proof that anonymity can be a creative instrument rather than a marketing handicap: the garment survives, the author recedes, and the work becomes collectible precisely because it was never sold as a portrait.",
-      "The archive market reflects it. Early Margiela is scarce, and pieces circulate between collectors with a level of documentation that fashion rarely attracts — not because of celebrity, but because the objects were made in small numbers and were never designed to be recognised at a distance.",
-      "For someone starting in fashion, Margiela is the most useful first case because it separates the two things beginners tend to fuse: the clothes and the person. Study the garments first. The anonymity is not a gimmick to copy; it is a working method that forces attention onto construction."
+      "Maison Martin Margiela was founded in Paris in 1988 by the Belgian designer Martin Margiela and Jenny Meirens. It arrived with a set of refusals: no portrait of the designer, no logo, no seasonal narrative, no bow at the end of the show.",
+      "The signature is easy to get wrong. It is four white stitches set at the back, holding a blank white label inside the garment — and the stitches are meant to be seen from the outside, which is the opposite of a logo. The house has described the point plainly: so that someone meeting the garment for the first time reacts to its form and energy, not to the idea of 'brand' expressed through a label.",
+      "The output was organised in numbers rather than names, so that a category could be treated as a category rather than a campaign. The Artisanal line, its most radical, was made from found and vintage garments re-cut into new pieces. The tabi boot, a split-toe shoe derived from Japanese work socks, became the house's most recognisable object.",
+      "The anonymity was a working method, not mystique for its own sake. Margiela trained with Jean Paul Gaultier, where the designer was already a public figure; the new house chose the opposite. If the clothes were the only evidence, the clothes had to do the talking.",
+      "It is worth stating the timeline, because the site's first version did not. Margiela left the house in 2009, and it was collectively designed without a nominated creative director until John Galliano was appointed in 2014. Galliano led it until December 2024; Glenn Martens was named creative director in January 2025. Any sentence describing the house as 'still anonymous' is describing the past, not the present.",
+      "For someone starting in fashion, Margiela remains the most useful first case because it separates the two things beginners tend to fuse: the clothes and the person. Study the garments first."
     ],
-    fig2: { src: "img/margiela-bodice.jpg", cap: "A 1999 trompe-l'œil bodice: print and construction doing the work that a logo would otherwise do.", credit: "CC0" },
-    look: "Four white stitches on a white label, no external logo, numeric line codes, and construction that can be read without a designer's name attached.",
-    sources: ["House history (secondary references)", "Museum/commercial object records", "Commons CC0 object photographs (1997, 1999)"]
+    look: "Four white stitches at the back holding a blank label inside, no external logo, numeric line codes. Note the date range: Margiela 1988–2009, Galliano 2014–2024, Martens from 2025.",
+    sources: ["Maison Margiela product notes on the four stitches", "Shrimpton Couture, object description quoting the house on the four stitches", "Vogue, 28 Jan 2025 — Glenn Martens appointed creative director"]
   },
 
   "hbt": {
@@ -383,29 +375,27 @@ window.ESSAYS = {
   },
 
   "khaki": {
-    lede: "Before camouflage patterns, before olive green, there was dust-coloured cloth chosen so that men would disappear into the landscape.",
+    lede: "Before camouflage patterns there was dust-coloured cloth, chosen so that men would disappear into the ground they stood on.",
     paras: [
-      "In 1848, on the North-West Frontier near Peshawar, a British officer named Harry Lumsden dressed his Corps of Guides in loose, earth-coloured clothing instead of the scarlet tunic. The cloth was cotton, dyed locally, and the colour took its name from the Urdu and Persian word for dust. His subordinate's line survives: he would make the Guides disappear in the dust.",
-      "That is the small hinge on which a great deal of military clothing turns. For the first time a European army deliberately chose a uniform colour to blend into terrain rather than to be seen. The idea spread through Indian regiments, was carried into the Second Afghan War, and by 1885 khaki was standard issue in India.",
-      "The practical logic was twofold. A pale, dusty tone reflects sunlight better than a dark tunic, and it matches the ground. Both properties matter in the same climate, which is why khaki is often described as the first modern camouflage even though it is not a pattern at all.",
-      "When you look at khaki today, look at the cloth rather than the colour. Khaki drill is a stout cotton twill, heavier than the later jungle fabrics; khaki poplin and khaki cotton-linen belong to different garments entirely. The colour travelled further than any single weave."
+      "In 1848, on the North-West Frontier near Peshawar, a British officer named Harry Lumsden dressed his Corps of Guides in loose, earth-coloured clothing instead of the scarlet tunic. The cloth was cotton, dyed locally; the colour took its name from the Urdu and Persian word for dust.",
+      "It was not the first attempt at concealment in uniform. Rifle regiments had worn green since the late eighteenth century, and the 95th Rifles are the famous example. Khaki's claim is narrower and still significant: it was the first dust-coloured service uniform to be adopted widely, spreading through Indian regiments and carried into the Second Afghan War, so that by 1885 it was standard issue in India.",
+      "The practical logic was twofold. A pale, dusty tone reflects sunlight better than a dark tunic, and it matched the ground. Both properties matter in the same climate, which is why khaki is often called the first modern camouflage — an overstatement, but a useful one.",
+      "When you look at khaki today, look at the cloth rather than the colour. Khaki drill is a stout cotton twill, heavier than the later jungle fabrics; khaki poplin and khaki cotton-linen belong to different garments entirely."
     ],
-    fig2: { src: "img/bush.jpg", cap: "A bush jacket: the belted, pocketed silhouette that carried khaki from the frontier into civilian dress.", credit: "CC0" },
     look: "Check the weave before the shade. Drill is a heavy twill with a pronounced diagonal; poplin is fine and crisp. Khaki as a colour spans a wide range of cloths.",
-    sources: ["Corps of Guides and khaki history (National Army Museum)", "Safari and bush jacket references", "Period uniform references (Brayley)"]
+    sources: ["National Army Museum, khaki and the Corps of Guides", "Shades of green — rifle green adopted by rifle regiments in the 18th century", "Period uniform references (Brayley, Khaki Drill & Jungle Green)"]
   },
 
   "og107": {
-    lede: "OG-107 is a colour code that people keep mistaking for a cloth — and the specification hides a detail almost no reproduction copies.",
+    lede: "OG-107 is a shade code that keeps being mistaken for a cloth — and one fabric datasheet suggests the colour was engineered.",
     paras: [
-      "Two garments share the name. The utility uniform in Olive Green 107 was cotton sateen: dense, wind-resistant, and a poor choice in humid heat. The tropical combat jacket in the same shade was poplin, and later ripstop — light, open, quick to dry. Same colour, opposite behaviour. Most of the confusion in the reproduction market begins exactly here.",
-      "The colour itself is a code, not a fabric. Documents trace the American olive family from the lighter Olive Drab No. 3 of the early war years to the darker No. 7 adopted in 1943 for concealment in European vegetation, and then to the standardised shade that clothed every service from the 1950s. The exact standardisation date should be checked against the original colour standard rather than repeated.",
-      "The more interesting fact is buried in a fabric specification. MIL-C-342 requires the tropical cloth to carry a low infra-red dye formulation — a dye chosen so the cloth behaves correctly in the near-infrared, the band where foliage is bright and sensors read the world differently. That is a design decision made at the level of chemistry.",
-      "What this means for a buyer is simple. When a jacket is described as OG-107, ask which OG-107: the sateen utility or the tropical poplin. One is a sponge in the monsoon and the other is the reason the tropical uniform worked. The shade is the same; the garment is not."
+      "Two garments share the name. The utility uniform in Olive Green 107 was cotton sateen: dense, wind-resistant, and a poor choice in humid heat. The tropical combat jacket in the same shade was poplin, and later ripstop. Same colour, opposite behaviour in humidity — and most of the reproduction market's confusion begins here.",
+      "The colour itself is a code, not a fabric. The American olive family runs from the lighter Olive Drab No. 3 of the early war years to the darker No. 7 adopted in 1943, and then to the standardised shade that clothed every service from the 1950s. The exact standardisation date belongs in a proper colour-standard citation, and this site does not yet have one.",
+      "A fabric datasheet for a wind-resistant ripstop poplin — NSN 8305-00-132-1080, MIL-C-342 — lists 'low infra red dye formulation' under special features, alongside a weight of 5.7 to 6.7 ounces per square yard and mercerising and shrinking. That is one record, not two, and it is a catalogue datasheet rather than the specification itself. It is enough to suggest the colour was engineered; it is not enough to claim a reflectance curve.",
+      "What this means for a buyer is simpler than the chemistry. When a jacket is described as OG-107, ask which OG-107: the sateen utility or the tropical poplin. One is a sponge in the monsoon and the other is the reason the tropical uniform worked."
     ],
-    fig2: { src: "img/1076130.jpg", cap: "OG-107 utility uniform worn in Korea, 1952–53: sateen, the dense cloth that the tropical jacket replaced.", credit: "Windfield Photographic Collection, public domain" },
     look: "Identify the cloth before the colour. Sateen has a smooth, lustrous face and holds water; poplin is crisp and dries; ripstop shows a woven grid.",
-    sources: ["MIL-C-342 / NSN 8305-00-132-1080 (specification record)", "OG-107 and olive drab colour references", "Museum object records (M-1943, utility uniforms)"]
+    sources: ["NSN 8305-00-132-1080 datasheet (MIL-C-342 field data, opened 13 Nov 2026)", "OG-107 and olive drab colour references (secondary)", "Museum object records for the M-1943 and utility uniforms"]
   }
 
 };

@@ -7,17 +7,17 @@
 
 window.FEED = [
   {
-    id: "slant-pocket", cat: "details", era: "1942", conf: "probable",
+    id: "slant-pocket", cat: "details", era: "1942", conf: "unresolved",
     title: "Why the chest pocket is slanted",
-    dek: "The angle looks like style. The records describe biomechanics under a harness.",
-    body: "Dealer and museum records of the M-1942 jump jacket describe the breast pockets as angled inward so the opposite hand can reach them while the trooper wears field equipment. The jungle jacket kept the slant on every pattern. The angle on surviving garments varies; the 15° figure is a working specification, not a documented constant.",
+    dek: "A slant exists on surviving jackets. Why it exists is dealer-reported, not documented.",
+    body: "Surviving jackets and dealer records describe the breast pockets as angled inward. The usual explanation — that a trooper could reach them under a harness with the opposite hand — comes from dealer and museum descriptions, not from a specification we could open. The numbers used on this site (15°, 120 mm below the shoulder, 50 mm from centre front) are a reproduction working specification, not period figures. Treat the reason as unproven and the geometry as a build choice.",
     src: "M-1942 records (museum/dealer) · jungle jacket observations"
   },
   {
     id: "flap-pocket", cat: "closure", era: "1964", conf: "established",
-    title: "The flap was added to stop snagging",
-    dek: "First-pattern jungle jackets had exposed buttons. Two independent records date the fix.",
-    body: "On the first pattern the pocket buttons sat proud of the cloth, and field complaints described them catching on undergrowth and catching light. Shelby Stanton's chronology places the approval on 26 August 1964, and the IWM's catalogue description of the Type III garments corroborates the sequence: buttons exposed on Type I, concealed behind flaps on Type II (introduced 1964–65).",
+    title: "The buttons were hidden in 1964",
+    dek: "The flaps were already there. What changed was the exposure of the buttons.",
+    body: "The first pattern carried pocket flaps, but the buttons sat exposed on them. Shelby Stanton's chronology places the approval of coat pocket flaps over pocket buttons at 26 August 1964 to prevent snagging, and the IWM's catalogue text corroborates the sequence: buttons exposed on Type I, concealed in Type II (1964–65). The flap existed; the cover is what the change added.",
     src: "Stanton chronology · IWM catalogue description"
   },
   {
@@ -38,8 +38,8 @@ window.FEED = [
     id: "buttons", cat: "closure", era: "1960s", conf: "probable",
     title: "Buttons, not zippers — and the legend",
     dek: "The famous WWI zipper story is folklore. The design logic is real.",
-    body: "The tale says zippers jammed on mud and blood and were abandoned after WWI. The zipper was not mainstream until the 1930s, so mass zippered WWI uniforms are unlikely; treat the story as legend. What the records do show: the tropical jacket kept a button front and, from the second pattern, hid the buttons behind flaps — buttons don't corrode in monsoon humidity and can be re-sewn in the field.",
-    src: "Zipper history (Sundbäck 1913) · tropical jacket patterns"
+    body: "The separable fastener was designed by Gideon Sundbäck in 1913 and patented in 1917, and it did not become common in clothing until the 1930s. The story that First World War soldiers were trapped in zippered coats is therefore treated here as legend rather than record. What the documents do show is that the tropical jacket kept a button front through every pattern and, from the second, hid the buttons behind flaps: a button does not corrode shut in monsoon humidity and can be re-sewn in the field.",
+    src: "Patent records (Sundbäck, US 1,219,881) · IWM catalogue description"
   },
   {
     id: "gas-flap", cat: "closure", era: "1918", conf: "probable",
@@ -112,18 +112,18 @@ window.FEED = [
     src: "US WWII HBT utilities · Navy spec 55-J-9"
   },
   {
-    id: "khaki", cat: "history", era: "1848", conf: "established",
+    id: "khaki", cat: "history", era: "1848", conf: "probable",
     title: "Khaki was born in the dust",
     dek: "1848, Peshawar: the first uniform colour chosen to disappear.",
-    body: "Lieutenant Harry Lumsden dressed the Corps of Guides in loose, dust-coloured cloth on the North-West Frontier. Khaki means 'dust'. It was the first time a European army deliberately chose a uniform colour to blend into terrain rather than be seen.",
+    body: "Khaki was introduced in 1848 by the Corps of Guides on the North-West Frontier, and it spread through Indian regiments until it was standard issue there by 1885. The colour took its name from the Urdu and Persian word for dust, and it matched the ground. It was not the first attempt at concealment — rifle regiments had worn green since the late eighteenth century — but it was the first widely adopted dust-coloured service uniform, which is a narrower and defensible claim.",
     src: "Corps of Guides · National Army Museum"
   },
   {
-    id: "og107", cat: "history", era: "1952", conf: "established",
-    title: "OG-107 is a colour, not a cloth — and it had a low-IR dye",
-    dek: "The shade code hides a specification detail most reproductions miss.",
-    body: "Olive Green 107 is a shade code, not a fabric. The utility uniform in OG-107 was cotton sateen; the tropical combat jacket in the same shade was poplin and later ripstop. The cloth specification MIL-C-342 adds a detail worth knowing: the fabric is required with a 'low infra red dye formulation', plus mercerizing and shrinking. Same colour family, opposite behaviour in humidity.",
-    src: "MIL-C-342 / NSN 8305-00-132-1080 · OG-107 references"
+    id: "og107", cat: "history", era: "1952", conf: "probable",
+    title: "OG-107 is a colour, not a cloth",
+    dek: "A shade code that keeps being mistaken for a fabric.",
+    body: "Olive Green 107 is a shade code, not a fabric. The utility uniform in OG-107 was cotton sateen; the tropical combat jacket in the same shade was poplin and later ripstop. Same colour, opposite behaviour in humidity. One fabric datasheet for a wind-resistant poplin carries a 'low infra red dye formulation' note in its special features, which suggests the colour was engineered rather than merely chosen — a single source, so the claim stays probable.",
+    src: "NSN 8305-00-132-1080 datasheet (MIL-C-342) · OG-107 references"
   },
   {
     id: "erdl", cat: "history", era: "1948", conf: "probable",
@@ -150,7 +150,7 @@ window.FEED = [
     id: "tcu1963", cat: "history", era: "1963", conf: "probable",
     title: "A uniform built by engineers, not designers",
     dek: "June 1963, Quartermaster Research & Engineering Command — per one institutional record.",
-    body: "The IWM's catalogue entry dates the Tropical Combat Uniform to June 1963 and describes it as 'based closely on the design of the M-1942 Parachutist Uniform'. Four expandable pockets with concealed-button flaps, convertible collar, button cuff tabs. That is one institutional source; a Quartermaster or DA document would make it established.",
+    body: "The tropical combat uniform entered service in June 1963, developed by the Army's research and engineering command and based closely on the M-1942 parachutist uniform. It inherited the four expandable pockets with their flaps; what changed across patterns was the exposure of the buttons, the presence of a gas flap, and the shoulder straps. Type I had exposed buttons, Type II (1964–65) concealed them, Type III (1966–67) removed the gas flap and epaulettes. None of this was designed in one go: the garment is a record of field complaints.",
     src: "IWM object records (institutional, single source)"
   },
   {
@@ -161,10 +161,10 @@ window.FEED = [
     src: "BDU specification · NYCO ripstop"
   },
   {
-    id: "yohji", cat: "brands", era: "1990s", conf: "probable",
+    id: "yohji", cat: "brands", era: "1981", conf: "probable",
     title: "Yohji Yamamoto: drape as deconstruction",
     dek: "Gabardine, raw-cut edges, volume that falls away from the body.",
-    body: "Yohji's military references are built on high-density cotton and wool gabardine, cut oversized so the cloth falls away from the shoulder, with raw-cut edges used as ornament. Y's Resort 2023 turned cotton-twill cut edges into decoration and replaced structured canvas with soft linen.",
+    body: "Yohji Yamamoto showed in Paris from the early 1980s, and the military reference arrives in his work turned inside out. The oversized volume is better traced to two sources than to one: Japanese flat-pattern cutting, and the American over-garments — the M-51 fishtail parka and the M-65 — which were cut large because they were worn over other clothing. The house takes that volume, cuts it in heavy cotton or wool gabardine, and leaves raw edges as ornament.",
     src: "Yohji Yamamoto archive · Y's Resort 2023"
   },
   {
@@ -182,14 +182,14 @@ window.FEED = [
     src: "CDG Homme Plus FW25 · retailer archive"
   },
   {
-    id: "mihara", cat: "brands", era: "2010s", conf: "probable",
+    id: "mihara", cat: "brands", era: "2026", conf: "probable",
     title: "Mihara Yasuhiro: docking and sun-fade",
     dek: "Two garments stitched together, then faded like a field jacket.",
     body: "Mihara's signature is assembly: denim and MA-1 stitched front-to-back, details 'docked' onto a shell, garments stripped of their original purpose. His sun-faded cotton military jacket uses finish — not print — to signal age.",
     src: "Mihara Yasuhiro SS26 / AW26"
   },
   {
-    id: "hysteric", cat: "brands", era: "1990s", conf: "probable",
+    id: "hysteric", cat: "brands", era: "1984", conf: "probable",
     title: "Hysteric Glamour: repro, then lighten it",
     dek: "Reproduce the spec cloth, then drop the weight for daily wear.",
     body: "Hysteric reproduces military-spec materials — an air-force nylon twill MA-1, a third-pattern fatigue shirt — then rebalances them. Its HG1963 fatigue shirt keeps the four flap pockets but uses an 80/20 cotton-weather cloth so it layers like a shirt.",
@@ -199,7 +199,7 @@ window.FEED = [
     id: "redkap", cat: "brands", era: "1920s", conf: "established",
     title: "Red Kap: the baseline everyone dismantles",
     dek: "Spec-sheet workwear — the control group.",
-    body: "Red Kap builds to spec: 7.5 oz poly-cotton twill, 5 oz poplin, 4.25 oz ripstop, bartacked pockets, action-back pleats. It produced combat fatigues and field jackets during WWII. It is useful precisely because it is un-deconstructed: the fashion labels keep its pocket architecture and remove its stiffness. Compare a bartacked pocket on a $60 work shirt with the same construction on a $400 jacket — the stitch pattern is identical.",
+    body: "Red Kap builds to a specification sheet: poly-cotton twill, bartacked pockets, action-back pleats, reinforced seams. It produced combat fatigues and field jackets during the Second World War. It is useful here as a control — the un-deconstructed version of the same construction vocabulary. The claim that designers dismantle Red Kap specifically is not supported; the houses in this archive dismantle military uniform and tailoring, and borrow the workwear basics without naming them.",
     src: "Red Kap product specifications"
   },
   {
@@ -213,14 +213,14 @@ window.FEED = [
     id: "pom", cat: "howto", era: "—", conf: "probable",
     title: "The five measurements that decide a jacket",
     dek: "Chest, shoulder, length, sleeve, cuff — in that order.",
-    body: "A jungle-fatigue jacket in size M measures roughly: chest 110 cm relaxed, shoulder 47, body 73, sleeve 63, cuff 13 flat — figures drawn from reproduction size charts and original contract labels. Get shoulder and chest right and the jacket reads correctly; everything else is refinement.",
-    src: "Reproduction size charts · original contract labels"
+    body: "Five measurements decide whether a jacket reads correctly: chest, shoulder, body length, sleeve, cuff. The figures used on this site — 110 cm chest, 47 shoulder, 73 body, 63 sleeve, 13 cuff — are a reproduction working specification compiled from commercial size charts and original contract labels, not a period specification. Original military documents are in inches and vary by contract. Tolerance is a production limit: ±1 cm on the body, ±0.5 cm on pockets.",
+    src: "Reproduction size charts (commercial) · original contract labels"
   },
   {
     id: "margiela", cat: "brands", era: "1988", conf: "probable",
-    title: "Maison Margiela: the house that refused to be seen",
-    dek: "Four white stitches, no logo, and a designer who let the clothes speak.",
-    body: "Maison Martin Margiela was founded in Paris in 1988 with Jenny Meirens. Its mark was four white stitches on a white label, visible only to the person wearing the garment. Collections were sorted by number rather than name, and the Artisanal line was made from found and vintage clothing. The tabi boot, derived from Japanese work socks, became the house's most recognisable object. The anonymity was a working method, not a gimmick: if the clothes were the only evidence, the clothes had to do the talking.",
-    src: "House history (secondary) · object records · Commons CC0 photographs"
+    title: "Maison Margiela: the label that is not a logo",
+    dek: "Four white stitches at the back, a blank label, and a house that let the clothes speak.",
+    body: "Maison Martin Margiela was founded in Paris in 1988 with Jenny Meirens. Its signature is four white corner stitches set at the back, holding a blank white label inside the garment — the stitches are visible from outside, which is the opposite of a logo. Collections were sorted by number rather than name, and the Artisanal line was made from found and vintage clothing. Margiela left in 2009; John Galliano led the house from 2014 to 2024, and Glenn Martens was appointed in January 2025.",
+    src: "Maison Margiela product notes (four stitches) · Vogue Business/Vogue (Martens appointment, 2025)"
   }
 ];
