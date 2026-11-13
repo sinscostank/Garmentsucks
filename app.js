@@ -18,7 +18,13 @@
     "m43": "img/m1943.jpg",
     "bdu": "img/bdu.jpg",
     "erdl": "img/erdl.jpg",
-    "ripstop": "img/ripstop.jpg"
+    "ripstop": "img/ripstop.jpg",
+    "epaulette": "img/epaulette.jpg",
+    "cuff-tab": "img/m41.jpg",
+    "bellows": "img/bellows.jpg",
+    "poplin": "img/poplin.jpg",
+    "pom": "img/pom.jpg",
+    "m42": "img/m42.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -36,7 +42,13 @@
     "m43": "US M-1943 field jacket · Smithsonian NMAH 2002.1735, CC0",
     "bdu": "Battle Dress Uniform · PD",
     "erdl": "ERDL camouflage pattern · PD",
-    "ripstop": "US Army in Vietnam, OG-107 · NARA, PD"
+    "ripstop": "US Army in Vietnam, OG-107 · NARA, PD",
+    "epaulette": "French brigadier-general epaulettes, 1945–54 · Paris Musées, CC0",
+    "cuff-tab": "US M-41 field jacket — buttoned cuff tabs · Paris Musées, CC0",
+    "bellows": "US Army cargo pocket · PD (US Army)",
+    "poplin": "Poplin, plain-weave macro · PD",
+    "pom": "A tailor measures a uniform · FSA/OWI (Esther Bubley), PD",
+    "m42": "Eisenhower with 502nd PIR paratroopers, England 1944 · US Army Signal Corps, PD"
   };
   var CATS = [
     ["all", "All"],
