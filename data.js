@@ -257,5 +257,33 @@ window.FEED = [
     dek: "Two large pockets, a drawcord hem, and the ancestor of every cargo pant.",
     body: "The M-65 field trousers were part of the same system as the jacket: a cotton-nylon poplin shell, two large cargo pockets on the thighs and drawcords at the hem so the leg could be closed against weather. Issued from 1965 and used through Vietnam and after, they became the pattern that streetwear copied — often keeping the pockets and dropping the drawcord, which is the part that did the work.",
     src: "Grailed listing (vintage issue) · M-65 system references"
+  },
+  {
+    id: "m51-parka", cat: "issue", era: "1951", conf: "probable",
+    title: "M-51: the fishtail parka",
+    dek: "A Korean War over-garment that ended up on the backs of English Mods.",
+    body: "The M-1951 parka was designed as an outer layer to be worn over the field jacket: a cotton shell with a detachable hood and liner, a fishtail hem that could be drawn between the legs or snapped up, and a front closure covered by a storm flap. It was issued in the Korean War and stayed in service long after. In the 1960s it was bought surplus in Britain and became the coat of the Mod movement — the fishtail worn over a suit, a use the army never intended. It is the clearest example in this archive of a garment leaving its issue and becoming a style.",
+    src: "Wikimedia Commons (PD photograph) · M-1951 parka references"
+  },
+  {
+    id: "tanker-jacket", cat: "issue", era: "1941", conf: "probable",
+    title: "The tanker jacket: short by necessity",
+    dek: "A jacket designed around a cramped steel box, not around style.",
+    body: "The US Army's winter combat jacket — known to everyone as the tanker jacket — was standardised in the early 1940s for armoured crews. It was deliberately short, because a longer jacket catches on levers and hatches, and deliberately simple: a cotton shell, a wool melton lining, knit collar, cuffs and waist, and a zip front. It was warm, it packed small, and it was replaced later by the M-1943 and M-1951 systems. Its silhouette — short body, ribbed hem — later reappeared on bombers and on runways, but the logic was a tank interior.",
+    src: "NARA period photograph (PD) · armoured-crew clothing records"
+  },
+  {
+    id: "hbt-trousers", cat: "issue", era: "1942", conf: "probable",
+    title: "HBT trousers: the utility half",
+    dek: "Herringbone twill trousers, issued to women as well as men.",
+    body: "The herringbone twill fatigue trousers were the lower half of the American utility uniform: a button fly, two front pockets, two back pockets, and a loose straight leg in a cloth that resisted abrasion and ventilated better than sateen. They were issued in the P-41 and P-42 uniforms and worn in the Pacific, where the open twill mattered. This pair belonged to Madeleine Collomb and was cut for female personnel — a reminder that the utility uniform was issued to women during the war, and that the archive's 'military clothing' is not automatically menswear.",
+    src: "Paris Musées object record 2012.0.4 (CC0) · HBT uniform references"
+  },
+  {
+    id: "jungle-trousers", cat: "issue", era: "1963", conf: "probable",
+    title: "Jungle fatigue trousers: pockets where they were needed",
+    dek: "The tropical combat trousers, and the in-country tailoring that changed them.",
+    body: "The tropical combat uniform trousers were poplin, later ripstop, with two large cargo pockets on the thighs and a drawcord at the hem. They were issued with the jungle jacket from 1963 and worn in Vietnam, where the climate made the dense sateen of the utility uniform impossible. Soldiers and local tailors modified them in country — taking in the leg, moving pockets, shortening the hem — so many surviving pairs are not exactly what the specification described. The garment in the archive is the issued pattern; the garment in the photographs is often the modified one.",
+    src: "NARA period photograph (PD) · tropical uniform records"
   }
 ];

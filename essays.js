@@ -504,5 +504,53 @@ window.ESSAYS = {
     look: "Two large thigh pockets, drawcord hem, poplin shell. Reproduction often omits the hem cord; original issue rarely does.",
     sources: ["Grailed listing: vintage M-65 field trousers — listing photograph © @sosadon", "M-65 clothing system references (secondary)"]
   }
+,
+  "m51-parka": {
+    lede: "A Korean War over-garment that ended up on the backs of English Mods.",
+    paras: [
+      "The M-1951 parka was built as an outer layer, not as a coat. It went over the field jacket and its liner: a cotton shell, a detachable hood, a storm flap over the front closure, and a fishtail hem that could be drawn between the legs for warmth or snapped up out of the way. It was issued during the Korean War and remained in service long after.",
+      "The fishtail is the detail that explains the garment. A parka long enough to cover the thighs would flap and catch; splitting the hem into two tails let the wearer tie it down or fold it up. It is a piece of field engineering that reads, at a distance, as a silhouette.",
+      "That silhouette is why the parka left the army. Surplus M-51s were cheap in 1960s Britain, and Mods wore them over suits — a use the quartermaster never planned. The same garment that kept a soldier warm in Korea became a way of protecting a new suit on a scooter, and the military origin became part of the style.",
+      "For a maker, the lesson is that a garment can change meaning without changing a stitch. The fishtail was designed to be tied; it became a shape people recognised."
+    ],
+    look: "Detachable hood, storm flap, fishtail hem, cotton shell. Original issue is heavy and stiff; the Mod-era surplus is the same garment, often altered.",
+    sources: ["Wikimedia Commons: M-51 fishtail parka photograph (PD, uploader TheModGy1964)", "M-1951 parka references (secondary)"]
+  },
+
+  "tanker-jacket": {
+    lede: "A jacket designed around a cramped steel box, not around style.",
+    paras: [
+      "The winter combat jacket — the tanker jacket — was standardised in the early 1940s for armoured crews. It was cut short because a long jacket catches on levers, hatches and seats, and it was kept simple: a cotton shell, a wool melton lining, knit collar, cuffs and waist, and a zip front.",
+      "The knit waist and cuffs are the functional core. They seal the garment at the two places where cold air enters and where cloth would otherwise trail into machinery. The short body lets a crewman sit, climb and reach without the hem catching.",
+      "It was replaced in the field by the M-1943 and M-1951 systems, but the shape survived: short body, ribbed hem, zip front. Bomber jackets and later fashion took it up, usually keeping the silhouette and losing the wool lining that made it work.",
+      "The period photograph shows the environment the garment was issued for: a US Third Army tank crew working in Belgium in January 1945. The jacket is not the subject of the picture, and that is the point — it was equipment."
+    ],
+    look: "Short body, knit collar/cuffs/waist, zip front, wool melton lining. A long body or a missing knit hem means it is the later field jacket, not the tanker.",
+    sources: ["NARA period photograph: M-7 tank crew, US Third Army, Belgium, January 1945 (PD)", "US armoured-crew clothing records (secondary)"]
+  },
+
+  "hbt-trousers": {
+    lede: "The lower half of the utility uniform, in a cloth chosen for abrasion and air.",
+    paras: [
+      "Herringbone twill trousers were the bottom of the American utility uniform: a button fly, two front pockets, two back pockets and a loose straight leg. The cloth was a cotton twill whose diagonal reverses at intervals, which makes it more open than sateen and more resistant to abrasion than a plain weave.",
+      "That combination is why HBT was issued for work and for the Pacific. It ventilated, it softened with washing, and it took a flat-felled seam well. The trousers were part of the P-41 and P-42 uniforms and were worn long after the jacket was replaced.",
+      "This particular pair belonged to Madeleine Collomb and was cut for female personnel. That matters for the archive: the utility uniform was issued to women during the war, and treating military clothing as automatically menswear is a mistake the market keeps making.",
+      "For a collector, HBT trousers are identified by the weave, the button fly and the stamp. For a maker, they are the cheapest way to study a felled seam on a garment that was made to be worn out."
+    ],
+    look: "Herringbone zigzag visible on the reverse, button fly, two front and two back pockets. The cloth should soften, not shine.",
+    sources: ["Paris Musées object record 2012.0.4: American HBT fatigue trousers for female personnel (CC0)", "US HBT utility uniform references (secondary)"]
+  },
+
+  "jungle-trousers": {
+    lede: "The trousers were issued in 1963 and modified in country almost immediately.",
+    paras: [
+      "The tropical combat trousers were poplin, later ripstop, with two large cargo pockets on the thighs and a drawcord at the hem. They were issued with the jungle jacket and shared its logic: light cloth, quick drying, pockets placed where a seated or crawling man can reach them.",
+      "In Vietnam the garment was modified constantly. Soldiers and local tailors took in the leg, shortened the hem, moved pockets, added panels. A pair that left the specification exactly is now rarer than one that was altered, which makes the issued pattern and the worn garment two different objects.",
+      "The period photograph shows the environment: soldiers of the 199th Light Infantry Brigade moving through a rice paddy in 1967. The trousers in the picture are the point of the exercise — cloth that dries, pockets that work, a hem that does not drag.",
+      "For the archive, the lesson is that the issued pattern is only half the history. The other half is what soldiers did to it."
+    ],
+    look: "Two thigh cargo pockets, drawcord hem, poplin or ripstop. In-country alterations are normal and are part of the object's history, not damage.",
+    sources: ["NARA period photograph: 199th LIB, Operation Rang Dong, 1967 (PD)", "Tropical Combat Uniform records (secondary)"]
+  }
 
 };
