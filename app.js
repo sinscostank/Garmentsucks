@@ -25,7 +25,14 @@
     "poplin": "img/poplin.jpg",
     "pom": "img/pom.jpg",
     "m42": "img/m42.jpg",
-    "margiela": "img/margiela-top.jpg"
+    "margiela": "img/margiela-top.jpg",
+    "yohji": "img/grailed-yohji.jpg",
+    "junya": "img/grailed-junya.jpg",
+    "cdg": "img/grailed-cdg.jpg",
+    "hysteric": "img/grailed-hysteric.jpg",
+    "mihara": "img/grailed-mihara.jpg",
+    "ventile": "img/grailed-ventile.jpg",
+    "redkap": "img/grailed-redkap.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -50,7 +57,14 @@
     "poplin": "Poplin, plain-weave macro · PD",
     "pom": "A tailor measures a uniform · FSA/OWI (Esther Bubley), PD",
     "m42": "Eisenhower with 502nd PIR paratroopers, England 1944 · US Army Signal Corps, PD",
-    "margiela": "1997 Maison Margiela semi-couture top · CC0"
+    "margiela": "1997 Maison Margiela semi-couture top · CC0",
+    "yohji": "Yohji Yamamoto military long jacket, gabardine · listing photo © @HideOnBush4869, Grailed",
+    "junya": "Junya Watanabe Man SS19 utility-pocket poncho · listing photo © @whoisvegas, Grailed",
+    "cdg": "CDG Homme Plus A/W 1984–85 staff bomber · listing photo © @undergroundmen, Grailed",
+    "hysteric": "Hysteric Glamour Napoleon military jacket · listing photo © @style_c0re, Grailed",
+    "mihara": "Mihara Yasuhiro cotton/corduroy long jacket · listing photo © @PARCOS30_exported, Grailed",
+    "ventile": "Stone Island Ventile liner jacket · listing photo © @ELITEOUTERWEARII, Grailed",
+    "redkap": "Red Kap work coat · listing photo © @TheFlex, Grailed"
   };
   var CATS = [
     ["all", "All"],

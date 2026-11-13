@@ -64,5 +64,75 @@
     "license": "Public domain",
     "artist": "",
     "source": "https://commons.wikimedia.org/wiki/File:NARA_photo_111-CCV-619-CC47368.jpg"
+  },
+  "grailed-yohji.jpg": {
+    "title": "Yohji Yamamoto Pour Homme W/GABARDINE Open Button Big Jacket",
+    "artist": "@HideOnBush4869",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/110865533",
+    "price": 1250,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @HideOnBush4869 — Yohji Yamamoto Pour Homme W/GABARDINE Open Button Big Jacket"
+  },
+  "grailed-ventile.jpg": {
+    "title": "Stone island ventile liner jacket",
+    "artist": "@ELITEOUTERWEARII",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/86006890",
+    "price": 400,
+    "sold": true,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @ELITEOUTERWEARII — Stone island ventile liner jacket, Grailed, sold"
+  },
+  "grailed-junya.jpg": {
+    "title": "SS19 Junya Watanabe Man Gabardine Wool Utility Pocket Poncho",
+    "artist": "@whoisvegas",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/76861329",
+    "price": 720,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @whoisvegas — SS19 Junya Watanabe Man Gabardine Wool Utility Pocket Poncho"
+  },
+  "grailed-cdg.jpg": {
+    "title": "CDG Comme Des Garçons A/W ‘84-‘85 Staff Bomber Jacket",
+    "artist": "@undergroundmen",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/28362089",
+    "price": 350,
+    "sold": true,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @undergroundmen — CDG Comme Des Garçons A/W ‘84-‘85 Staff Bomber Jacket, Grailed, sold"
+  },
+  "grailed-hysteric.jpg": {
+    "title": "Napoleon Military Jacket Hussar Officer Olive Green 36 S",
+    "artist": "@style_c0re",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/94610908",
+    "price": 80,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @style_c0re — Napoleon Military Jacket Hussar Officer Olive Green 36 S"
+  },
+  "grailed-mihara.jpg": {
+    "title": "Cotton plus corduroy long jacket by MIHARAYASUHIRO",
+    "artist": "@PARCOS30_exported",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/60734222",
+    "price": 283,
+    "sold": true,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @PARCOS30_exported — Cotton plus corduroy long jacket by MIHARAYASUHIRO, Grailed, sold"
+  },
+  "grailed-redkap.jpg": {
+    "title": "Lab coat for men student Red Kap Made in/Hecho En Honduras",
+    "artist": "@TheFlex",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/77260569",
+    "price": 108,
+    "sold": true,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @TheFlex — Lab coat for men student Red Kap Made in/Hecho En Honduras, Grailed, sold"
   }
 }

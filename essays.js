@@ -202,7 +202,7 @@ window.ESSAYS = {
       "Look for a dense, matte cotton with a slight stiffness when wet, and be sceptical of anything described as Ventile that feels like a coated synthetic. The name belongs to a specific cloth, not a marketing mood."
     ],
     look: "Dense matte cotton, stiffens when wet, breathes when dry. A trademarked cloth — check the maker, not the adjective.",
-    sources: ["Ventile history (Shirley Institute, 1943)", "Textile references on high-density cotton"]
+    sources: ["Ventile history (Shirley Institute, 1943)", "Textile references on high-density cotton", { label: "Stone Island Ventile liner jacket — listing photo © @ELITEOUTERWEARII", url: "https://www.grailed.com/listings/86006890" }]
   },
 
   "erdl": {
@@ -288,7 +288,7 @@ window.ESSAYS = {
       "For a maker the transferable move is the one every serious label copies: keep the pocket architecture, drop the cloth weight and the stiffness, and let the seams show."
     ],
     look: "Volume through the body, dropped shoulder, raw-cut hems, heavy drape. Garment reads military at a distance, textile at close range.",
-    sources: ["Y's Resort 2023 collection notes (cotton twill, raw-cut edges)", "Yohji Yamamoto archive references (secondary)"]
+    sources: ["Y's Resort 2023 collection notes (cotton twill, raw-cut edges)", "Yohji Yamamoto archive references (secondary)", { label: "Yohji Yamamoto Pour Homme military long jacket (gabardine) — listing photo © @HideOnBush4869", url: "https://www.grailed.com/listings/110865533" }]
   },
 
   "junya": {
@@ -302,7 +302,7 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/m65.jpg", cap: "The M-65: the archetype Junya's technical reissues start from.", credit: "Public domain" },
     look: "Reversible construction, mixed materials, exposed seams, technical membranes. Utility kept functional rather than quoted.",
-    sources: ["FIT Museum object notes", "Junya Watanabe archive references"]
+    sources: ["FIT Museum object notes", "Junya Watanabe archive references", { label: "Junya Watanabe Man SS19 utility-pocket poncho — listing photo © @whoisvegas", url: "https://www.grailed.com/listings/76861329" }]
   },
 
   "cdg": {
@@ -315,7 +315,7 @@ window.ESSAYS = {
       "The politics matter. Kawakubo is not honouring the uniform; she is disarming it — taking apart the symbols that make soldiering legible (rank, camouflage, the helmet silhouette) and reassembling them as tailoring. Read as homage the work is merely clever; read as refusal it explains why the results are difficult on purpose."
     ],
     look: "Asymmetric seams, grafted pockets, raw hems, tropical-weight wool. The source garment should still be legible.",
-    sources: ["CDG Homme Plus collection notes (FW25)", "Retailer archive descriptions"]
+    sources: ["CDG Homme Plus collection notes (FW25)", "Retailer archive descriptions", { label: "CDG Homme Plus A/W 1984-85 staff bomber — listing photo © @undergroundmen", url: "https://www.grailed.com/listings/28362089" }]
   },
 
   "mihara": {
@@ -328,7 +328,7 @@ window.ESSAYS = {
       "The joining is also an argument. If two garments can be sewn into one, the categories the industry sells — jacket, bomber, denim — are conventions rather than facts. The visible seam is the evidence."
     ],
     look: "Visible joins, mixed fabrics across seams, sun-faded or washed finishes. The construction is the concept.",
-    sources: ["Mihara Yasuhiro SS26 / AW26 references", "Archive retailer descriptions"]
+    sources: ["Mihara Yasuhiro SS26 / AW26 references", "Archive retailer descriptions", { label: "Mihara Yasuhiro cotton and corduroy long jacket — listing photo © @PARCOS30_exported", url: "https://www.grailed.com/listings/60734222" }]
   },
 
   "hysteric": {
@@ -341,7 +341,7 @@ window.ESSAYS = {
       "The motive differs from the Paris houses. Hysteric's reissues are affectionate and commercial: a Japanese label reproducing American military and workwear for a market that treats those objects as culture. Lightening the cloth is not critique; it is wearability."
     ],
     look: "Period pocket architecture in a lighter cloth. The pattern should be intact even if the fabric has been modernised.",
-    sources: ["Hysteric Glamour line notes", "Smithsonian fatigue shirt record"]
+    sources: ["Hysteric Glamour line notes", "Smithsonian fatigue shirt record", { label: "Hysteric Glamour Napoleon military jacket — listing photo © @style_c0re", url: "https://www.grailed.com/listings/94610908" }]
   },
 
   "redkap": {
@@ -355,7 +355,7 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/flatseam.jpg", cap: "A flat seam, from a 1921 dressmaking manual: the same construction logic workwear still uses.", credit: "Public domain" },
     look: "Bartacked pockets, action-back pleats, reinforced seams. The baseline that fashion labels dismantle.",
-    sources: ["Red Kap product specifications", "WWII production records"]
+    sources: ["Red Kap product specifications", "WWII production records", { label: "Red Kap work coat — listing photo © @TheFlex", url: "https://www.grailed.com/listings/77260569" }]
   },
 
   "flat-felled": {
