@@ -10,7 +10,7 @@ window.FEED = [
     id: "slant-pocket", cat: "details", era: "1942", conf: "unresolved",
     title: "The slanted chest pocket: a shape without a documented reason",
     dek: "The slant is real on surviving jackets; the explanation usually given for it is not documented.",
-    body: "Saku dada jaket tropis dipotong miring ke arah tengah. Kemiringan dapat diamati pada garmen yang bertahan; alasan fungsionalnya hanya dari deskripsi dealer, dan angka sudut yang dipakai situs ini adalah lembar kerja reproduksi.",
+    body: "The chest pocket of the tropical jacket is cut at an inward slant. The slant can be observed on surviving garments; the functional explanation comes from dealer descriptions only, and the angle figures used on this site are a reproduction working sheet.",
     src: "IWM catalogue descriptions · dealer descriptions · site working spec"
   },
   {
@@ -255,7 +255,7 @@ window.FEED = [
     id: "m65-trousers", cat: "issue", era: "1965", conf: "probable",
     title: "M-65 field trousers: the manual records the cloth, not the date",
     dek: "Cotton-nylon sateen, cargo pockets, a hem drawcord — and a 1965 date that only secondary sources give.",
-    body: "Celana lapangan M-65: kain cotton-nylon wind-resistant sateen OG-107, saku kargo, drawcord hem. Manual militer mencatat nama, kain, nomor stok, dan liner; tanggal 1965 dan detail saku hanya dari sumber komersial.",
+    body: "M-65 field trousers: cotton-nylon wind-resistant sateen in OG-107, cargo pockets, hem drawcord. The maintenance manual records the name, cloth, stock numbers and liner; the 1965 date and the pocket details come from commercial sources only.",
     src: "TM 10-8400-201-23 (transcription) · commercial secondary sources"
   },
   {
