@@ -9,17 +9,26 @@
     "tcu1963": "img/nmaahc_2025_29_1_1-_2.jpg",
     "sateen": "img/nmah_1062076.jpg",
     "og107": "img/1076130.jpg",
-    "bdu": "img/70334857.jpg"
+    "buttons": "img/placket.jpg",
+    "drawcord": "img/m65.jpg",
+    "hbt": "img/hbt.jpg",
+    "flat-felled": "img/flatseam.jpg",
+    "safari-belt": "img/bush.jpg",
+    "khaki": "img/khaki.jpg"
   };
-  /* Ilustrasi untuk kartu tanpa foto — per kategori. */
-  var ILL = {
-    details: "img/ill-details.svg",
-    closure: "img/ill-closure.svg",
-    fabric: "img/ill-fabric.svg",
-    history: "img/ill-history.svg",
-    brands: "img/ill-brands.svg",
-    howto: "img/ill-howto.svg",
-    construction: "img/ill-details.svg"
+  /* Kredit gambar — wajib, mengikuti provenance sumber. */
+  var CREDIT = {
+    "slant-pocket": "US Marine on patrol, Vietnam 1967 · US National Archives, PD",
+    "flap-pocket": "US Army fatigue shirt, 1970 · Smithsonian NMAAHC, CC0",
+    "tcu1963": "Jungle tiger fatigues, 1968–69 · Smithsonian NMAAHC, CC0",
+    "sateen": "OD field jacket · Smithsonian NMAH, CC0",
+    "og107": "OG-107 utility uniform, Korea 1952–53 · PD",
+    "buttons": "Placket sampler, Germany 1871 · Cooper Hewitt, PD",
+    "drawcord": "US M-65 field jacket · PD",
+    "hbt": "US HBT one-piece suit, OD No.7 · Smithsonian NMAH, CC0",
+    "flat-felled": "Flat seam, dressmaking illustration 1921 · PD",
+    "safari-belt": "Bush jacket (Teba) · CC0",
+    "khaki": "British officer in khaki · PD"
   };
   var CATS = [
     ["all", "All"],
@@ -57,10 +66,11 @@
   }
 
   function cardHTML(c) {
-    var src = IMG[c.id] || ILL[c.cat] || "";
+    var src = IMG[c.id] || "";
     var img = src ? '<img src="' + src + '" alt="" loading="lazy">' : "";
+    var cred = src && CREDIT[c.id] ? '<p class="cap">' + esc(CREDIT[c.id]) + "</p>" : "";
     var conf = c.conf || "probable";
-    return '<article class="card">' + img +
+    return '<article class="card">' + img + cred +
       '<div class="meta"><span>' + esc(c.cat) + '</span><span class="era">' + esc(c.era) + '</span></div>' +
       '<h3>' + esc(c.title) + '</h3>' +
       '<p class="dek">' + esc(c.dek) + '</p>' +

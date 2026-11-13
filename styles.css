@@ -47,6 +47,8 @@ a{color:inherit}
 .card details[open] summary::after{content:" −";}
 .card details p{margin:10px 0 4px;line-height:1.6}
 .card .src{font-size:11px;color:var(--muted);font-style:italic}
+.card .cap{font-family:'Segoe UI',system-ui,sans-serif;font-size:10px;line-height:1.4;color:var(--muted);
+  margin:0;padding:7px 16px 0}
 .card .conf-row{margin:0 16px 10px}
 .conf{font-family:'Segoe UI',system-ui,sans-serif;font-size:9px;letter-spacing:.14em;text-transform:uppercase;
   padding:2px 8px;border-radius:999px;border:1px solid;display:inline-block}
