@@ -14,7 +14,11 @@
     "hbt": "img/hbt.jpg",
     "flat-felled": "img/flatseam.jpg",
     "safari-belt": "img/bush.jpg",
-    "khaki": "img/khaki.jpg"
+    "khaki": "img/khaki.jpg",
+    "m43": "img/m1943.jpg",
+    "bdu": "img/bdu.jpg",
+    "erdl": "img/erdl.jpg",
+    "ripstop": "img/ripstop.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -28,7 +32,11 @@
     "hbt": "US HBT one-piece suit, OD No.7 · Smithsonian NMAH, CC0",
     "flat-felled": "Flat seam, dressmaking illustration 1921 · PD",
     "safari-belt": "Bush jacket (Teba) · CC0",
-    "khaki": "British officer in khaki · PD"
+    "khaki": "British officer in khaki · PD",
+    "m43": "US M-1943 field jacket · Smithsonian NMAH 2002.1735, CC0",
+    "bdu": "Battle Dress Uniform · PD",
+    "erdl": "ERDL camouflage pattern · PD",
+    "ripstop": "US Army in Vietnam, OG-107 · NARA, PD"
   };
   var CATS = [
     ["all", "All"],
