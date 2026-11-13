@@ -24,7 +24,7 @@ window.FEED = [
     id: "bellows", cat: "details", era: "1942", conf: "probable",
     title: "The pleat that absorbed a parachute",
     dek: "An expanding pocket survives loading. Airborne accounts say the stress was real.",
-    body: "A bellows pocket gives capacity without tearing, because the pleat lets the front wall move away. Repro and collector accounts describe M-1942 pockets blowing out on parachute-opening shock, and riggers hand-reinforcing them before D-Day. The engineering logic is sound; the specific anecdote is not yet backed by a primary document.",
+    body: "A bellows pocket gives capacity without tearing, because the pleat lets the front wall move away. Repro and collector accounts describe M-1942 pockets blowing out on parachute-opening shock, and riggers hand-reinforcing them before D-Day. The engineering logic is sound; the specific anecdote is not yet backed by a primary document. On a garment, look for the two fold lines inside the pocket edge — that is the pleat.",
     src: "M-1942 construction · airborne rigger accounts (anecdotal)"
   },
   {
@@ -52,21 +52,21 @@ window.FEED = [
     id: "epaulette", cat: "details", era: "1763", conf: "probable",
     title: "The epaulette began as a rifle strap",
     dek: "Before rank, it stopped the sling sliding off the shoulder.",
-    body: "French army epaulettes appear around 1763 as officer marking, but their origin is a shoulder belt that held a rifle sling or ammunition belt in place. Over a century the functional ribbon widened and gilded into a badge of rank. The general lineage is well covered; the exact date is conventional rather than precise.",
+    body: "French army epaulettes appear around 1763 as officer marking, but their origin is a shoulder belt that held a rifle sling or ammunition belt in place. Over a century the functional ribbon widened and gilded into a badge of rank. The general lineage is well covered; the exact date is conventional rather than precise. On a field jacket the epaulette is a short strap across the shoulder, buttoned at the neck end — and the jungle jacket dropped it on the third pattern because it snagged in brush.",
     src: "Epaulette origin · military dress history"
   },
   {
     id: "cuff-tab", cat: "closure", era: "1943", conf: "probable",
     title: "The wrist is a valve",
     dek: "Sealed against rain and brush; opened for air.",
-    body: "Buttoned cuffs keep wind, rain, insects and thorns out. Opened, they ventilate and let the sleeve roll on a gusset. Military field jackets carried the buttoned cuff from the M-1943 through the M-51; the M-65 moved to Velcro. The jungle jacket used an adjustable button closure at the cuff.",
+    body: "Buttoned cuffs keep wind, rain, insects and thorns out. Opened, they ventilate and let the sleeve roll on a gusset. Military field jackets carried the buttoned cuff from the M-1943 through the M-51; the M-65 moved to Velcro. The jungle jacket used an adjustable button closure at the cuff — look for one button and a short tab at the sleeve end.",
     src: "M-1943 / M-51 / M-65 lineage · AWM records"
   },
   {
     id: "drawcord", cat: "closure", era: "1943", conf: "probable",
     title: "The invisible belt",
     dek: "A cord inside the waist: warmth, seal, fit over webbing.",
-    body: "An internal drawcord closes the gap where heat escapes and wind enters, and keeps a loaded jacket from catching on gear. The M-1943 had one; the M-1951 added a second at the hem and holes to adjust from outside; the M-65 kept it inside. The sequence is consistently described across references but rests on secondary literature.",
+    body: "An internal drawcord closes the gap where heat escapes and wind enters, and keeps a loaded jacket from catching on gear. The M-1943 had one; the M-1951 added a second at the hem and holes to adjust from outside; the M-65 kept it inside the waistband. The sequence is consistently described across references but rests on secondary literature. On the M-65 the cord is invisible from outside; on a safari jacket the equivalent is an external belt.",
     src: "Field jacket lineage references (secondary)"
   },
   {
@@ -199,7 +199,7 @@ window.FEED = [
     id: "redkap", cat: "brands", era: "1920s", conf: "established",
     title: "Red Kap: the baseline everyone dismantles",
     dek: "Spec-sheet workwear — the control group.",
-    body: "Red Kap builds to spec: 7.5 oz poly-cotton twill, 5 oz poplin, 4.25 oz ripstop, bartacked pockets, action-back pleats. It produced combat fatigues and field jackets during WWII. It is useful precisely because it is un-deconstructed: the fashion labels keep its pocket architecture and remove its stiffness.",
+    body: "Red Kap builds to spec: 7.5 oz poly-cotton twill, 5 oz poplin, 4.25 oz ripstop, bartacked pockets, action-back pleats. It produced combat fatigues and field jackets during WWII. It is useful precisely because it is un-deconstructed: the fashion labels keep its pocket architecture and remove its stiffness. Compare a bartacked pocket on a $60 work shirt with the same construction on a $400 jacket — the stitch pattern is identical.",
     src: "Red Kap product specifications"
   },
   {

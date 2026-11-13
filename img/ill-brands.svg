@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<style>
+ .bg{fill:#f4f2ec;}
+ .frame{fill:none;stroke:#d6d2c6;stroke-width:2;}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round;}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1.2;}
+ .acc{fill:none;stroke:#5c6040;stroke-width:2;stroke-dasharray:6 4;}
+ .fill{fill:#efece2;stroke:#1b1b18;stroke-width:1.5;}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;letter-spacing:4px;}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;letter-spacing:1px;}
+ .num{fill:#1b1b18;font-family:Georgia,serif;font-size:22px;}
+</style>
+<rect class="bg" x="0" y="0" width="800" height="600"/><rect class="frame" x="18" y="18" width="764" height="564"/><text class="caps" x="42" y="58">DESIGN / TRANSFER</text><line class="o" x1="150" y1="200" x2="650" y2="200"/><text x="150" y="330" fill="#1b1b18" font-family="Georgia,serif" font-size="96">ARCHIVE</text><text class="caps" x="150" y="380">keep the pockets · drop the weight</text><line class="o" x1="150" y1="420" x2="650" y2="420"/><text class="lab" x="150" y="460">raw edges, drape, hybridisation, sun-fade</text></svg>

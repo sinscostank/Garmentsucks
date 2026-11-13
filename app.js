@@ -11,6 +11,16 @@
     "og107": "img/1076130.jpg",
     "bdu": "img/70334857.jpg"
   };
+  /* Ilustrasi untuk kartu tanpa foto — per kategori. */
+  var ILL = {
+    details: "img/ill-details.svg",
+    closure: "img/ill-closure.svg",
+    fabric: "img/ill-fabric.svg",
+    history: "img/ill-history.svg",
+    brands: "img/ill-brands.svg",
+    howto: "img/ill-howto.svg",
+    construction: "img/ill-details.svg"
+  };
   var CATS = [
     ["all", "All"],
     ["details", "Details"],
@@ -47,7 +57,8 @@
   }
 
   function cardHTML(c) {
-    var img = IMG[c.id] ? '<img src="' + IMG[c.id] + '" alt="" loading="lazy">' : "";
+    var src = IMG[c.id] || ILL[c.cat] || "";
+    var img = src ? '<img src="' + src + '" alt="" loading="lazy">' : "";
     var conf = c.conf || "probable";
     return '<article class="card">' + img +
       '<div class="meta"><span>' + esc(c.cat) + '</span><span class="era">' + esc(c.era) + '</span></div>' +

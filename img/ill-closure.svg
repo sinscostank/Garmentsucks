@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<style>
+ .bg{fill:#f4f2ec;}
+ .frame{fill:none;stroke:#d6d2c6;stroke-width:2;}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round;}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1.2;}
+ .acc{fill:none;stroke:#5c6040;stroke-width:2;stroke-dasharray:6 4;}
+ .fill{fill:#efece2;stroke:#1b1b18;stroke-width:1.5;}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:15px;letter-spacing:4px;}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;letter-spacing:1px;}
+ .num{fill:#1b1b18;font-family:Georgia,serif;font-size:22px;}
+</style>
+<rect class="bg" x="0" y="0" width="800" height="600"/><rect class="frame" x="18" y="18" width="764" height="564"/><text class="caps" x="42" y="58">CLOSURE / PLACKET</text><rect class="fill" x="330" y="110" width="140" height="380" rx="4"/><line class="thin" x1="360" y1="110" x2="360" y2="490"/><line class="thin" x1="440" y1="110" x2="440" y2="490"/><path class="thin" d="M400,160 l20,0 a10,10 0 1,0 -20,0 z"/><circle cx="400" cy="165" r="7" fill="#5c6040"/><path class="thin" d="M400,230 l20,0 a10,10 0 1,0 -20,0 z"/><circle cx="400" cy="235" r="7" fill="#5c6040"/><path class="thin" d="M400,300 l20,0 a10,10 0 1,0 -20,0 z"/><circle cx="400" cy="305" r="7" fill="#5c6040"/><path class="thin" d="M400,370 l20,0 a10,10 0 1,0 -20,0 z"/><circle cx="400" cy="375" r="7" fill="#5c6040"/><path class="thin" d="M400,440 l20,0 a10,10 0 1,0 -20,0 z"/><circle cx="400" cy="445" r="7" fill="#5c6040"/><text class="lab" x="120" y="180">keyhole buttonhole</text><line class="thin" x1="270" y1="176" x2="392" y2="170"/><text class="lab" x="120" y="420">buttons, not zips:</text><text class="lab" x="120" y="444">field-repairable, no corrosion</text></svg>
