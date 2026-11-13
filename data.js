@@ -161,28 +161,28 @@ window.FEED = [
     src: "BDU specification · NYCO ripstop"
   },
   {
-    id: "yohji", cat: "brands", era: "1981", conf: "probable",
+    id: "yohji", cat: "designers", era: "1981", conf: "probable",
     title: "Yohji Yamamoto: drape as deconstruction",
     dek: "Gabardine, raw-cut edges, volume that falls away from the body.",
     body: "Yohji Yamamoto showed in Paris from the early 1980s, and the military reference arrives in his work turned inside out. The oversized volume is better traced to two sources than to one: Japanese flat-pattern cutting, and the American over-garments — the M-51 fishtail parka and the M-65 — which were cut large because they were worn over other clothing. The house takes that volume, cuts it in heavy cotton or wool gabardine, and leaves raw edges as ornament.",
     src: "Yohji Yamamoto archive · Y's Resort 2023"
   },
   {
-    id: "junya", cat: "brands", era: "2000s", conf: "probable",
+    id: "junya", cat: "designers", era: "2000s", conf: "probable",
     title: "Junya Watanabe: upgrade the archetype",
     dek: "Hybrids, reversibles, and technical membranes over military cloth.",
     body: "Junya treats utility as raw material: a reversible MA-1/denim hybrid, a parka/cape silhouette, and an M-65 upgraded with GORE-TEX and Dyneema. FIT's museum describes his codes as exposed raw seams, cut-out darts, and garment insides turned into details.",
     src: "FIT Museum · Junya Watanabe archive"
   },
   {
-    id: "cdg", cat: "brands", era: "1980s", conf: "probable",
+    id: "cdg", cat: "designers", era: "1980s", conf: "probable",
     title: "Comme des Garçons Homme Plus: anti-tailoring",
     dek: "Military sleeves and pockets cut apart, then sewn onto tailoring.",
     body: "Rei Kawakubo's FW25 notes were to break down army symbols — uniform shapes, colour, camouflage, helmets — with field jackets and officer coats deconstructed and recombined. The house also works in light 'tropical-weight' wool for hot climates.",
     src: "CDG Homme Plus FW25 · retailer archive"
   },
   {
-    id: "mihara", cat: "brands", era: "2026", conf: "probable",
+    id: "mihara", cat: "designers", era: "2026", conf: "probable",
     title: "Mihara Yasuhiro: docking and sun-fade",
     dek: "Two garments stitched together, then faded like a field jacket.",
     body: "Mihara's signature is assembly: denim and MA-1 stitched front-to-back, details 'docked' onto a shell, garments stripped of their original purpose. His sun-faded cotton military jacket uses finish — not print — to signal age.",
@@ -217,7 +217,7 @@ window.FEED = [
     src: "Reproduction size charts (commercial) · original contract labels"
   },
   {
-    id: "margiela", cat: "brands", era: "1988", conf: "probable",
+    id: "margiela", cat: "designers", era: "1988", conf: "probable",
     title: "Maison Margiela: the label that is not a logo",
     dek: "Four white stitches at the back, a blank label, and a house that let the clothes speak.",
     body: "Maison Martin Margiela was founded in Paris in 1988 with Jenny Meirens. Its signature is four white corner stitches set at the back, holding a blank white label inside the garment — the stitches are visible from outside, which is the opposite of a logo. Collections were sorted by number rather than name, and the Artisanal line was made from found and vintage clothing. Margiela left in 2009; John Galliano led the house from 2014 to 2024, and Glenn Martens was appointed in January 2025.",
@@ -285,5 +285,12 @@ window.FEED = [
     dek: "The tropical combat trousers, and the in-country tailoring that changed them.",
     body: "The tropical combat uniform trousers were poplin, later ripstop, with two large cargo pockets on the thighs and a drawcord at the hem. They were issued with the jungle jacket from 1963 and worn in Vietnam, where the climate made the dense sateen of the utility uniform impossible. Soldiers and local tailors modified them in country — taking in the leg, moving pockets, shortening the hem — so many surviving pairs are not exactly what the specification described. The garment in the archive is the issued pattern; the garment in the photographs is often the modified one.",
     src: "NARA period photograph (PD) · tropical uniform records"
+  },
+  {
+    id: "rei-kawakubo", cat: "designers", era: "1969", conf: "probable",
+    title: "Rei Kawakubo: the designer who refuses the brief",
+    dek: "Comme des Garçons was founded in Tokyo in 1969; the Paris debut in 1981 changed what a show could be.",
+    body: "Rei Kawakubo founded Comme des Garçons in Tokyo in 1969 and showed in Paris for the first time in 1981, alongside Yohji Yamamoto. The clothes were black, oversized and deliberately unfinished — in a city built on couture, they read as an insult and then as a new standard. Since then the house has grown into many lines, but the mainline remains Kawakubo's argument: that a garment can be a question about the body rather than a decoration of it. The 1997 collection known as Body Meets Dress, Dress Meets Body, with its padded lumps, is the clearest example.",
+    src: "Comme des Garçons history (secondary) · Grailed listing photograph"
   }
 ];

@@ -43,7 +43,8 @@
     "m51-parka": "img/m51-parka.jpg",
     "tanker-jacket": "img/tanker.jpg",
     "hbt-trousers": "img/hbt-trousers.jpg",
-    "jungle-trousers": "img/jungle-trousers.jpg"
+    "jungle-trousers": "img/jungle-trousers.jpg",
+    "rei-kawakubo": "img/grailed-rei-kawakubo.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -86,7 +87,8 @@
     "m51-parka": "M-51 fishtail parka · Wikimedia Commons, PD (TheModGy1964)",
     "tanker-jacket": "US Third Army tank crew, Belgium, January 1945 · NARA, PD",
     "hbt-trousers": "American HBT fatigue trousers for female personnel (Madeleine Collomb) · Paris Musées, CC0",
-    "jungle-trousers": "199th Light Infantry Brigade, Operation Rang Dong, Vietnam 1967 · NARA, PD"
+    "jungle-trousers": "199th Light Infantry Brigade, Operation Rang Dong, Vietnam 1967 · NARA, PD",
+    "rei-kawakubo": "CDG Homme Plus SS06 tartan jacket · listing photo © @whoisvegas, Grailed"
   };
   var CATS = [
     ["all", "All"],

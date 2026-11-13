@@ -552,5 +552,19 @@ window.ESSAYS = {
     look: "Two thigh cargo pockets, drawcord hem, poplin or ripstop. In-country alterations are normal and are part of the object's history, not damage.",
     sources: ["NARA period photograph: 199th LIB, Operation Rang Dong, 1967 (PD)", "Tropical Combat Uniform records (secondary)"]
   }
+,
+
+  "rei-kawakubo": {
+    lede: "Comme des Garçons was founded in 1969, but the shock arrived in Paris in 1981.",
+    paras: [
+      "Rei Kawakubo opened her first Tokyo shop in 1969 and showed in Paris for the first time in 1981, in the same season as Yohji Yamamoto. The clothes were black, oversized and visibly unfinished. In a city built on couture, that read first as an insult, then as a new standard.",
+      "The method is not decoration. Kawakubo works on the garment's structure as a question about the body: asymmetry, padding, holes, seams turned outside, cloth that does not follow the figure. The 1997 collection usually called Body Meets Dress, Dress Meets Body — dresses with padded lumps — is the clearest single statement of the idea.",
+      "The house complicates the word 'designer'. Comme des Garçons became a company with many lines, some commercial and some experimental, and the mainline is where the argument happens. For a learner, that distinction is the useful one: the licensed line and the runway line are making different claims, and only one of them is Kawakubo's.",
+      "It matters to this archive because the military reference in Comme des Garçons Homme Plus is treated as a set of symbols to be taken apart — authority, conformity, camouflage, the helmet silhouette — not as a heritage to be reproduced. That is the opposite of the reproduction market, and it is why the two should not be read the same way.",
+      "Study the mainline first. The logo on a T-shirt is a licence; the collection is an argument."
+    ],
+    look: "Asymmetry, raw edges, inside-out construction, padding, black. Distinguish the mainline from Homme Plus, SHIRT and Play lines before comparing pieces.",
+    sources: ["Comme des Garçons history (secondary)", { label: "CDG Homme Plus SS06 tartan jacket — listing photo © @whoisvegas", url: "https://www.grailed.com/listings/80004972" }]
+  }
 
 };

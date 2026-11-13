@@ -184,5 +184,15 @@
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
     "credit": "Listing photo © @sosadon — Cargo pants Army Green (M65), Grailed, sold"
+  },
+  "grailed-rei-kawakubo.jpg": {
+    "title": "SS06 CDG Homme Plus Evergreen x Rolling Stones Tartan Jacket",
+    "artist": "@whoisvegas",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/80004972",
+    "price": 600,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @whoisvegas — SS06 CDG Homme Plus Evergreen x Rolling Stones Tartan Jacket"
   }
 }
