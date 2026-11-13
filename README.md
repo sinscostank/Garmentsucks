@@ -1,6 +1,8 @@
 # garmentsucks — static site
 
-A field guide to garment construction: 28 cards, filterable feed, no backend.
+**Live: https://sinscostank.github.io/Garmentsucks/**
+
+A field guide to garment construction: 31 cards, filterable feed, per-card essay pages.
 Plain HTML/CSS/JS — works from `file://` and on GitHub Pages.
 
 ## Deploy to GitHub Pages (free)
