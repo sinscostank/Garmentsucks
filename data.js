@@ -222,5 +222,40 @@ window.FEED = [
     dek: "Four white stitches at the back, a blank label, and a house that let the clothes speak.",
     body: "Maison Martin Margiela was founded in Paris in 1988 with Jenny Meirens. Its signature is four white corner stitches set at the back, holding a blank white label inside the garment — the stitches are visible from outside, which is the opposite of a logo. Collections were sorted by number rather than name, and the Artisanal line was made from found and vintage clothing. Margiela left in 2009; John Galliano led the house from 2014 to 2024, and Glenn Martens was appointed in January 2025.",
     src: "Maison Margiela product notes (four stitches) · Vogue Business/Vogue (Martens appointment, 2025)"
+  },
+  {
+    id: "m41-jacket", cat: "issue", era: "1941", conf: "probable",
+    title: "M-1941: the first modern field jacket",
+    dek: "Light poplin, a zip behind buttons, four pockets — and cloth thin enough to wear out in a season.",
+    body: "The M-1941 replaced the long coats of the previous war with something a soldier could move in: a short cotton-poplin jacket with a zip front hidden behind a button placket, four pockets with flaps, and shoulder straps. It was the jacket the airborne troops wore into North Africa and Sicily. Its cloth proved too thin for hard service, and the army replaced it with the heavier M-1943 — which is why the M-1941 is now a scarce original and a template for every field jacket that followed.",
+    src: "Paris Musées object record (2002.1766) · museum records"
+  },
+  {
+    id: "n1-jacket", cat: "issue", era: "1944", conf: "probable",
+    title: "N-1: the deck jacket built for a steel deck",
+    dek: "Alpaca lining, a tight cotton shell, knit cuffs — equipment for men working in freezing spray.",
+    body: "The US Navy's N-1 deck jacket was issued from 1944 to crews working on open decks: a tight cotton jungle-cloth shell with an alpaca pile lining, knit cuffs and collar, and a storm flap over the zip. It was not designed to look like anything. The lining stayed warm when damp, the shell shed spray, and the short cut kept it out of the way. Original N-1s are identified by the stencil, the alpaca condition and the hardware; the reproductions that followed are usually cleaner than the originals ever were.",
+    src: "Grailed listing (WWII issue) · USN clothing records"
+  },
+  {
+    id: "sailor-trousers", cat: "issue", era: "1943", conf: "probable",
+    title: "The sailor's bell-bottoms",
+    dek: "The widest trousers in uniform, and an engineering answer to working at sea.",
+    body: "US Navy dress blue trousers were wool flannel, high-rise, with a broad fall front and a bell-shaped hem. The flare is not decoration: it lets the trouser leg be rolled up over a boot or shed fast in water, and the wool keeps warmth even when wet. They were issued through the Second World War and worn as workwear at sea long before workwear was a category. Original pairs are identified by the wool, the buttoned fall front and the absence of modern interlining.",
+    src: "Grailed listing (WWII issue) · USN uniform records"
+  },
+  {
+    id: "og107-trousers", cat: "issue", era: "1970", conf: "probable",
+    title: "OG-107: the other half of the uniform",
+    dek: "Sateen trousers that outlived the jacket, and carried the same climate mistake.",
+    body: "The OG-107 utility uniform was cotton sateen: a jacket and trousers cut plainly, with slash and back pockets but no cargo pockets — those belong to the jungle fatigue pattern. The trousers were worn in Vietnam and on bases everywhere, and they share the jacket's problem: sateen is dense, sheds wind and holds water. Original 1970s pairs are a lesson in how a uniform is a system rather than a garment, and in how the same cloth that works in a European winter fails in a monsoon.",
+    src: "Grailed listing (1970s issue) · uniform references"
+  },
+  {
+    id: "m65-trousers", cat: "issue", era: "1965", conf: "probable",
+    title: "M-65 trousers: the cargo pocket goes civilian",
+    dek: "Two large pockets, a drawcord hem, and the ancestor of every cargo pant.",
+    body: "The M-65 field trousers were part of the same system as the jacket: a cotton-nylon poplin shell, two large cargo pockets on the thighs and drawcords at the hem so the leg could be closed against weather. Issued from 1965 and used through Vietnam and after, they became the pattern that streetwear copied — often keeping the pockets and dropping the drawcord, which is the part that did the work.",
+    src: "Grailed listing (vintage issue) · M-65 system references"
   }
 ];

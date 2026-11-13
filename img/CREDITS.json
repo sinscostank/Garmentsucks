@@ -144,5 +144,45 @@
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
     "credit": "Listing photo © @ROAMWALK — HBT 50s 60s French Army M-47 HBT Field Jacket Brown Size 26"
+  },
+  "grailed-n1-jacket.jpg": {
+    "title": "VERY RARE VINTAGE JACKET DECK N1 ALPACA LINED USN NAVY WWII",
+    "artist": "@VintagecollectionsID",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/87694552",
+    "price": 550,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @VintagecollectionsID — VERY RARE VINTAGE JACKET DECK N1 ALPACA LINED USN NAVY WWII"
+  },
+  "grailed-sailor-trousers.jpg": {
+    "title": "VINTAGE USN SAILOR PANTS Navy Blue Wool Bell-Bottom 28x34 WWII Navy Mens Pants",
+    "artist": "@coveManor",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/95633828",
+    "price": 267,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @coveManor — VINTAGE USN SAILOR PANTS Navy Blue Wool Bell-Bottom 28x34 WWII Navy Mens Pants"
+  },
+  "grailed-og107-trousers.jpg": {
+    "title": "Vintage 1970s OG 107 Green Military Pants",
+    "artist": "@vintage_estate",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/75525594",
+    "price": 60,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @vintage_estate — Vintage 1970s OG 107 Green Military Pants"
+  },
+  "grailed-m65-trousers.jpg": {
+    "title": "Cargo pants Army Green (M65)",
+    "artist": "@sosadon",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/19347509",
+    "price": 54,
+    "sold": true,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @sosadon — Cargo pants Army Green (M65), Grailed, sold"
   }
 }

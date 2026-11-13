@@ -20,7 +20,7 @@
     "erdl": "img/erdl.jpg",
     "ripstop": "img/ripstop.jpg",
     "epaulette": "img/epaulette.jpg",
-    "cuff-tab": "img/m41.jpg",
+    "cuff-tab": "img/m1943.jpg",
     "bellows": "img/bellows.jpg",
     "poplin": "img/poplin.jpg",
     "pom": "img/pom.jpg",
@@ -34,7 +34,12 @@
     "ventile": "img/grailed-ventile.jpg",
     "redkap": "img/grailed-redkap.jpg",
     "gas-flap": "img/diagram-gasflap.svg",
-    "drain-eyelet": "img/diagram-draineyelet.svg"
+    "drain-eyelet": "img/diagram-draineyelet.svg",
+    "m41-jacket": "img/m41.jpg",
+    "n1-jacket": "img/grailed-n1-jacket.jpg",
+    "sailor-trousers": "img/grailed-sailor-trousers.jpg",
+    "og107-trousers": "img/grailed-og107-trousers.jpg",
+    "m65-trousers": "img/grailed-m65-trousers.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -54,7 +59,7 @@
     "erdl": "ERDL camouflage pattern · PD",
     "ripstop": "US Army in Vietnam, OG-107 · NARA, PD",
     "epaulette": "French brigadier-general epaulettes, 1945–54 · Paris Musées, CC0",
-    "cuff-tab": "US M-41 field jacket — buttoned cuff tabs · Paris Musées, CC0",
+    "cuff-tab": "US M-1943 field jacket — buttoned cuff tabs · Smithsonian NMAH, CC0",
     "bellows": "US Army cargo pocket · PD (US Army)",
     "poplin": "Poplin, plain-weave macro · PD",
     "pom": "A tailor measures a uniform · FSA/OWI (Esther Bubley), PD",
@@ -68,7 +73,12 @@
     "ventile": "Stone Island Ventile liner jacket · listing photo © @ELITEOUTERWEARII, Grailed",
     "redkap": "Red Kap work coat · listing photo © @TheFlex, Grailed",
     "gas-flap": "Original diagram, garmentsucks — inner placket section, schematic",
-    "drain-eyelet": "Original diagram, garmentsucks — pocket base and eyelet, schematic"
+    "drain-eyelet": "Original diagram, garmentsucks — pocket base and eyelet, schematic",
+    "m41-jacket": "US M-1941 field jacket · Paris Musées, CC0",
+    "n1-jacket": "USN N-1 deck jacket, WWII issue · listing photo © @VintagecollectionsID, Grailed",
+    "sailor-trousers": "USN wool bell-bottom trousers, WWII issue · listing photo © @coveManor, Grailed",
+    "og107-trousers": "OG-107 utility trousers, 1970s · listing photo © @vintage_estate, Grailed",
+    "m65-trousers": "M-65 field trousers · listing photo © @sosadon, Grailed"
   };
   var CATS = [
     ["all", "All"],

@@ -115,7 +115,6 @@ window.ESSAYS = {
       "A cuff tab is also a manufacturing tell. It requires a separate pattern piece, a buttonhole and a bartack, and it is one of the first details a cheaper factory simplifies away. Which means: on a reproduction, the cuff tells you what kind of maker you are dealing with.",
       "Look at the sleeve end. One button and a short tab, with a small gusset behind it, is the period answer. A plain hem or an elasticated cuff belongs to a different tradition."
     ],
-    fig2: { src: "img/m1943.jpg", cap: "The M-1943 field jacket, whose cuffs carry tightening tabs and waterproof gussets.", credit: "Smithsonian NMAH 2002.1735, CC0" },
     look: "One button plus tab, gusset behind the opening, buttonhole bartacked. Simplification here usually signals cost-cutting.",
     sources: ["M-1943 / M-51 / M-65 lineage references", "Australian War Memorial records", "Paris Musées M-41 object record (CC0)"]
   },
@@ -449,6 +448,61 @@ window.ESSAYS = {
       { c: "Tropical jacket described as olive green poplin, OG-107", s: "IWM object 30097577", u: "https://www.iwm.org.uk/collections/item/object/30097577" }
     ],
     sources: ["NSN 8305-00-132-1080 datasheet (MIL-C-342 field data, opened 13 Nov 2026)", "OG-107 and olive drab colour references (secondary)", "Museum object records for the M-1943 and utility uniforms"]
+  }
+,
+  "m41-jacket": {
+    lede: "The M-1941 replaced the long coat of the previous war with something a soldier could move in.",
+    paras: [
+      "By 1941 the American field jacket was still a long, heavy garment inherited from the First World War. The M-1941 changed the shape: short, light, with a zip front hidden behind a button placket, four pockets with flaps, and shoulder straps. It was the jacket airborne troops wore into North Africa and Sicily.",
+      "Its cloth was the problem. Light cotton poplin saved weight and packed small, but it wore through quickly in hard service, and the army moved on to the heavier M-1943. That is why the M-1941 is now both a scarce original and a template: the proportions of almost every field jacket that followed were settled here.",
+      "For a collector, the M-1941 is a lesson in condition: originals are often repaired, re-stitched or re-lined, because the cloth did not survive the war the way the design did."
+    ],
+    look: "Zip front behind a button placket, four flap pockets, shoulder straps, light poplin. Repairs and replaced zips are normal on originals.",
+    sources: ["Musée de l'Armée / Paris Musées object record 2002.1766 (M-41 field jacket, CC0 photograph)", "US Army field clothing records (secondary)"]
+  },
+
+  "n1-jacket": {
+    lede: "The N-1 was equipment for men working on a steel deck in freezing spray.",
+    paras: [
+      "The US Navy issued the N-1 deck jacket from 1944. The shell was a tight cotton jungle cloth, the lining an alpaca pile, the cuffs and collar knit, and the front closed with a zip under a storm flap. The short cut kept it clear of equipment; the pile kept a man warm even when it was damp.",
+      "It is a useful counter-example to the tropical story: the same war produced a garment engineered for the opposite problem, and the engineering shows. Nothing on an N-1 is decorative — the collar, the flap, the knit cuffs are all there to keep weather out.",
+      "Original N-1s are identified by the stencil, the state of the alpaca, and period hardware. The reproductions that followed tend to be cleaner and warmer than the originals ever were."
+    ],
+    look: "Alpaca pile lining, tight cotton shell, knit cuffs and collar, storm flap over the zip, stencilled identification on the chest.",
+    sources: ["Grailed listing: WWII USN N-1 deck jacket — listing photograph © @VintagecollectionsID", "US Navy clothing records (secondary)"]
+  },
+
+  "sailor-trousers": {
+    lede: "The widest trousers in uniform were an engineering answer to working at sea.",
+    paras: [
+      "US Navy dress blue trousers were wool flannel, cut high in the waist with a broad buttoned fall front and a bell-shaped hem. The flare has a job: it lets the leg be rolled over a boot, and it comes off fast in water.",
+      "The wool matters too. It keeps warmth when wet, which is why naval clothing stayed wool long after armies moved to cotton. The trousers were worn as workwear at sea long before workwear became a category.",
+      "Original pairs are identified by the wool, the fall front and the absence of modern interlining. They are also a reminder that the trouser half of a uniform is where much of the practical engineering sits — and it is usually the half that fashion forgets."
+    ],
+    look: "High rise, buttoned fall front, wool flannel, bell-bottom hem. Original issue is heavy and hairy, not pressed and crisp.",
+    sources: ["Grailed listing: WWII USN wool bell-bottom trousers — listing photograph © @coveManor", "US Navy uniform regulations (secondary)"]
+  },
+
+  "og107-trousers": {
+    lede: "The trousers were the same cloth and the same mistake as the jacket.",
+    paras: [
+      "The OG-107 utility uniform was cut plainly: a jacket and trousers in cotton sateen, with slash and back pockets but no cargo pockets. Cargo pockets belong to the jungle fatigue pattern, a different garment.",
+      "The trousers were worn in Vietnam and on bases everywhere, and they share the jacket's problem. Sateen is dense, sheds wind and holds water — right for a European winter, wrong for a monsoon. Reading the jacket without the trousers is reading half the system.",
+      "Original 1970s pairs are common enough to be a cheap lesson: check the sateen face, the stamp inside the waistband, and whether the trousers were cut for a belt or for the suspenders of the period."
+    ],
+    look: "Sateen face, straight leg, no cargo pockets, period stamp inside the waistband. The dense hand is the tell.",
+    sources: ["Grailed listing: 1970s OG-107 utility trousers — listing photograph © @vintage_estate", "OG-107 uniform references (secondary)"]
+  },
+
+  "m65-trousers": {
+    lede: "The cargo pocket that every streetwear brand copies comes from here — and so does the drawcord almost everyone drops.",
+    paras: [
+      "The M-65 field trousers were part of the same system as the jacket: cotton-nylon poplin, two large cargo pockets on the thighs, and drawcords at the hem so the leg could be closed against weather.",
+      "Issued from 1965 and used through Vietnam, they are the pattern that streetwear took up. What usually survives the translation is the pocket; what usually disappears is the drawcord, which is the part that actually sealed the garment.",
+      "For a maker, the lesson is the system: a jacket and trouser cut from the same cloth and designed to be worn together. Fashion tends to take one item and leave the system behind."
+    ],
+    look: "Two large thigh pockets, drawcord hem, poplin shell. Reproduction often omits the hem cord; original issue rarely does.",
+    sources: ["Grailed listing: vintage M-65 field trousers — listing photograph © @sosadon", "M-65 clothing system references (secondary)"]
   }
 
 };
