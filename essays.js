@@ -566,5 +566,57 @@ window.ESSAYS = {
     look: "Asymmetry, raw edges, inside-out construction, padding, black. Distinguish the mainline from Homme Plus, SHIRT and Play lines before comparing pieces.",
     sources: ["Comme des Garçons history (secondary)", { label: "CDG Homme Plus SS06 tartan jacket — listing photo © @whoisvegas", url: "https://www.grailed.com/listings/80004972" }]
   }
+,
+  "raf-simons": {
+    lede: "Raf Simons made menswear out of the codes of youth — and then cut them so they became something else.",
+    paras: [
+      "Raf Simons studied industrial design in Antwerp, not fashion, and started his label in 1995. The first collections were shown on young men in rooms that looked like schools or clubs, and the clothes took their vocabulary from the tribes around them: school uniforms, bomber jackets, parkas, narrow trousers.",
+      "The method is translation, not costume. A MA-1 or a parka is not reproduced; it is lengthened, narrowed, layered and combined with a graphic from a band or a slogan from a record sleeve. The reference survives, but the proportion does. That is why a Raf piece reads as both familiar and wrong.",
+      "The archive value follows from the production. Early collections were made in small numbers and sold through a handful of shops; dozens of pieces survive, not thousands. That scarcity, plus the clarity of the reference, is why the market treats late-1990s Raf as canonical.",
+      "He later interpreted other houses — Jil Sander, Dior, Calvin Klein, and Prada from 2020 — which is a useful lesson in itself: the same method (take a code, cut it apart, keep the emotion) works at couture scale too.",
+      "For a learner, Raf is the case where the reference is the start of the sentence, not the sentence."
+    ],
+    look: "Wrong proportion on a familiar garment, band or slogan graphics, narrow trousers, oversized parkas. Early pieces are small-run; check the label era before trusting a description.",
+    sources: ["Raf Simons archive references (secondary)", { label: "Raf Simons Stakker Humanoid bomber — listing photo © @davatros", url: "https://www.grailed.com/listings/94479129" }]
+  },
+
+  "helmut-lang": {
+    lede: "Helmut Lang treated clothing as equipment — and made minimalism feel technical.",
+    paras: [
+      "Helmut Lang founded his label in Vienna in 1986 and moved his operation to New York in the late 1990s. His clothes stripped tailoring down and then added the vocabulary of kit: technical nylon, straps, sealed seams, packable constructions, black and grey.",
+      "The 1999 nylon jacket that folds into its own pocket and can be carried on the back is the perfect example. It is military utility in the way equipment is utility — not a copied field jacket, but the logic of a field jacket applied to a fashion garment.",
+      "Lang was also early to the network. He showed and sold collections online in the late 1990s, before most houses had a working website, and he moved his show date away from the official calendar. Both decisions treated the industry's conventions as things that could be redesigned, like a seam.",
+      "Prada acquired the label in 1999 and Lang left in 2005. What survives is the archive — garments that still look like the future because their logic was function, not trend.",
+      "For a maker, Lang is the lesson that utility does not need to look military. It needs to behave like equipment."
+    ],
+    look: "Technical nylon, straps, packable construction, sealed seams, narrow palette. A garment that can be folded into itself is the tell.",
+    sources: ["Helmut Lang archive references (secondary)", { label: "Helmut Lang 1999SS packable nylon jacket — listing photo © @SEVENSTARCLOTHING", url: "https://www.grailed.com/listings/98203993" }]
+  },
+
+  "undercover": {
+    lede: "Jun Takahashi's Undercover took punk and made it engineered.",
+    paras: [
+      "Undercover began in Tokyo in 1990, in the Ura-Harajuku scene, with Jun Takahashi and the slogan 'We make noise not clothes'. The early garments were punk in attitude, but the construction was studied: hybrid pieces, exposed seams, padding, graphics over tailoring.",
+      "The hybrid is the method. A shirt bonded to a cardigan, a fleece with detachable parts borrowed from children's toys, a jacket that is also a cape. The deconstruction only works because the base garment is recognisable — you have to know what a shirt is to feel it being broken.",
+      "The label showed in Paris from the early 2000s and has been backed by Prada Group since 2009. The mainline and Undercoverism make different arguments: one is a collection, the other a wardrobe, and collectors treat them differently.",
+      "Late-1990s pieces such as the 1998 'Small Parts' collection are now archive objects precisely because they were small runs of an idea that has since been absorbed into the mainstream.",
+      "For a learner, Undercover is the case where the reference is punk but the technique is tailoring."
+    ],
+    look: "Hybrid garments, detachable parts, exposed construction, graphics on tailored bases. Check which line the piece belongs to before comparing.",
+    sources: ["Undercover archive references (secondary)", { label: "Undercover AW1998 Small Parts fleece — listing photo © @AlexMaxamenko", url: "https://www.grailed.com/listings/60077006" }]
+  },
+
+  "issey-miyake": {
+    lede: "Issey Miyake started with the cloth, not the body.",
+    paras: [
+      "Issey Miyake was born in Hiroshima in 1938, studied in Tokyo, and went to Paris in the 1960s, where he worked with Givenchy before founding Miyake Design Studio in 1970. From the beginning his subject was material: how a cloth behaves, folds, pleats, packs and moves.",
+      "The pleats are the famous result. Pleats Please, from 1993, makes permanent pleating a wearable material rather than a couture finish: garments that stretch, pack flat and survive a suitcase. The technique is the design.",
+      "A-POC, from 1999, went further: a computer-controlled process that turns a single tube of fabric into clothing, with the wearer cutting the garment out. The factory became part of the design, and the garment became a process.",
+      "Miyake died in 2022, but the studio's logic remains: research first, garment second. In this archive he is the clearest case of a designer for whom fabric is the idea rather than the supplier of it.",
+      "For a maker, the lesson is uncomfortable and useful: before drawing a jacket, decide what the cloth does."
+    ],
+    look: "Permanent pleats, packable garments, single-piece constructions. The cloth should do something no other cloth does.",
+    sources: ["Issey Miyake archive references (secondary)", { label: "Issey Miyake 1990s denim jacket — listing photo © @DMC99", url: "https://www.grailed.com/listings/98589544" }]
+  }
 
 };

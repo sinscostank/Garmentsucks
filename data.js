@@ -292,5 +292,33 @@ window.FEED = [
     dek: "Comme des Garçons was founded in Tokyo in 1969; the Paris debut in 1981 changed what a show could be.",
     body: "Rei Kawakubo founded Comme des Garçons in Tokyo in 1969 and showed in Paris for the first time in 1981, alongside Yohji Yamamoto. The clothes were black, oversized and deliberately unfinished — in a city built on couture, they read as an insult and then as a new standard. Since then the house has grown into many lines, but the mainline remains Kawakubo's argument: that a garment can be a question about the body rather than a decoration of it. The 1997 collection known as Body Meets Dress, Dress Meets Body, with its padded lumps, is the clearest example.",
     src: "Comme des Garçons history (secondary) · Grailed listing photograph"
+  },
+  {
+    id: "raf-simons", cat: "designers", era: "1995", conf: "probable",
+    title: "Raf Simons: youth culture as a cutting pattern",
+    dek: "Antwerp, 1995 — a menswear label built from school uniforms, parkas and the music of the moment.",
+    body: "Raf Simons founded his label in Antwerp in 1995 after studying industrial design. The early collections took the codes of youth tribes — school uniforms, MA-1 bombers, parkas, narrow trousers — and cut them long or slim so the reference stayed legible but the proportion became his. Music was part of the structure rather than the soundtrack. He went on to lead Jil Sander, Dior and Calvin Klein, and to share the creative direction of Prada from 2020. Early Raf pieces were made in small runs and are now among the most collected garments of the period.",
+    src: "Raf Simons archive references (secondary) · Grailed listing photograph"
+  },
+  {
+    id: "helmut-lang", cat: "designers", era: "1986", conf: "probable",
+    title: "Helmut Lang: the engineer of the 1990s",
+    dek: "Vienna to New York — minimalist tailoring that treated clothing as equipment.",
+    body: "Helmut Lang founded his label in Vienna in 1986 and moved to New York in the late 1990s. His work stripped tailoring down and added the language of equipment: technical nylon, straps, packable jackets, sealed seams, a palette of black, white and grey. A 1999 jacket that folds into its own pocket and can be carried like a bag is the clearest example — military utility turned into a design principle rather than a costume. Lang was also early to the internet, showing and selling collections online before most houses had a website. Prada acquired the label in 1999; Lang left in 2005.",
+    src: "Helmut Lang archive references (secondary) · Grailed listing photograph"
+  },
+  {
+    id: "undercover", cat: "designers", era: "1990", conf: "probable",
+    title: "Undercover: punk, but engineered",
+    dek: "Jun Takahashi's Tokyo label, from a Harajuku store to the Paris runway.",
+    body: "Jun Takahashi founded Undercover in Tokyo in 1990, from the Ura-Harajuku scene, with the slogan 'We make noise not clothes'. The method is hybridisation: a shirt bonded to a cardigan, detachable parts borrowed from children's toys, seams and padding exposed, punk graphics on tailored pieces. The label showed in Paris from the early 2000s and has been backed by Prada Group since 2009. Late-1990s pieces such as the 1998 'Small Parts' collection are now archive objects, and the mainline and Undercoverism lines make different arguments.",
+    src: "Undercover archive references (secondary) · Grailed listing photograph"
+  },
+  {
+    id: "issey-miyake", cat: "designers", era: "1970", conf: "probable",
+    title: "Issey Miyake: cloth as technology",
+    dek: "Hiroshima-born, Paris-trained — the designer who made pleats a material.",
+    body: "Issey Miyake was born in Hiroshima in 1938, studied in Tokyo, then went to Paris and worked with Givenchy before founding Miyake Design Studio in 1970. His subject was cloth rather than silhouette: permanent pleating (Pleats Please, 1993), garments that pack flat, and A-POC, a computer-controlled process that turns a single tube of fabric into clothing. He died in 2022. In this archive he is the clearest case of a designer who treats material as the idea, not the supplier of it.",
+    src: "Issey Miyake archive references (secondary) · Grailed listing photograph"
   }
 ];

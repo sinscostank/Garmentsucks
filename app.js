@@ -44,7 +44,11 @@
     "tanker-jacket": "img/tanker.jpg",
     "hbt-trousers": "img/hbt-trousers.jpg",
     "jungle-trousers": "img/jungle-trousers.jpg",
-    "rei-kawakubo": "img/grailed-rei-kawakubo.jpg"
+    "rei-kawakubo": "img/grailed-rei-kawakubo.jpg",
+    "raf-simons": "img/grailed-raf-simons.jpg",
+    "helmut-lang": "img/grailed-helmut-lang.jpg",
+    "undercover": "img/grailed-undercover.jpg",
+    "issey-miyake": "img/grailed-issey-miyake.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -88,7 +92,11 @@
     "tanker-jacket": "US Third Army tank crew, Belgium, January 1945 · NARA, PD",
     "hbt-trousers": "American HBT fatigue trousers for female personnel (Madeleine Collomb) · Paris Musées, CC0",
     "jungle-trousers": "199th Light Infantry Brigade, Operation Rang Dong, Vietnam 1967 · NARA, PD",
-    "rei-kawakubo": "CDG Homme Plus SS06 tartan jacket · listing photo © @whoisvegas, Grailed"
+    "rei-kawakubo": "CDG Homme Plus SS06 tartan jacket · listing photo © @whoisvegas, Grailed",
+    "raf-simons": "Raf Simons Stakker Humanoid bomber · listing photo © @davatros, Grailed",
+    "helmut-lang": "Helmut Lang 1999SS packable nylon jacket · listing photo © @SEVENSTARCLOTHING, Grailed",
+    "undercover": "Undercover AW1998 Small Parts fleece · listing photo © @AlexMaxamenko, Grailed",
+    "issey-miyake": "Issey Miyake 1990s denim jacket · listing photo © @DMC99, Grailed"
   };
   var CATS = [
     ["all", "All"],

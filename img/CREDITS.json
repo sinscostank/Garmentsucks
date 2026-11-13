@@ -194,5 +194,45 @@
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
     "credit": "Listing photo © @whoisvegas — SS06 CDG Homme Plus Evergreen x Rolling Stones Tartan Jacket"
+  },
+  "grailed-raf-simons.jpg": {
+    "title": "Raf Simons Smiley Stakker Humanoid Bomber Jacket",
+    "artist": "@davatros",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/94479129",
+    "price": 685,
+    "sold": true,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @davatros — Raf Simons Smiley Stakker Humanoid Bomber Jacket, Grailed, sold"
+  },
+  "grailed-helmut-lang.jpg": {
+    "title": "HELMUT LANG 1999SS Nylon Packable Bondage Jacket",
+    "artist": "@SEVENSTARCLOTHING",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/98203993",
+    "price": 310,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @SEVENSTARCLOTHING — HELMUT LANG 1999SS Nylon Packable Bondage Jacket"
+  },
+  "grailed-undercover.jpg": {
+    "title": "AW1998 Undercover ‘Small Parts’ Detachable Fleece",
+    "artist": "@AlexMaxamenko",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/60077006",
+    "price": 325,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @AlexMaxamenko — AW1998 Undercover ‘Small Parts’ Detachable Fleece"
+  },
+  "grailed-issey-miyake.jpg": {
+    "title": "Issey Miyake 90s Vintage Denim Jacket",
+    "artist": "@DMC99",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/98589544",
+    "price": 746,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @DMC99 — Issey Miyake 90s Vintage Denim Jacket"
   }
 }
