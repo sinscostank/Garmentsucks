@@ -12,7 +12,13 @@ window.ESSAYS = {
       "The numbers on this site are a construction choice, not a period figure. 15° with a ±1° working tolerance, 120 mm below the shoulder seam, 50 mm from the centre front: that is what a reproduction pattern might do, and it should be labelled as such. Period garments vary widely, and no open document states a millimetre figure.",
       "So treat this card as a question rather than an answer. The slant is evidence of a design decision; the reason for it is still being argued."
     ],
+    fig2: { src: "img/diagram-slant.svg", cap: "Geometry of the slanted chest pocket as a working specification — not a period figure.", credit: "Original diagram, garmentsucks" },
     look: "Measure the slant against the horizontal on any jacket you handle. Record it as an observation, not a specification — and do not use an angle alone to date a garment.",
+    claims: [
+      { c: "Slant present on surviving M-1942 and tropical jackets", s: "Object observations in dealer and museum descriptions", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
+      { c: "Biomechanical explanation for the slant", s: "Dealer descriptions - unverified", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
+      { c: "15 degrees / 120 mm / 50 mm figures", s: "Site working specification for a reproduction pattern - not a period figure", u: "" }
+    ],
     sources: ["Dealer and museum descriptions of the M-1942 jump jacket", "US Army field evaluation of trouser pockets (NLM scan)", "Site construction spec — reproduction working figures, not period spec"]
   },
 
@@ -25,6 +31,11 @@ window.ESSAYS = {
       "On a garment, look at the flap twice: once for shape — period flaps are asymmetric and pointed — and once for the buttons. On the Type III USMC jacket in the IWM collection, each flap closes with two buttons, which means two buttonholes. A single snap is a later, cheaper solution, not a period one."
     ],
     look: "Flap shape, button count, whether buttons sit proud or covered. Exposed buttons indicate the first pattern; covered flaps and two buttonholes per lower flap indicate Type II or later.",
+    claims: [
+      { c: "Flaps over pocket buttons approved 26 August 1964, to prevent snagging", s: "Stanton chronology", u: "https://arsipmiliter.com/2023/01/03/jungle-jacket-an-introduction/" },
+      { c: "Buttons exposed on Type I; concealed on Type II, 1964-65", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { c: "Two buttons per flap on a Type III USMC tropical jacket", s: "IWM object 30097577", u: "https://www.iwm.org.uk/collections/item/object/30097577" }
+    ],
     sources: ["Shelby Stanton chronology (secondary)", "IWM object 30097577 — description of a Type III USMC tropical jacket (two buttons per flap)", "IWM object 30096162 — Tropical Combat Uniform pattern sequence"]
   },
 
@@ -36,7 +47,7 @@ window.ESSAYS = {
       "On a finished garment the pleat is easy to find once you know where to look. Turn the pocket inside out, or simply run a finger along the side edge: two fold lines, pressed flat, releasing into the pocket body. If the pleat is missing, the 'bellows' is a lie printed on a product page.",
       "For a maker, the pleat is where a jacket becomes a tool. Keep it deep enough to be useful — around 40 mm on a lower cargo pocket — and reinforce the corners. A shallow pleat is decoration; a deep one is cargo capacity."
     ],
-    fig2: { src: "img/m1943.jpg", cap: "The M-1943 field jacket: four expanding pockets, the same logic carried across a generation.", credit: "Smithsonian NMAH 2002.1735, CC0" },
+    fig2: { src: "img/diagram-bellows.svg", cap: "Section through a bellows pocket: pleat depth, flap, bartacked corners, drain eyelet.", credit: "Original diagram, garmentsucks" },
     look: "Two pressed fold lines at the pocket's side edge, corners bartacked, and a pocket that lies flat when empty. A shallow crease with no volume is a costume detail.",
     sources: ["M-1942 construction records", "US Army cargo pocket photograph (PD)", "Bellows and cargo pocket construction references"]
   },
@@ -63,6 +74,10 @@ window.ESSAYS = {
       "When you handle a jacket, work the buttons. Tight, evenly spaced, keyhole buttonholes with a bartack at the end suggest a maker who understood the load. Loose shanks and round holes tell you the front is a decoration."
     ],
     look: "Five buttons on the period pattern, keyhole buttonholes, bartacked ends, and a placket that can be worn open. A zip on the main closure is a later, non-tropical decision.",
+    claims: [
+      { c: "Separable fastener designed 1913, patent granted 1917 (US 1,219,881)", s: "Patent US1219881", u: "https://patents.google.com/patent/US1219881A/en" },
+      { c: "Button front and concealed buttons from the second pattern", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" }
+    ],
     sources: ["Gideon Sundbäck — separable fastener designed 1913, patent granted 1917 (US 1,219,881)", "IWM catalogue description, tropical uniform types", "Garment records, Smithsonian"]
   },
 
@@ -141,6 +156,10 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/poplin.jpg", cap: "Plain-weave poplin under magnification: fine, even, with a faint crosswise rib.", credit: "Public domain" },
     look: "Fine even plain weave, faint crosswise rib, around 150–170 gsm. Wet it: it should dry fast and not cling.",
+    claims: [
+      { c: "June 1945: 5-ounce poplin diverted to jungle uniforms", s: "Quartermaster Corps history (archive.org scan)", u: "https://ia600506.us.archive.org/28/items/quartermastercor01risc/quartermastercor01risc.pdf" },
+      { c: "Air permeability 12-40 cfm made no consistent difference to skin temperature or sweat", s: "Quartermaster Corps, Jungle Uniform - Physiological Appraisal of Ten Types of Fabrics (1945), NLM", u: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf" }
+    ],
     sources: ["MIL-C-507 poplin (specification)", "Quartermaster Corps history (5-ounce poplin, 1945)", "1945 jungle uniform fabric study (NLM)"]
   },
 
@@ -154,6 +173,10 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/hbt.jpg", cap: "A different answer to the same problem: herringbone twill, the WWII utility cloth that preceded the ripstop era.", credit: "Smithsonian NMAH, CC0" },
     look: "Hold the cloth to a light. A woven grid casts a faint lattice; a printed grid sits on the surface. Weight 190–230 gsm, OG shade both sides, mercerized and shrunk.",
+    claims: [
+      { c: "Ripstop poplin specification and weight range", s: "NSN 8305-00-132-1080 datasheet (MIL-C-342)", u: "https://nationalstocknumber.parts/en/catalog/textile-fabrics/8305-00-132-1080/mil-c-342" },
+      { c: "Switch from plain poplin to ripstop around 1967", s: "Collector and reproduction accounts - unverified", u: "" }
+    ],
     sources: ["MIL-C-342 / NSN 8305-00-132-1080 (specification record)", "Tropical Combat Uniform pattern accounts", "Textile references on ripstop construction"]
   },
 
@@ -205,6 +228,10 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/m42.jpg", cap: "Paratroopers of the 502nd PIR with Eisenhower, England 1944: the jump uniform in use.", credit: "US Army Signal Corps, public domain" },
     look: "Four cargo pockets, action-back pleats, gussets, split cuffs, thin poplin. The pleats are the structural tell.",
+    claims: [
+      { c: "Four cargo pockets, action back, thin poplin", s: "Musee de l'Armee object record", u: "https://basedescollections.musee-armee.fr/ark:/66008/2021272/" },
+      { c: "Tropical uniform based closely on the M-1942 parachutist uniform", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" }
+    ],
     sources: ["M-1942 records (Musée de l'Armée)", "IWM catalogue description (TCU based on M-1942)", "Airborne period photographs (NARA/US Army)"]
   },
 
@@ -231,6 +258,11 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/nmaahc_2025_29_1_1-_2.jpg", cap: "Jungle fatigues, 1968–69: four pockets, flaps, the mature pattern.", credit: "Smithsonian NMAAHC, CC0" },
     look: "Four bellows pockets with concealed-button flaps, convertible collar, cuff tabs. Exposed buttons and shoulder straps indicate an earlier pattern.",
+    claims: [
+      { c: "Introduced June 1963; Quartermaster Research and Engineering Command; based closely on the M-1942 parachutist uniform", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { c: "Type III (1966-67) removed the gas flap and shoulder straps", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      "A caution about specifications: military clothing is also a compromise. Details survive because a contractor, a stock position or a procurement decision allowed them, not only because they worked, and soldiers modified garments in theatre — sleeves shortened, pockets moved for helicopter work. A guide that reads only the issued pattern is reading half the garment."
+    ],
     sources: ["IWM catalogue records (30096162, 30150059)", "Shelby Stanton chronology", "Smithsonian object records"]
   },
 
@@ -265,7 +297,8 @@ window.ESSAYS = {
       "Where other labels take a military jacket apart, Junya Watanabe tends to make it better at being itself: a reversible MA-1 with a denim side, a parka cut with a cape volume, an M-65 rebuilt with technical membranes.",
       "The method is hybridisation. Two garments become one, seams are exposed as features, and linings are chosen to be seen. The Fashion Institute of Technology's collection notes describe the codes plainly: unconventional construction, exposed raw seams, cut-out darts, garment insides turned into details.",
       "What distinguishes the approach is that the utility is not ironic. The jacket still works as a jacket; the technical fabric is there for a reason. It is design as engineering, with a sense of humour about the source material.",
-      "For a maker, Junya is the model for upgrading a tropical jacket with a membrane rather than more cloth — function added at the material level, not the silhouette."
+      "For a maker, Junya is the model for upgrading a tropical jacket with a membrane rather than more cloth — function added at the material level, not the silhouette.",
+      "The politics are quieter than Kawakubo's but present: upgrading a military jacket with a membrane treats utility as something to be improved rather than mourned. The garment stays functional; the commentary sits in the fabrication."
     ],
     fig2: { src: "img/m65.jpg", cap: "The M-65: the archetype Junya's technical reissues start from.", credit: "Public domain" },
     look: "Reversible construction, mixed materials, exposed seams, technical membranes. Utility kept functional rather than quoted.",
@@ -278,7 +311,8 @@ window.ESSAYS = {
       "Rei Kawakubo's menswear line has returned to military clothing repeatedly, but never to reproduce it. The brief for one recent collection was to break down army symbols — uniform shapes, colour, camouflage patterns, helmets — and recombine what was left.",
       "The technique is anti-tailoring: sleeves and pockets cut from one garment and grafted onto another, structure removed, seams exposed, hems left raw. The house also works in light tropical-weight wool, which keeps a jacket crisp while weighing almost nothing — a hot-climate answer made of tailoring cloth rather than technical fabric.",
       "What makes the work useful for study is that the source is legible. You can see the field jacket in the object, and you can see exactly which decision was reversed. That legibility is rarer than it sounds.",
-      "For a maker, the lesson is to deconstruct deliberately: choose one structural rule — the shoulder line, the pocket placement, the closure — and break only that."
+      "For a maker, the lesson is to deconstruct deliberately: choose one structural rule — the shoulder line, the pocket placement, the closure — and break only that.",
+      "The politics matter. Kawakubo is not honouring the uniform; she is disarming it — taking apart the symbols that make soldiering legible (rank, camouflage, the helmet silhouette) and reassembling them as tailoring. Read as homage the work is merely clever; read as refusal it explains why the results are difficult on purpose."
     ],
     look: "Asymmetric seams, grafted pockets, raw hems, tropical-weight wool. The source garment should still be legible.",
     sources: ["CDG Homme Plus collection notes (FW25)", "Retailer archive descriptions"]
@@ -290,7 +324,8 @@ window.ESSAYS = {
       "The signature is assembly. A denim jacket and an MA-1 stitched front to back; details docked onto a shell that never had them; garments stripped of their original purpose and given a new one. The seams where the two halves meet are left visible, because the join is the design.",
       "The finishes reinforce the idea. Sun-faded cotton reads as a garment that has already lived outdoors; dyeing and washing do the work that a print cannot. A jacket becomes convincing not because of its insignia but because of its wear.",
       "There is a practical lesson buried in the theatrics. Splicing a cotton front to a nylon back is a way of putting weather-resistance where it is needed and breathability where it is not — an engineering solution wearing the costume of a collage.",
-      "For a maker, the move to copy is the splice: change the fabric across a seam line rather than across the whole garment."
+      "For a maker, the move to copy is the splice: change the fabric across a seam line rather than across the whole garment.",
+      "The joining is also an argument. If two garments can be sewn into one, the categories the industry sells — jacket, bomber, denim — are conventions rather than facts. The visible seam is the evidence."
     ],
     look: "Visible joins, mixed fabrics across seams, sun-faded or washed finishes. The construction is the concept.",
     sources: ["Mihara Yasuhiro SS26 / AW26 references", "Archive retailer descriptions"]
@@ -302,7 +337,8 @@ window.ESSAYS = {
       "The house's military work is archival on the fabric side: an air-force nylon twill MA-1 developed to military specification, a third-pattern fatigue shirt reproduced pocket for pocket. Then it rebalances the garment for everyday wear.",
       "The clearest example is the fatigue shirt: it keeps the four flap pockets and the pleated construction but swaps the cloth for an 80/20 cotton-weather blend, so it layers like a shirt rather than a jacket. The specification survives; the weight does not.",
       "That is a genuinely useful model for anyone reissuing military clothing in a hot climate. You do not need to abandon the pattern to make it wearable; you need to change the cloth and keep the grammar.",
-      "On a garment, the tell is the hand: a fatigue shirt that feels like shirting rather than canvas has been through this translation."
+      "On a garment, the tell is the hand: a fatigue shirt that feels like shirting rather than canvas has been through this translation.",
+      "The motive differs from the Paris houses. Hysteric's reissues are affectionate and commercial: a Japanese label reproducing American military and workwear for a market that treats those objects as culture. Lightening the cloth is not critique; it is wearability."
     ],
     look: "Period pocket architecture in a lighter cloth. The pattern should be intact even if the fabric has been modernised.",
     sources: ["Hysteric Glamour line notes", "Smithsonian fatigue shirt record"]
@@ -314,7 +350,8 @@ window.ESSAYS = {
       "Red Kap makes uniforms for people who are paid to work in them, and the construction reflects that: poly-cotton twill, bartacked pockets, action-back pleats, reinforced seams, performance finishes. During the Second World War the company produced combat fatigues and field jackets.",
       "It is useful here precisely because it is not deconstructed. The fashion labels in this archive keep its pocket architecture, its bartacks and its action back, and remove the stiffness. Comparing the two is the clearest way to see what 'fashion' actually does to a work garment.",
       "The cost difference is instructive too. The same stitch pattern — a dense bartack at a pocket corner — appears on a modest work shirt and on a jacket costing ten times as much. Construction is not what separates them; context is.",
-      "When you look at a workwear reproduction, check the bartacks and the action back first. Those are the places where the specification is either honoured or imitated."
+      "When you look at a workwear reproduction, check the bartacks and the action back first. Those are the places where the specification is either honoured or imitated.",
+      "It is worth separating the two traditions. Military clothing was state-funded, standardised and built for short-term survival; industrial workwear evolved through market cost-efficiency and long service life. Treating them as a single 'utility' ancestor is convenient and slightly false."
     ],
     fig2: { src: "img/flatseam.jpg", cap: "A flat seam, from a 1921 dressmaking manual: the same construction logic workwear still uses.", credit: "Public domain" },
     look: "Bartacked pockets, action-back pleats, reinforced seams. The baseline that fashion labels dismantle.",
@@ -329,7 +366,7 @@ window.ESSAYS = {
       "The French seam is the alternative for very light cloth: two passes, fully enclosed, softer against the body but limited to straight seams and not strong enough for a shoulder.",
       "On a garment, look at the inside of a side seam. If you can see a clean folded edge and a second row of stitching, the maker spent the time. If you see an overlocked edge, they did not."
     ],
-    fig2: { src: "img/hbt.jpg", cap: "Herringbone twill, the kind of cloth that takes a felled seam beautifully.", credit: "Smithsonian NMAH, CC0" },
+    fig2: { src: "img/diagram-flatfelled.svg", cap: "Cross-section of a flat-felled seam: no exposed edge, two stitch rows, allowance 15 mm trimmed to 8 mm.", credit: "Original diagram, garmentsucks" },
     look: "Inside a side seam: folded edge, second row, no overlocking. Allowance 15 mm, finished 8 mm, 10–12 stitches per inch.",
     sources: ["ISO 4916 seam classification", "Flat seam illustration (1921, PD)", "Military garment seam records"]
   },
@@ -344,6 +381,9 @@ window.ESSAYS = {
     ],
     fig2: { src: "img/pom.jpg", cap: "A tailor takes measurements for a uniform (FSA/OWI, Esther Bubley).", credit: "Library of Congress, public domain" },
     look: "Measure flat, chest ×2 at a fixed point, shoulder edge to edge. Tolerances: body ±1 cm, pockets ±0.5 cm.",
+    claims: [
+      { c: "Chest 110 / shoulder 47 / body 73 / sleeve 63 / cuff 13 cm", s: "Author's compilation from commercial reproduction size charts - a working spec, not a period specification", u: "" }
+    ],
     sources: ["Reproduction size charts (1960s TCU)", "Original contract label measurements"]
   },
 
@@ -358,6 +398,11 @@ window.ESSAYS = {
       "For someone starting in fashion, Margiela remains the most useful first case because it separates the two things beginners tend to fuse: the clothes and the person. Study the garments first."
     ],
     look: "Four white stitches at the back holding a blank label inside, no external logo, numeric line codes. Note the date range: Margiela 1988–2009, Galliano 2014–2024, Martens from 2025.",
+    claims: [
+      { c: "Four white stitches at the back holding a blank label inside the garment", s: "Maison Margiela product notes", u: "https://www.maisonmargiela.com/en-gb/four-stitches-cardholder-SA1VX0009P4745T8013.html" },
+      { c: "House statement on the purpose of the four stitches", s: "Shrimpton Couture object description", u: "https://www.shrimptoncouture.com/products/fabulous-recent-maison-margiela-by-john-galliano-line-4-full-length-red-sheath-dress" },
+      { c: "John Galliano 2014-2024; Glenn Martens appointed January 2025", s: "Vogue, 28 January 2025", u: "https://www.vogue.co.uk/article/glenn-martens-creative-director-maison-margiela" }
+    ],
     sources: ["Maison Margiela product notes on the four stitches", "Shrimpton Couture, object description quoting the house on the four stitches", "Vogue, 28 Jan 2025 — Glenn Martens appointed creative director"]
   },
 
@@ -383,6 +428,10 @@ window.ESSAYS = {
       "When you look at khaki today, look at the cloth rather than the colour. Khaki drill is a stout cotton twill, heavier than the later jungle fabrics; khaki poplin and khaki cotton-linen belong to different garments entirely."
     ],
     look: "Check the weave before the shade. Drill is a heavy twill with a pronounced diagonal; poplin is fine and crisp. Khaki as a colour spans a wide range of cloths.",
+    claims: [
+      { c: "Khaki introduced 1848 by the Corps of Guides; standard in India by 1885", s: "National Interest - khaki as camouflage", u: "https://nationalinterest.org/blog/reboot/khaki-uniforms-were-original-military-camouflage-186291" },
+      { c: "Rifle green worn by rifle regiments from the 18th century", s: "Shades of green - reference summary", u: "https://en.wikipedia.org/wiki/Shades_of_green" }
+    ],
     sources: ["National Army Museum, khaki and the Corps of Guides", "Shades of green — rifle green adopted by rifle regiments in the 18th century", "Period uniform references (Brayley, Khaki Drill & Jungle Green)"]
   },
 
@@ -395,6 +444,10 @@ window.ESSAYS = {
       "What this means for a buyer is simpler than the chemistry. When a jacket is described as OG-107, ask which OG-107: the sateen utility or the tropical poplin. One is a sponge in the monsoon and the other is the reason the tropical uniform worked."
     ],
     look: "Identify the cloth before the colour. Sateen has a smooth, lustrous face and holds water; poplin is crisp and dries; ripstop shows a woven grid.",
+    claims: [
+      { c: "Wind-resistant ripstop poplin, OG-107 both sides, 5.7-6.7 oz/sq yd, low infra red dye formulation", s: "NSN 8305-00-132-1080 datasheet (MIL-C-342)", u: "https://nationalstocknumber.parts/en/catalog/textile-fabrics/8305-00-132-1080/mil-c-342" },
+      { c: "Tropical jacket described as olive green poplin, OG-107", s: "IWM object 30097577", u: "https://www.iwm.org.uk/collections/item/object/30097577" }
+    ],
     sources: ["NSN 8305-00-132-1080 datasheet (MIL-C-342 field data, opened 13 Nov 2026)", "OG-107 and olive drab colour references (secondary)", "Museum object records for the M-1943 and utility uniforms"]
   }
 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="520"/><rect class="fr" x="14" y="14" width="792" height="492"/><text class="caps" x="40" y="52">CHEST POCKET / GEOMETRY (WORKING SPEC)</text><path class="o" d="M300,120 L520,120 L520,150 L544,170 L544,430 L276,430 L276,170 L300,150 Z"/><text class="small" x="300" y="112">shoulder seam</text><line class="dash" x1="410" y1="128" x2="410" y2="424"/><text class="lab" x="418" y="424">centre front</text><path class="f2" d="M286,238 L374,214 L384,252 L296,276 Z"/><path class="f2" d="M280,222 L378,196 L384,216 L286,242 Z"/><path class="acc" d="M316,232 A24,24 0 0 0 308,250"/><text class="lab" x="318" y="214">15°</text><line class="thin" x1="262" y1="150" x2="262" y2="222"/><line class="thin" x1="256" y1="150" x2="268" y2="150"/><line class="thin" x1="256" y1="222" x2="268" y2="222"/><text class="lab" x="120" y="180">120 mm below</text><text class="lab" x="120" y="198">shoulder seam</text><line class="thin" x1="410" y1="330" x2="384" y2="330"/><line class="thin" x1="410" y1="324" x2="410" y2="336"/><line class="thin" x1="384" y1="324" x2="384" y2="336"/><text class="lab" x="300" y="352">50 mm from centre front</text><text class="lab" x="40" y="470">Working specification for a reproduction pattern — not a period figure.</text><text class="small" x="40" y="490">Original diagram — garmentsucks. Angles and offsets are schematic.</text></svg>
