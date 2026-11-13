@@ -215,5 +215,12 @@ window.FEED = [
     dek: "Chest, shoulder, length, sleeve, cuff — in that order.",
     body: "A jungle-fatigue jacket in size M measures roughly: chest 110 cm relaxed, shoulder 47, body 73, sleeve 63, cuff 13 flat — figures drawn from reproduction size charts and original contract labels. Get shoulder and chest right and the jacket reads correctly; everything else is refinement.",
     src: "Reproduction size charts · original contract labels"
+  },
+  {
+    id: "margiela", cat: "brands", era: "1988", conf: "probable",
+    title: "Maison Margiela: the house that refused to be seen",
+    dek: "Four white stitches, no logo, and a designer who let the clothes speak.",
+    body: "Maison Martin Margiela was founded in Paris in 1988 with Jenny Meirens. Its mark was four white stitches on a white label, visible only to the person wearing the garment. Collections were sorted by number rather than name, and the Artisanal line was made from found and vintage clothing. The tabi boot, derived from Japanese work socks, became the house's most recognisable object. The anonymity was a working method, not a gimmick: if the clothes were the only evidence, the clothes had to do the talking.",
+    src: "House history (secondary) · object records · Commons CC0 photographs"
   }
 ];

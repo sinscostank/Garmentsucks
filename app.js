@@ -24,7 +24,8 @@
     "bellows": "img/bellows.jpg",
     "poplin": "img/poplin.jpg",
     "pom": "img/pom.jpg",
-    "m42": "img/m42.jpg"
+    "m42": "img/m42.jpg",
+    "margiela": "img/margiela-top.jpg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -48,7 +49,8 @@
     "bellows": "US Army cargo pocket · PD (US Army)",
     "poplin": "Poplin, plain-weave macro · PD",
     "pom": "A tailor measures a uniform · FSA/OWI (Esther Bubley), PD",
-    "m42": "Eisenhower with 502nd PIR paratroopers, England 1944 · US Army Signal Corps, PD"
+    "m42": "Eisenhower with 502nd PIR paratroopers, England 1944 · US Army Signal Corps, PD",
+    "margiela": "1997 Maison Margiela semi-couture top · CC0"
   };
   var CATS = [
     ["all", "All"],
