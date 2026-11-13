@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="520"/><rect class="fr" x="14" y="14" width="792" height="492"/><text class="caps" x="40" y="52">M-65 TROUSERS / CONSTRUCTION</text><text class="lab" x="60" y="96">hem / drawcord channel</text><rect class="f2" x="60" y="110" width="300" height="26"/><rect class="f1" x="60" y="136" width="300" height="120"/><line class="dash" x1="60" y1="150" x2="360" y2="150"/><line class="acc" x1="60" y1="110" x2="360" y2="110"/><path class="acc" d="M60,104 L360,104"/><circle cx="360" cy="123" r="7" fill="none" stroke="#1b1b18" stroke-width="1.8"/><line class="thin" x1="360" y1="123" x2="392" y2="123"/><rect x="392" y="115" width="26" height="16" rx="3" fill="none" stroke="#1b1b18" stroke-width="1.8"/><text class="lab" x="392" y="160">cord exit + toggle</text><text class="small" x="60" y="286">channel stitched top and bottom; cord runs inside</text><text class="lab" x="470" y="96">cargo pocket / front</text><rect class="f1" x="470" y="110" width="240" height="200"/><path class="f2" d="M470,110 L710,110 L710,150 L590,178 L470,150 Z"/><path class="f2" d="M470,178 L520,160 L520,310 L470,310 Z"/><line class="thin" x1="520" y1="160" x2="520" y2="310"/><circle cx="590" cy="132" r="6" fill="none" stroke="#1b1b18" stroke-width="1.6"/><rect x="520" y="300" width="8" height="8" fill="#1b1b18"/><rect x="700" y="300" width="8" height="8" fill="#1b1b18"/><text class="lab" x="470" y="338">bellows side pleat</text><text class="lab" x="470" y="360">flap with button</text><text class="lab" x="470" y="382">bartacks at stress corners</text><text class="small" x="60" y="470">Original diagram — garmentsucks. Schematic, not to scale; dimensions are reproduction suggestions only.</text></svg>

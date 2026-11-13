@@ -131,3 +131,20 @@ a{color:inherit}
 .claims a{color:var(--olive)}
 .sources a{color:var(--olive)}
 .article figure img[src$=".svg"]{background:var(--card);border:1px solid var(--line)}
+
+
+/* ---------- template blocks (essay sections) ---------- */
+.blk{margin:0 0 26px}
+.blk h3{font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--olive);margin:0 0 8px;font-weight:600}
+.blk p{font-size:17px;line-height:1.78;margin:.7em 0;color:#242420}
+table.cmp{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0}
+table.cmp th{text-align:left;font-family:'Segoe UI',system-ui,sans-serif;font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--olive);padding:6px 8px;border-bottom:1px solid var(--line)}
+table.cmp td{padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top;color:#33332d}
+table.cmp tr:last-child td{border-bottom:none}
+.glossary{margin:26px 0 10px;border-top:1px solid var(--line);padding-top:18px}
+.glossary h2{font-family:'Segoe UI',system-ui,sans-serif;font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--olive);margin:0 0 8px;font-weight:600}
+.glossary dt{font-size:13px;font-weight:600;color:var(--ink);margin-top:8px}
+.glossary dd{margin:2px 0 0;font-size:13px;color:var(--muted);line-height:1.5}

@@ -3,23 +3,87 @@
 
 window.ESSAYS = {
 
-  "slant-pocket": {
-    lede: "A slant exists on surviving jackets. The explanation usually given for it is not documented.",
-    paras: [
-      "Look at a tropical combat jacket and the chest line reads before anything else: two pockets tilted inward. The slant is real and it is on the surviving garments. What is much less certain is why.",
-      "The usual account is biomechanical. Dealer and museum descriptions of the M-1942 jump jacket say the breast pockets were angled inward so a trooper wearing a parachute harness, pistol belt and suspenders could reach them with the opposite hand. That is a plausible reading of an object, but it is not a specification we could open, and the same descriptions are written by people with an interest in the garment being special.",
-      "A second reason is often offered: an inward slant turns the pocket mouth up and toward the centre, so a man bending or prone is less likely to tip his contents out. Field evaluations of clothing pockets do recommend slanted openings for exactly that reason — for trousers. Applying it to the chest pocket is inference.",
-      "The numbers on this site are a construction choice, not a period figure. 15° with a ±1° working tolerance, 120 mm below the shoulder seam, 50 mm from the centre front: that is what a reproduction pattern might do, and it should be labelled as such. Period garments vary widely, and no open document states a millimetre figure.",
-      "So treat this card as a question rather than an answer. The slant is evidence of a design decision; the reason for it is still being argued."
+    "slant-pocket": {
+    type: "details",
+    lede: "Bentuknya nyata pada garmen yang bertahan; alasan di baliknya tidak terdokumentasi.",
+    blocks: [
+      { h: "1. Ringkasan", p: [
+        "Saku dada pada jaket tropis dipotong miring ke arah tengah, dan kemiringan itu dapat diamati pada garmen yang bertahan.",
+        "Sumber institusional yang ditemukan justru menyebut saku dada miring pada varian HBT airborne USMC, bukan pada M-1942; alasan fungsional yang biasa dikutip berasal dari deskripsi dealer. Confidence: unresolved."
+      ] },
+      { h: "2. Apa ini", p: [
+        "Slant pocket (saku miring): saku tempel dengan mulut tidak horizontal, biasanya disertai flap (penutup berkancing) yang menutupi mulut saku. Pada garmen tropis, saku ini berada di dada dan dijahit dengan kemiringan ke arah tengah depan. Istilah lain yang dipakai di halaman ini: mulut saku (bukaan tempat tangan masuk), flap (penutup yang dikancingkan), bartack (jahitan padat di titik tegangan)."
+      ] },
+      { h: "3. Asal-usul dan konteks", p: [
+        "Kemiringan dikaitkan dengan M-1942, jaket parasut Perang Dunia II. Deskripsi dealer menyebut tujuannya agar tangan yang berlawanan dapat mencapai saku saat pemakai mengenakan harness parasut dan sabuk peralatan — klaim ini tidak ditemukan dalam dokumen spesifikasi.",
+        "Hubungan dengan seragam tropis 1963 lebih kuat: deskripsi katalog IWM menyatakan Tropical Combat Uniform diperkenalkan Juni 1963 oleh Quartermaster Research and Engineering Command dan based closely on the design of the M-1942 Parachutist Uniform. Deskripsi itu tidak menyebut kemiringan saku. Kemungkinan yang belum diuji: kemiringan mungkin hasil adaptasi pola dari jaket parasut, bukan keputusan fungsional yang terpisah. Tidak ada dokumen yang membedakan keduanya."
+      ] },
+      { h: "4. Mekanisme fungsi", p: [
+        "Secara mekanis, mulut yang miring mengikuti lintasan tangan yang menyapu diagonal dari bawah, bukan jatuh vertikal. Kemungkinan kedua: mulut yang mengarah ke atas dan ke tengah membuat isi saku lebih sulit tumpah saat pemakai membungkuk atau tengkurap.",
+        "Keduanya adalah inferensi dari bentuk, bukan pernyataan dari dokumen. Tidak ditemukan evaluasi lapangan yang menguji saku dada miring secara khusus; sumber terdekat yang ditemukan adalah evaluasi saku celana, yang tidak membahas saku dada."
+      ] },
+      { h: "5. Konstruksi", p: [
+        "Saku dipotong sebagai potongan tempel dengan mulut diagonal, dilapisi flap yang dikancingkan, lalu dijahit ke panel depan. Urutan kerja: tandai garis saku pada panel, jahit saku, pasang flap, bartack di ujung mulut, lalu pasang kancing.",
+        "Angka sudut dan posisi yang dipakai situs ini adalah lembar kerja reproduksi; tidak ada angka periode yang ditemukan. Lebar mulut saku dan kedalaman saku mempengaruhi seberapa mudah tangan masuk, dan flap menambah satu lapisan di mulut saku yang harus diangkat sebelum tangan mencapai isi."
+      ] },
+      { h: "6. Varian lintas era", table: { cols: ["Varian", "Tahun/asal", "Pembeda", "Status sumber"], rows: [
+        ["M-1942 jump jacket", "1942, AS", "diklaim bersaku dada miring", "tidak terverifikasi secara institusional"],
+        ["Tropical Combat Uniform", "1963, AS", "flap dengan kancing; kemiringan tidak disebut katalog", "deskripsi IWM"],
+        ["Varian HBT airborne USMC (P1944)", "1944, AS", "saku dada miring dengan flap", "terverifikasi (IWM 30100972)"],
+        ["Reproduksi modern", "kini", "sering saku datar", "pengamatan pasar"]
+      ] }, p: [] },
+      { h: "7. Cara mengenali asli vs reproduksi", p: [
+        "Ukur sudut mulut saku terhadap garis horizontal dan bandingkan dengan foto periode. Perhatikan juga arah bartack: pada saku miring, bartack biasanya berada di ujung mulut yang lebih rendah, karena di situlah tegangan terkumpul saat tangan masuk. Pada asli, flap menutupi mulut dan bartack terlihat di ujung mulut; pada reproduksi murah, saku datar, flap dangkal, dan bartack tidak ada."
+      ] },
+      { h: "8. Kesalahan umum dan mitos", p: [
+        "Mitos pertama: angka sudut yang beredar adalah angka periode. Tidak ditemukan dokumen yang menyebutnya. Mitos kedua: alasan harness parasut dianggap fakta; sumbernya deskripsi dealer. Kesalahan ketiga: mengabaikan flap saat membandingkan saku."
+      ] },
+      { h: "9. Cara membacanya saat dipakai", p: [
+        "Coba masukkan tangan ke saku dengan jaket dikancing: saku miring mengubah sudut masuk tangan dan membuat saku terasa berbeda saat dipakai dengan tas selempang atau harness. Dengan jaket terbuka, kemiringan juga mengubah cara saku dibaca dari depan — garis saku mengarah ke tengah, bukan ke bawah."
+      ] },
+      { h: "10. Jejak desainer modern", p: [
+        "Jaket militer yang diangkat desainer sering mempertahankan geometri saku sebagai tanda asal, lalu mengubah proporsinya. Kartu desainer di situs ini menunjukkan pola itu; klaim pengaruh langsung tidak dibuat di sini."
+      ] },
+      { h: "11. Spesifikasi", p: [
+        "Tabel kiri kosong karena tidak ada angka yang tercatat di sumber. Tabel kanan adalah lembar kerja reproduksi."
+      ], table: { cols: ["Tercatat di sumber", "Saran reproduksi"], rows: [
+        ["tidak ditemukan", "15° terhadap horizontal, toleransi kerja ±1°"],
+        ["tidak ditemukan", "120 mm di bawah jahitan bahu"],
+        ["tidak ditemukan", "50 mm dari tengah depan"]
+      ] } },
+      { h: "12. Sumber", p: [
+        "Daftar lengkap di bagian Sources; status setiap klaim ada di tabel Claims."
+      ] },
+      { h: "13. Pertanyaan dan latihan", p: [
+        "1) Berapa sudut saku pada jaket yang kamu pegang, dan terhadap garis apa kamu mengukurnya? 2) Adakah sumber yang menyebut angka itu, atau hanya blog dan toko? 3) Mengapa kartu ini tetap unresolved meski bentuknya bisa dilihat?"
+      ] }
     ],
-    fig2: { src: "img/diagram-slant.svg", cap: "Geometry of the slanted chest pocket as a working specification — not a period figure.", credit: "Original diagram, garmentsucks" },
-    look: "Measure the slant against the horizontal on any jacket you handle. Record it as an observation, not a specification — and do not use an angle alone to date a garment.",
+    glossary: [
+      { t: "Slant pocket", d: "Saku dengan mulut tidak horizontal." },
+      { t: "Flap", d: "Penutup saku yang dikancingkan." },
+      { t: "Bartack", d: "Jahitan padat di titik tegangan." },
+      { t: "Harness", d: "Tali tubuh untuk parasut atau peralatan." }
+    ],
+    look: "Ukur sudut mulut saku terhadap horizontal; periksa flap dan bartack. Saku datar dan flap dangkal menandakan reproduksi.",
+    fig2: { src: "img/diagram-slant.svg", cap: "Geometri saku miring sebagai lembar kerja reproduksi — angka pada diagram bukan angka periode.", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [Institusional] IWM 30150059 — Trousers, Combat, Tropical (Type III), deskripsi TCU 1963", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
+      { label: "[S2] [Institusional] IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969", url: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { label: "[S3] [Institusional] IWM 30100972 — Jacket, Utility, HBT P1944 USMC: slanted chest pockets with flaps", url: "https://www.iwm.org.uk/collections/item/object/30100972" },
+      { label: "[S4] [Institusional] Smithsonian NMAH 1990.0221.01 — Model 1942, Jacket; Army; Airborne", url: "https://americanhistory.si.edu/collections/object/nmah_1060643" },
+      { label: "[S5] [Sekunder komersial] IMA-USA — M-1942 jump jacket (four expandable cargo pockets)", url: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
+      { label: "[S6] [Komersial/repro] Timechine — Para-42 Jump Jacket (slanted pockets)", url: "https://www.timechineco.com/product/para-42-jump-jacket-khaki/" },
+      { label: "[S7] [Sekunder blog] Traces de guerre — La mythique M-1942 Jump Jacket", url: "http://tracesdeguerre.com/la-mythique-m-1942-jump-jacket/" },
+      { label: "[S8] [Sekunder] NLM — evaluasi saku celana (konteks inferensi)", url: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf" }
+    ],
     claims: [
-      { c: "Slant present on surviving M-1942 and tropical jackets", s: "Object observations in dealer and museum descriptions", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
-      { c: "Biomechanical explanation for the slant", s: "Dealer descriptions - unverified", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
-      { c: "15 degrees / 120 mm / 50 mm figures", s: "Site working specification for a reproduction pattern - not a period figure", u: "" }
-    ],
-    sources: ["Dealer and museum descriptions of the M-1942 jump jacket", "US Army field evaluation of trouser pockets (NLM scan)", "Site construction spec — reproduction working figures, not period spec"]
+      { c: "TCU diperkenalkan Juni 1963 oleh QM R&E Command, based closely on the M-1942 Parachutist Uniform", s: "IWM 30150059 (deskripsi katalog)", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "terverifikasi (institusional)" },
+      { c: "M-1942 memiliki saku dada miring", s: "Timechine; IMA; HuntingGunSupply", u: "https://www.timechineco.com/product/para-42-jump-jacket-khaki/", st: "tidak terverifikasi (hanya komersial)" },
+      { c: "Alasan: akses tangan di bawah harness parasut", s: "Deskripsi dealer", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number", st: "tidak terverifikasi" },
+      { c: "Varian HBT airborne USMC punya saku dada miring dengan flap", s: "IWM 30100972", u: "https://www.iwm.org.uk/collections/item/object/30100972", st: "terverifikasi (institusional, garmen berbeda)" },
+      { c: "Angka 15° / 120 mm / 50 mm", s: "Lembar kerja reproduksi situs", u: "", st: "tidak ditemukan di dokumen" },
+      { c: "Kemiringan bertahan di semua pattern", s: "—", u: "", st: "tidak terverifikasi" }
+    ]
   },
 
   "flap-pocket": {
@@ -494,15 +558,89 @@ window.ESSAYS = {
     sources: ["Grailed listing: 1970s OG-107 utility trousers — listing photograph © @vintage_estate", "OG-107 uniform references (secondary)"]
   },
 
-  "m65-trousers": {
-    lede: "The cargo pocket that every streetwear brand copies comes from here — and so does the drawcord almost everyone drops.",
-    paras: [
-      "The M-65 field trousers were part of the same system as the jacket: cotton-nylon poplin, two large cargo pockets on the thighs, and drawcords at the hem so the leg could be closed against weather.",
-      "Issued from 1965 and used through Vietnam, they are the pattern that streetwear took up. What usually survives the translation is the pocket; what usually disappears is the drawcord, which is the part that actually sealed the garment.",
-      "For a maker, the lesson is the system: a jacket and trouser cut from the same cloth and designed to be worn together. Fashion tends to take one item and leave the system behind."
+    "m65-trousers": {
+    type: "construction",
+    lede: "Celana field M-65: yang tercatat di manual adalah kainnya, bukan tanggalnya.",
+    blocks: [
+      { h: "1. Ringkasan", p: [
+        "Celana lapangan M-65 adalah bagian bawah sistem M-65: kain cotton-nylon wind-resistant sateen OG-107, saku kargo, dan drawcord di hem.",
+        "Yang bisa dibuktikan dari dokumen hanya sebagian — manual militer mencatat nama, kain, nomor stok, dan liner; tanggal 1965 serta detail saku hanya berasal dari sumber komersial. Confidence: probable — identitas dan kain terverifikasi, tanggal dan fitur belum."
+      ] },
+      { h: "2. Apa ini", p: [
+        "Celana field M-65: pasangan bawah dari jaket M-65, dipakai di atas celana biasa atau dengan liner. Istilah: cargo pocket (saku tempel besar dengan pleat di samping), drawcord (tali di dalam saluran hem untuk menutup kaki), sateen (tenunan rapat dengan permukaan licin), OG-107 (kode warna olive green), liner (lapisan hangat terpisah yang dikancingkan di dalam)."
+      ] },
+      { h: "3. Asal-usul dan konteks", p: [
+        "Versi lama kartu ini menulis issued from 1965 seolah tercatat. Yang ditemukan: manual perawatan militer TM 10-8400-201-23 mencantumkan TROUSERS, MEN'S COTTON-NYLON WIND RESISTANT SATEEN, OG107 beserta nomor stok per ukuran, dan mencantumkan Liner, Cold Weather Trouser Field, Arctic, M-65.",
+        "Tanggal 1965 muncul di dua sumber komersial, bukan di dokumen yang saya buka. Keduanya juga menyebut saku kargo dan drawcord, dan keduanya menjual reproduksi atau memandu gaya — sehingga detail yang sama bisa saja bersumber dari satu sama lain. Tanpa dokumen primer, tanggal dan fitur tetap berstatus probable. Tidak ditemukan nomor spesifikasi resmi untuk celana ini. Saya menguji MIL-T-43566; dokumen itu merujuk cloth Oxford nylon dan parka/trousers wet weather, bukan celana M-65, sehingga nomor itu tidak boleh dipakai."
+      ] },
+      { h: "4. Mekanisme fungsi", p: [
+        "Sateen yang rapat menahan angin tanpa menjadi kaku; dua saku kargo memindahkan beban ke paha sehingga tetap terjangkau saat duduk atau di dalam kendaraan; drawcord hem menutup celah di atas boot. Mekanisme ini masuk akal dari konstruksi, tetapi tidak ada dokumen yang menjelaskan alasan desainnya."
+      ] },
+      { h: "5. Konstruksi: cara dibuat", p: [
+        "Urutan kerja yang terbaca dari konstruksi: potong panel kaki, pasang saku kargo (pleat samping, flap, bartack di empat sudut), jahit sisi dalam dan luar, pasang saluran drawcord di hem, lalu waistband dan fly.",
+        "Kain utama sateen cotton-nylon; liner adalah komponen terpisah dengan kancing. Saluran hem biasanya dibuat dengan melipat kain dua kali lalu menjahit dua baris, sehingga tali tidak bergesekan langsung dengan tepi kain. Saku kargo dipasang sebelum sisi kaki dijahit, karena bagian dalam saku harus ditutup oleh jahitan sisi. Diagram di halaman ini menunjukkan kedua bagian itu, bukan foto periode. Diagram di halaman ini menunjukkan saluran hem dan konstruksi saku, bukan foto periode."
+      ] },
+      { h: "6. Varian lintas era", table: { cols: ["Varian", "Tahun/negara", "Pembeda teknis", "Status sumber"], rows: [
+        ["M-51 field trousers", "1951, AS", "pendahulu sistem, kain lebih berat", "tidak diverifikasi di dokumen yang dibuka"],
+        ["M-65 OG-107", "1965 (dilaporkan), AS", "sateen cotton-nylon OG-107, liner terpisah", "nama dan kain: manual; tanggal: komersial"],
+        ["M-65 woodland / BDU", "1981, AS", "pola woodland, kain NYCO ripstop", "sekunder"],
+        ["Reproduksi modern", "kini", "sering tanpa drawcord, kain lebih ringan", "pengamatan pasar"]
+      ] }, p: [] },
+      { h: "7. Cara mengenali asli vs reproduksi", p: [
+        "Pada asli: sateen dengan permukaan licin dan jatuh kaku, label berisi nomor stok 8405-782-2948 sampai 8405-782-2960 (ukuran short/regular), kancing untuk liner, dan saluran drawcord di hem.",
+        "Pada reproduksi: kain lebih ringan, drawcord dihilangkan, saku kargo tanpa pleat, bartack jarang atau tidak ada. Periksa juga kancing liner di bagian dalam pinggang; pada reproduksi bagian ini sering dihilangkan karena tidak terlihat saat dipakai."
+      ] },
+      { h: "8. Kesalahan umum dan mitos", p: [
+        "Mitos pertama: kain celana M-65 adalah poplin. Manual menyebut sateen; poplin adalah kain jaketnya. Mitos kedua: 1965 adalah tanggal yang tercatat di spesifikasi — yang ada hanya dua sumber komersial. Kesalahan ketiga: memperlakukan reproduksi sebagai issue asli tanpa memeriksa label nomor stok."
+      ] },
+      { h: "9. Cara membacanya saat dipakai", p: [
+        "Perhatikan hem: apakah kaki tetap jatuh lurus saat drawcord dikencangkan, dan apakah saku kargo tetap datar saat kosong. Celana ini dibaca dari siluet bawah, bukan dari jaketnya."
+      ] },
+      { h: "10. Jejak desainer modern", p: [
+        "Saku kargo dan drawcord adalah dua detail yang paling sering dipinjam streetwear; yang biasanya hilang justru drawcord-nya, karena siluet lebih penting daripada fungsi. Pola ini sama dengan yang dicatat di kartu brands situs ini."
+      ] },
+      { h: "11. Spesifikasi", p: [
+        "Tabel kiri hanya memuat yang tercatat di sumber; tabel kanan adalah saran kerja reproduksi, bukan angka periode."
+      ], table: { cols: ["Tercatat di sumber", "Saran reproduksi"], rows: [
+        ["Kain: cotton-nylon wind resistant sateen, OG-107 (TM 10-8400-201-23)", "Panjang drawcord 90–110 cm, tali 4 mm"],
+        ["Nomor stok 8405-782-2948 … 8405-782-2960 (short/regular)", "Saluran hem lebar 15 mm"],
+        ["Liner: Cold Weather Trouser Field, Arctic, M-65, stok 8405-00-935-0546/0547", "Saku kargo 18 × 20 cm, pleat 28 mm"],
+        ["Tanggal 1965: tidak ada di dokumen yang dibuka", "—"]
+      ] } },
+      { h: "12. Sumber", p: [
+        "Daftar lengkap ada di bagian Sources di bawah; setiap klaim bernomor muncul di tabel Claims dengan statusnya."
+      ] },
+      { h: "13. Pertanyaan dan latihan", p: [
+        "1) Periksa hem celana di lemari kamu: ada saluran dan tali, atau hanya jahitan? 2) Cari label nomor stok dan cocokkan dengan tabel manual — apakah cocok? 3) Mengapa kartu ini tetap memakai tanggal 1965 meski tidak ada dokumen? Jawabannya ada di tabel klaim."
+      ] }
     ],
-    look: "Two large thigh pockets, drawcord hem, poplin shell. Reproduction often omits the hem cord; original issue rarely does.",
-    sources: ["Grailed listing: vintage M-65 field trousers — listing photograph © @sosadon", "M-65 clothing system references (secondary)"]
+    glossary: [
+      { t: "Cargo pocket", d: "Saku tempel besar di paha dengan pleat samping yang bisa mengembang." },
+      { t: "Drawcord", d: "Tali di dalam saluran hem untuk menutup kaki." },
+      { t: "Sateen", d: "Tenunan rapat berpermukaan licin; menahan angin, lambat kering." },
+      { t: "OG-107", d: "Kode warna olive green Amerika." },
+      { t: "Liner", d: "Lapisan hangat terpisah yang dikancingkan di dalam." }
+    ],
+    look: "Di hem: saluran dengan tali. Di paha: saku kargo dengan pleat dan bartack. Di label: nomor stok 8405-782-29xx. Tanpa drawcord dan dengan kain ringan berarti reproduksi.",
+    fig2: { src: "img/diagram-m65-trousers.svg", cap: "Diagram konstruksi: saluran drawcord di hem dan saku kargo. Skematis, bukan foto periode.", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [Primer/transkripsi] TM 10-8400-201-23, labeling men's trousers, hlm. 185", url: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm" },
+      { label: "[S2] [Primer/transkripsi] TM 10-8400-201-23, label liner cold weather (kutipan indeks), hlm. 186", url: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_254.htm" },
+      { label: "[S3] [Sekunder komersial] Maisonspecial — M-65 field pants, 1965", url: "https://maisonspecial.co.jp/en/collections/special-gift-men/products/26ss-pre-orderfrieren-stripeprime-wide-two-tuck-trousers-4" },
+      { label: "[S4] [Sekunder komersial] FUDGE.jp — sejarah M-65 field pants", url: "https://fudge.jp/fashion/feature/240166/" },
+      { label: "[S5] [Sekunder/agregator] NSN 8415-00-782-2952 Trousers, Cold Weather (halaman gagal dibuka)", url: "https://www.6240.iso-group.com/NSN/8415-00-782-2952" },
+      { label: "[S6] [Komersial] WorthPoint — M-65 trousers, 50/50 cotton-nylon", url: "https://www.worthpoint.com/worthopedia/65-cold-weather-field-trousers-small-1946674537" },
+      { label: "[Foto] Grailed listing — listing photo © @sosadon", url: "https://www.grailed.com/listings/19347509" }
+    ],
+    claims: [
+      { c: "Celana M-65: cotton-nylon wind resistant sateen, OG-107", s: "TM 10-8400-201-23, hlm. 185 (transkripsi)", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm", st: "terverifikasi" },
+      { c: "Nomor stok 8405-782-2948 … 8405-782-2960", s: "TM 10-8400-201-23", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm", st: "terverifikasi" },
+      { c: "Liner Cold Weather Trouser Field, Arctic, M-65 (stok 8405-00-935-0546/0547)", s: "TM 10-8400-201-23, hlm. 186 (kutipan indeks)", u: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_254.htm", st: "terverifikasi sebagian" },
+      { c: "Tanggal adopsi 1965", s: "Maisonspecial; FUDGE", u: "https://fudge.jp/fashion/feature/240166/", st: "tidak terverifikasi (primer)" },
+      { c: "Dua saku kargo di paha; drawcord di hem", s: "Maisonspecial; FUDGE", u: "https://maisonspecial.co.jp/en/collections/special-gift-men/products/26ss-pre-orderfrieren-stripeprime-wide-two-tuck-trousers-4", st: "tidak terverifikasi (primer)" },
+      { c: "Komposisi 50/50 cotton-nylon", s: "WorthPoint (reseller)", u: "https://www.worthpoint.com/worthopedia/65-cold-weather-field-trousers-small-1946674537", st: "tidak terverifikasi" },
+      { c: "NSN 8415-00-782-2952 = Trousers, Cold Weather", s: "NSN aggregator", u: "https://www.6240.iso-group.com/NSN/8415-00-782-2952", st: "tidak terverifikasi (fetch gagal)" }
+    ]
   }
 ,
   "m51-parka": {

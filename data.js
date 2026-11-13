@@ -8,10 +8,10 @@
 window.FEED = [
   {
     id: "slant-pocket", cat: "details", era: "1942", conf: "unresolved",
-    title: "Why the chest pocket is slanted",
-    dek: "A slant exists on surviving jackets. Why it exists is dealer-reported, not documented.",
-    body: "Surviving jackets and dealer records describe the breast pockets as angled inward. The usual explanation — that a trooper could reach them under a harness with the opposite hand — comes from dealer and museum descriptions, not from a specification we could open. The numbers used on this site (15°, 120 mm below the shoulder, 50 mm from centre front) are a reproduction working specification, not period figures. Treat the reason as unproven and the geometry as a build choice.",
-    src: "M-1942 records (museum/dealer) · jungle jacket observations"
+    title: "The slanted chest pocket: a shape without a documented reason",
+    dek: "The slant is real on surviving jackets; the explanation usually given for it is not documented.",
+    body: "Saku dada jaket tropis dipotong miring ke arah tengah. Kemiringan dapat diamati pada garmen yang bertahan; alasan fungsionalnya hanya dari deskripsi dealer, dan angka sudut yang dipakai situs ini adalah lembar kerja reproduksi.",
+    src: "IWM catalogue descriptions · dealer descriptions · site working spec"
   },
   {
     id: "flap-pocket", cat: "closure", era: "1964", conf: "established",
@@ -253,10 +253,10 @@ window.FEED = [
   },
   {
     id: "m65-trousers", cat: "issue", era: "1965", conf: "probable",
-    title: "M-65 trousers: the cargo pocket goes civilian",
-    dek: "Two large pockets, a drawcord hem, and the ancestor of every cargo pant.",
-    body: "The M-65 field trousers were part of the same system as the jacket: a cotton-nylon poplin shell, two large cargo pockets on the thighs and drawcords at the hem so the leg could be closed against weather. Issued from 1965 and used through Vietnam and after, they became the pattern that streetwear copied — often keeping the pockets and dropping the drawcord, which is the part that did the work.",
-    src: "Grailed listing (vintage issue) · M-65 system references"
+    title: "M-65 field trousers: the manual records the cloth, not the date",
+    dek: "Cotton-nylon sateen, cargo pockets, a hem drawcord — and a 1965 date that only secondary sources give.",
+    body: "Celana lapangan M-65: kain cotton-nylon wind-resistant sateen OG-107, saku kargo, drawcord hem. Manual militer mencatat nama, kain, nomor stok, dan liner; tanggal 1965 dan detail saku hanya dari sumber komersial.",
+    src: "TM 10-8400-201-23 (transcription) · commercial secondary sources"
   },
   {
     id: "m51-parka", cat: "issue", era: "1951", conf: "probable",
