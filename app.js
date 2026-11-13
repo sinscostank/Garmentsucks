@@ -75,16 +75,16 @@
 
   function cardHTML(c) {
     var src = IMG[c.id] || "";
-    var img = src ? '<img src="' + src + '" alt="" loading="lazy">' : "";
+    var href = "card/" + c.id + ".html";
+    var img = src ? '<a class="card-hit" href="' + href + '"><img src="' + src + '" alt="" loading="lazy"></a>' : "";
     var cred = src && CREDIT[c.id] ? '<p class="cap">' + esc(CREDIT[c.id]) + "</p>" : "";
     var conf = c.conf || "probable";
     return '<article class="card">' + img + cred +
       '<div class="meta"><span>' + esc(c.cat) + '</span><span class="era">' + esc(c.era) + '</span></div>' +
-      '<h3>' + esc(c.title) + '</h3>' +
+      '<h3><a href="' + href + '">' + esc(c.title) + '</a></h3>' +
       '<p class="dek">' + esc(c.dek) + '</p>' +
       '<p class="conf-row"><span class="conf conf-' + esc(conf) + '">' + esc(conf) + '</span></p>' +
-      '<details><summary>Read</summary><p>' + esc(c.body) + '</p>' +
-      '<p class="src">' + esc(c.src) + '</p></details></article>';
+      '<a class="read" href="' + href + '">Read the essay →</a></article>';
   }
 
   function updateCount(total) {
@@ -149,5 +149,12 @@
   }
 
   buildChips();
-  reset();
+  if (feed.children.length > 0 && !PRINT_ALL) {
+    /* kartu sudah dirender statis oleh build_pages.mjs — biarkan agar crawler & pembaca
+       langsung melihat isinya; filter/search akan mengganti saat dipakai. */
+    sentinel.style.display = "none";
+    updateCount(data.length);
+  } else {
+    reset();
+  }
 })();

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sinscostank.github.io/Garmentsucks/sitemap.xml
