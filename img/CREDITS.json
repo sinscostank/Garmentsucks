@@ -73,7 +73,8 @@
     "price": 1250,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @HideOnBush4869 — Yohji Yamamoto Pour Homme W/GABARDINE Open Button Big Jacket"
+    "credit": "Listing photo © @HideOnBush4869 — Yohji Yamamoto Pour Homme W/GABARDINE Open Button Big Jacket",
+    "accessed": "2026-11-13"
   },
   "grailed-ventile.jpg": {
     "title": "Stone island ventile liner jacket",
@@ -83,7 +84,8 @@
     "price": 400,
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @ELITEOUTERWEARII — Stone island ventile liner jacket, Grailed, sold"
+    "credit": "Listing photo © @ELITEOUTERWEARII — Stone island ventile liner jacket, Grailed, sold",
+    "accessed": "2026-11-13"
   },
   "grailed-junya.jpg": {
     "title": "SS19 Junya Watanabe Man Gabardine Wool Utility Pocket Poncho",
@@ -93,7 +95,8 @@
     "price": 720,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @whoisvegas — SS19 Junya Watanabe Man Gabardine Wool Utility Pocket Poncho"
+    "credit": "Listing photo © @whoisvegas — SS19 Junya Watanabe Man Gabardine Wool Utility Pocket Poncho",
+    "accessed": "2026-11-13"
   },
   "grailed-cdg.jpg": {
     "title": "CDG Comme Des Garçons A/W ‘84-‘85 Staff Bomber Jacket",
@@ -103,7 +106,8 @@
     "price": 350,
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @undergroundmen — CDG Comme Des Garçons A/W ‘84-‘85 Staff Bomber Jacket, Grailed, sold"
+    "credit": "Listing photo © @undergroundmen — CDG Comme Des Garçons A/W ‘84-‘85 Staff Bomber Jacket, Grailed, sold",
+    "accessed": "2026-11-13"
   },
   "grailed-hysteric.jpg": {
     "title": "Napoleon Military Jacket Hussar Officer Olive Green 36 S",
@@ -113,7 +117,8 @@
     "price": 80,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @style_c0re — Napoleon Military Jacket Hussar Officer Olive Green 36 S"
+    "credit": "Listing photo © @style_c0re — Napoleon Military Jacket Hussar Officer Olive Green 36 S",
+    "accessed": "2026-11-13"
   },
   "grailed-mihara.jpg": {
     "title": "Cotton plus corduroy long jacket by MIHARAYASUHIRO",
@@ -123,7 +128,8 @@
     "price": 283,
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @PARCOS30_exported — Cotton plus corduroy long jacket by MIHARAYASUHIRO, Grailed, sold"
+    "credit": "Listing photo © @PARCOS30_exported — Cotton plus corduroy long jacket by MIHARAYASUHIRO, Grailed, sold",
+    "accessed": "2026-11-13"
   },
   "grailed-redkap.jpg": {
     "title": "Lab coat for men student Red Kap Made in/Hecho En Honduras",
@@ -133,7 +139,8 @@
     "price": 108,
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @TheFlex — Lab coat for men student Red Kap Made in/Hecho En Honduras, Grailed, sold"
+    "credit": "Listing photo © @TheFlex — Lab coat for men student Red Kap Made in/Hecho En Honduras, Grailed, sold",
+    "accessed": "2026-11-13"
   },
   "grailed-hbt.jpg": {
     "title": "HBT 50s 60s French Army M-47 HBT Field Jacket Brown Size 26",
@@ -143,7 +150,8 @@
     "price": 153,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @ROAMWALK — HBT 50s 60s French Army M-47 HBT Field Jacket Brown Size 26"
+    "credit": "Listing photo © @ROAMWALK — HBT 50s 60s French Army M-47 HBT Field Jacket Brown Size 26",
+    "accessed": "2026-11-13"
   },
   "grailed-n1-jacket.jpg": {
     "title": "VERY RARE VINTAGE JACKET DECK N1 ALPACA LINED USN NAVY WWII",
@@ -153,7 +161,8 @@
     "price": 550,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @VintagecollectionsID — VERY RARE VINTAGE JACKET DECK N1 ALPACA LINED USN NAVY WWII"
+    "credit": "Listing photo © @VintagecollectionsID — VERY RARE VINTAGE JACKET DECK N1 ALPACA LINED USN NAVY WWII",
+    "accessed": "2026-11-13"
   },
   "grailed-sailor-trousers.jpg": {
     "title": "VINTAGE USN SAILOR PANTS Navy Blue Wool Bell-Bottom 28x34 WWII Navy Mens Pants",
@@ -163,7 +172,8 @@
     "price": 267,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @coveManor — VINTAGE USN SAILOR PANTS Navy Blue Wool Bell-Bottom 28x34 WWII Navy Mens Pants"
+    "credit": "Listing photo © @coveManor — VINTAGE USN SAILOR PANTS Navy Blue Wool Bell-Bottom 28x34 WWII Navy Mens Pants",
+    "accessed": "2026-11-13"
   },
   "grailed-og107-trousers.jpg": {
     "title": "Vintage 1970s OG 107 Green Military Pants",
@@ -173,17 +183,8 @@
     "price": 60,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @vintage_estate — Vintage 1970s OG 107 Green Military Pants"
-  },
-  "grailed-m65-trousers.jpg": {
-    "title": "Cargo pants Army Green (M65)",
-    "artist": "@sosadon",
-    "license": "listing photograph — all rights reserved by the seller",
-    "source": "https://www.grailed.com/listings/19347509",
-    "price": 54,
-    "sold": true,
-    "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @sosadon — Cargo pants Army Green (M65), Grailed, sold"
+    "credit": "Listing photo © @vintage_estate — Vintage 1970s OG 107 Green Military Pants",
+    "accessed": "2026-11-13"
   },
   "grailed-rei-kawakubo.jpg": {
     "title": "SS06 CDG Homme Plus Evergreen x Rolling Stones Tartan Jacket",
@@ -193,7 +194,8 @@
     "price": 600,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @whoisvegas — SS06 CDG Homme Plus Evergreen x Rolling Stones Tartan Jacket"
+    "credit": "Listing photo © @whoisvegas — SS06 CDG Homme Plus Evergreen x Rolling Stones Tartan Jacket",
+    "accessed": "2026-11-13"
   },
   "grailed-raf-simons.jpg": {
     "title": "Raf Simons Smiley Stakker Humanoid Bomber Jacket",
@@ -203,7 +205,8 @@
     "price": 685,
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @davatros — Raf Simons Smiley Stakker Humanoid Bomber Jacket, Grailed, sold"
+    "credit": "Listing photo © @davatros — Raf Simons Smiley Stakker Humanoid Bomber Jacket, Grailed, sold",
+    "accessed": "2026-11-13"
   },
   "grailed-helmut-lang.jpg": {
     "title": "HELMUT LANG 1999SS Nylon Packable Bondage Jacket",
@@ -213,7 +216,8 @@
     "price": 310,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @SEVENSTARCLOTHING — HELMUT LANG 1999SS Nylon Packable Bondage Jacket"
+    "credit": "Listing photo © @SEVENSTARCLOTHING — HELMUT LANG 1999SS Nylon Packable Bondage Jacket",
+    "accessed": "2026-11-13"
   },
   "grailed-undercover.jpg": {
     "title": "AW1998 Undercover ‘Small Parts’ Detachable Fleece",
@@ -223,7 +227,8 @@
     "price": 325,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @AlexMaxamenko — AW1998 Undercover ‘Small Parts’ Detachable Fleece"
+    "credit": "Listing photo © @AlexMaxamenko — AW1998 Undercover ‘Small Parts’ Detachable Fleece",
+    "accessed": "2026-11-13"
   },
   "grailed-issey-miyake.jpg": {
     "title": "Issey Miyake 90s Vintage Denim Jacket",
@@ -233,6 +238,170 @@
     "price": 746,
     "sold": false,
     "note": "Listing photograph used for identification, with seller credit and link.",
-    "credit": "Listing photo © @DMC99 — Issey Miyake 90s Vintage Denim Jacket"
+    "credit": "Listing photo © @DMC99 — Issey Miyake 90s Vintage Denim Jacket",
+    "accessed": "2026-11-13"
+  },
+  "grailed-m65-trousers.jpg": {
+    "title": "Cargo pants Army Green (M65) — sold listing",
+    "artist": "@sosadon",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/19347509",
+    "accessed": "2026-11-13",
+    "note": "Archived locally at max 1200 px because listings get deleted; credit and link retained; no watermark or handle cropped."
+  },
+  "tanker-ima.jpg": {
+    "title": "Original U.S. WWII Winter Combat Tanker Jacket (listing photograph)",
+    "artist": "IMA-USA",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.ima-usa.com/products/original-u-s-wwii-winter-combat-tanker-jacket-in-excellent-condition-with-tactical-markings",
+    "accessed": "2026-11-13",
+    "note": "Archived locally at max 1200 px; credit and link retained; not used as og:image."
+  },
+  "diagram-bellows.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-draineyelet.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-flatfelled.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-gasflap.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-jungle-trousers.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-m41-jacket.png": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-m41-jacket.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-m65-trousers.png": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-m65-trousers.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-n1-jacket.png": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-n1-jacket.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-og107-utility.png": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-og107-utility.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-sailor-trousers.png": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-sailor-trousers.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-slant.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-tanker-jacket.png": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-tanker-jacket.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-tcu1963.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-drawcord.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
+  },
+  "diagram-pom.svg": {
+    "title": "Original schematic diagram",
+    "artist": "garmentsucks",
+    "license": "CC0 (original work)",
+    "source": "garmentsucks",
+    "note": "Original diagram; schematic, not a period photograph."
   }
 }

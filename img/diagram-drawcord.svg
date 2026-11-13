@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="520"/><rect class="fr" x="14" y="14" width="792" height="492"/><text class="caps" x="40" y="52">DRAWCORD / WAIST AND HEM</text><text class="lab" x="60" y="96">jacket / waist and hem channels</text><path class="o" d="M250,120 L430,120 L430,430 L250,430 Z"/><path class="f2" d="M250,300 L430,300 L430,326 L250,326 Z"/><path class="f2" d="M250,404 L430,404 L430,430 L250,430 Z"/><line class="acc" x1="250" y1="313" x2="430" y2="313"/><line class="acc" x1="250" y1="417" x2="430" y2="417"/><circle cx="430" cy="313" r="6" fill="none" stroke="#1b1b18" stroke-width="1.6"/><circle cx="430" cy="417" r="6" fill="none" stroke="#1b1b18" stroke-width="1.6"/><text class="lab" x="450" y="300">waist channel, two exits</text><text class="lab" x="450" y="430">hem channel, two exits</text><text class="lab" x="60" y="313">cord inside</text><text class="small" x="60" y="496">Original diagram — garmentsucks. Schematic, not to scale. Channels stitched on both sides; toggles omitted for clarity.</text></svg>

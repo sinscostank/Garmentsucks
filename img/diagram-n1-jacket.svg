@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="500"/><rect class="fr" x="14" y="14" width="792" height="472"/><text class="caps" x="40" y="52">N-1 DECK JACKET / SECTION</text><text class="lab" x="60" y="96">deck jacket / section layers</text><rect class="f2" x="180" y="130" width="420" height="36"/><rect class="f1" x="180" y="166" width="420" height="120"/><text class="lab" x="620" y="152">jungle cloth shell</text><text class="lab" x="620" y="222">alpaca and wool pile lining</text><line class="thin" x1="180" y1="210" x2="600" y2="210"/><text class="lab" x="60" y="190">outer</text><text class="lab" x="60" y="290">inner</text><rect class="f2" x="180" y="320" width="60" height="70"/><text class="lab" x="260" y="360">knit cuff / collar</text><line class="acc" x1="180" y1="410" x2="600" y2="410"/><text class="lab" x="610" y="414">zip front: metal Talon-type</text><text class="small" x="60" y="470">Original diagram — garmentsucks. Schematic, not to scale. Materials per reproducer notes (T3).</text></svg>

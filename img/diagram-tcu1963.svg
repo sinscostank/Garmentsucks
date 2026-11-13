@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="460"/><rect class="fr" x="14" y="14" width="792" height="432"/><text class="caps" x="40" y="52">TCU TYPE SEQUENCE / FRONT CLOSURE</text><rect class="f2" x="90" y="170" width="170" height="150"/><text class="lab" x="90" y="156">TYPE I 1963</text><rect class="f2" x="330" y="170" width="170" height="150"/><text class="lab" x="330" y="156">TYPE II 1964-65</text><rect class="f2" x="570" y="170" width="170" height="150"/><text class="lab" x="570" y="156">TYPE III 1966-67</text><circle cx="150" cy="210" r="6" fill="none" stroke="#1b1b18" stroke-width="1.5"/><circle cx="150" cy="250" r="6" fill="none" stroke="#1b1b18" stroke-width="1.5"/><text class="small" x="90" y="340">buttons exposed</text><rect class="f1" x="360" y="200" width="110" height="26"/><text class="small" x="330" y="340">buttons behind flap</text><rect class="f1" x="600" y="200" width="110" height="26"/><text class="small" x="570" y="340">gas flap + epaulettes removed</text><line class="acc" x1="260" y1="245" x2="330" y2="245"/><line class="acc" x1="500" y1="245" x2="570" y2="245"/><text class="small" x="60" y="420">Original diagram — garmentsucks. Schematic. Dates per IWM catalogue text.</text></svg>

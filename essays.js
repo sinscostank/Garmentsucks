@@ -9,13 +9,13 @@ window.ESSAYS = {
     blocks: [
       { h: "1. Summary", p: [
         "The chest pocket of the tropical jacket is cut at an inward slant, and that slant can be observed on surviving garments.",
-        "The institutional records found so far describe slanted chest pockets on a USMC airborne HBT variant, not on the M-1942; the functional explanation usually quoted comes from dealer descriptions. Confidence: unresolved."
+        "The institutional records found so far describe slanted chest pockets on a USMC airborne HBT variant, not on the M-1942; the functional explanation usually quoted comes from marketplace listings. Confidence: unresolved."
       ] },
       { h: "2. What this is", p: [
         "A slant pocket: a patch pocket whose mouth is not horizontal, usually covered by a flap (a buttoned cover) across the opening. On tropical garments the pocket sits on the chest and is sewn at an angle toward the centre front. Other terms used here: mouth (the opening the hand enters), flap (the buttoned cover), bartack (a dense stitch at a stress point)."
       ] },
       { h: "3. Origin and context", p: [
-        "The slant is associated with the M-1942, the Second World War parachutist jacket. Dealer descriptions say it let the opposite hand reach the pocket while the wearer was in a parachute harness and equipment belt — a claim not found in any specification document.",
+        "The slant is associated with the M-1942, the Second World War parachutist jacket. Marketplace listings say it let the opposite hand reach the pocket while the wearer was in a parachute harness and equipment belt — a claim not found in any specification document.",
         "The link to the 1963 tropical uniform is stronger: an IWM catalogue description states that the Tropical Combat Uniform was introduced in June 1963 by the Quartermaster Research and Engineering Command and was based closely on the design of the M-1942 Parachutist Uniform. That description does not mention the slant. An untested possibility: the angle may be a pattern adaptation from the parachutist jacket rather than a separate functional decision. No document distinguishes the two."
       ] },
       { h: "4. How it works", p: [
@@ -24,7 +24,7 @@ window.ESSAYS = {
       ] },
       { h: "5. Construction", p: [
         "The pocket is cut as a patch with a diagonal mouth, covered by a buttoned flap and sewn to the front panel. Work order: mark the pocket line on the panel, sew the pocket, attach the flap, bartack the mouth ends, then attach the button.",
-        "The angle and position figures used on this site are a reproduction working sheet; no period figure was found. Mouth width and pocket depth affect how easily the hand enters, and the flap adds a layer at the mouth that has to be lifted before the hand reaches the contents."
+        "Mouth width and pocket depth affect how easily the hand enters, and the flap adds a layer at the mouth that has to be lifted before the hand reaches the contents. This work order is inferred from garment construction; no document states it."
       ] },
       { h: "6. Variants across eras", table: { cols: ["Variant", "Year/origin", "Difference", "Source status"], rows: [
         ["M-1942 jump jacket", "1942, US", "reported to have slanted chest pockets", "unverified institutionally"],
@@ -32,12 +32,21 @@ window.ESSAYS = {
         ["HBT airborne USMC variant (P1944)", "1944, US", "slanted chest pockets with flaps", "verified (IWM 30100972)"],
         ["Modern reproduction", "present", "often a level pocket", "market observation"]
       ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "The T1 records prove that slanted chest pockets existed on a USMC airborne garment, not that the M-1942 had them. The M-1942 claim and the harness explanation rest on T3 descriptions. A dated specification or a documented M-1942 example would settle it; the evidence currently favours the feature's existence in airborne clothing, not its specific attribution."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Marketplace / dealer descriptions", "T3", "The M-1942 had slanted chest pockets so the opposite hand could reach them under a harness", "product and dealer descriptions", "no specification; commerce context"],
+        ["IWM 30100972", "T1", "A USMC airborne HBT variant has slanted chest pockets with flaps", "object record", "different garment; does not describe the M-1942"],
+        ["IWM TCU records", "T1", "Tropical garments have pocket flaps and buttons; no mention of a slant", "object records", "silent on the slant"]
+      ] } },
       { h: "7. Telling an original from a reproduction", p: [
+        "Look for the mouth angle, the flap covering it and a bartack at the mouth end. A level pocket, a shallow flap and no bartack indicate a reproduction.",
+        "Look at the hem: a channel with a cord; on the thigh, a cargo pocket with a pleat and bartacks; on the label, stock numbers 8405-782-29xx. No drawcord and light cloth means a reproduction.",
         "Measure the pocket mouth against the horizontal and compare it with period photographs. Note the direction of the bartack as well: on a slanted pocket it usually sits at the lower end of the mouth, where stress gathers when the hand enters.",
         "On an original the flap covers the mouth and the bartack is visible at the mouth end; on a cheap reproduction the pocket is level, the flap is shallow, and the bartack is missing."
       ] },
       { h: "8. Common mistakes and myths", p: [
-        "Myth one: the angle figures in circulation are period figures. No document giving them was found. Myth two: the parachute-harness explanation is treated as fact; its source is dealer description. Mistake three: ignoring the flap when comparing pockets."
+        "Myth one: the angle figures in circulation are period figures. No document giving them was found. Myth two: the parachute-harness explanation is treated as fact; its source is marketplace listings. Mistake three: ignoring the flap when comparing pockets."
       ] },
       { h: "9. How to read it in wear", p: [
         "Try putting a hand into the pocket with the jacket buttoned: the slant changes the entry angle and feels different when the jacket is worn with a shoulder bag or a harness. With the jacket open, the angle also changes how the pocket reads from the front — the pocket line points to the centre rather than down."
@@ -52,10 +61,7 @@ window.ESSAYS = {
         ["not found", "120 mm below the shoulder seam"],
         ["not found", "50 mm from the centre front"]
       ] } },
-      { h: "12. Sources", p: [
-        "The full list is in the Sources section below; the status of each claim is in the Claims table."
-      ] },
-      { h: "13. Questions and exercises", p: [
+      { h: "12. Questions and exercises", p: [
         "1) What angle does the pocket on a jacket you own make, and against which line are you measuring it? 2) Is there a source for that figure, or only a blog and a shop? 3) Why does this card stay unresolved when the shape can be seen?"
       ] }
     ],
@@ -65,25 +71,24 @@ window.ESSAYS = {
       { t: "Bartack", d: "Dense stitch bar at a stress point." },
       { t: "Harness", d: "Body rig for a parachute or equipment." }
     ],
-    look: "Measure the mouth angle against the horizontal; check the flap and the bartack. A level pocket and a shallow flap indicate a reproduction.",
     fig2: { src: "img/diagram-slant.svg", cap: "Geometry of the slanted pocket as a reproduction working sheet — the figures on the diagram are not period figures.", credit: "Original diagram, garmentsucks" },
     sources: [
-      { label: "[S1] [Institutional] IWM 30150059 — Trousers, Combat, Tropical (Type III), description of the 1963 TCU", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
-      { label: "[S2] [Institutional] IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969", url: "https://www.iwm.org.uk/collections/item/object/30096162" },
-      { label: "[S3] [Institutional] IWM 30100972 — Jacket, Utility, HBT P1944 USMC: slanted chest pockets with flaps", url: "https://www.iwm.org.uk/collections/item/object/30100972" },
-      { label: "[S4] [Institutional] Smithsonian NMAH 1990.0221.01 — Model 1942, Jacket; Army; Airborne", url: "https://americanhistory.si.edu/collections/object/nmah_1060643" },
-      { label: "[S5] [Secondary (commercial)] IMA-USA — M-1942 jump jacket (four expandable cargo pockets)", url: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
-      { label: "[S6] [Commercial/repro] Timechine — Para-42 Jump Jacket (slanted pockets)", url: "https://www.timechineco.com/product/para-42-jump-jacket-khaki/" },
-      { label: "[S7] [Secondary blog] Traces de guerre — La mythique M-1942 Jump Jacket", url: "http://tracesdeguerre.com/la-mythique-m-1942-jump-jacket/" },
-      { label: "[S8] [Secondary] NLM — evaluation of trouser pockets (inference context)", url: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf" }
+      { label: "[S1] [T1] IWM 30150059 — Trousers, Combat, Tropical (Type III), description of the 1963 TCU", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
+      { label: "[S2] [T1] IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969", url: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { label: "[S3] [T1] IWM 30100972 — Jacket, Utility, HBT P1944 USMC: slanted chest pockets with flaps", url: "https://www.iwm.org.uk/collections/item/object/30100972" },
+      { label: "[S4] [T1] Smithsonian NMAH 1990.0221.01 — Model 1942, Jacket; Army; Airborne", url: "https://americanhistory.si.edu/collections/object/nmah_1060643" },
+      { label: "[S5] [T3] IMA-USA — M-1942 jump jacket (four expandable cargo pockets)", url: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number" },
+      { label: "[S6] [T3] Timechine — Para-42 Jump Jacket (slanted pockets)", url: "https://www.timechineco.com/product/para-42-jump-jacket-khaki/" },
+      { label: "[S7] [T4] Traces de guerre — La mythique M-1942 Jump Jacket", url: "http://tracesdeguerre.com/la-mythique-m-1942-jump-jacket/" },
+      { label: "[S8] [T2] NLM — evaluation of trouser pockets (inference context)", url: "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-22310030RX24-leaf" }
     ],
     claims: [
-      { c: "TCU introduced June 1963 by the QM R&E Command, based closely on the M-1942 Parachutist Uniform", s: "IWM 30150059 (catalogue description)", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (institutional)" },
-      { c: "The M-1942 has slanted chest pockets", s: "Timechine; IMA; HuntingGunSupply", u: "https://www.timechineco.com/product/para-42-jump-jacket-khaki/", st: "unverified (commercial only)" },
-      { c: "Reason: hand access under a parachute harness", s: "Dealer description", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number", st: "unverified" },
-      { c: "The USMC airborne HBT variant has slanted chest pockets with flaps", s: "IWM 30100972", u: "https://www.iwm.org.uk/collections/item/object/30100972", st: "verified (institutional, different garment)" },
-      { c: "The figures 15° / 120 mm / 50 mm", s: "Site reproduction working sheet", u: "", st: "not found in any document" },
-      { c: "The slant survived on every pattern", s: "—", u: "", st: "unverified" }
+      { c: "TCU introduced June 1963 by the QM R&E Command, based closely on the M-1942 Parachutist Uniform", s: "IWM 30150059 (catalogue description)", u: "https://www.iwm.org.uk/collections/item/object/30150059", tier: "T1", st: "verified (institutional)" },
+      { c: "The M-1942 has slanted chest pockets", s: "Timechine; IMA; HuntingGunSupply", u: "https://www.timechineco.com/product/para-42-jump-jacket-khaki/", tier: "T3", st: "contested" },
+      { c: "Reason: hand access under a parachute harness", s: "Dealer description", u: "https://www.ima-usa.com/products/original-u-s-wwii-101st-airborne-division-m1942-paratrooper-jump-jacket-with-laundry-number", tier: "T3", st: "unverified" },
+      { c: "The USMC airborne HBT variant has slanted chest pockets with flaps", s: "IWM 30100972", u: "https://www.iwm.org.uk/collections/item/object/30100972", tier: "T1", st: "verified (institutional, different garment)" },
+      { c: "The figures 15° / 120 mm / 50 mm", s: "Site reproduction working sheet", u: "", tier: "—", st: "not found in any document" },
+      { c: "The slant survived on every pattern", s: "—", u: "", tier: "—", st: "unverified" }
     ]
   },
 
@@ -93,15 +98,15 @@ window.ESSAYS = {
       "A pocket without a flap is a cup. It works in a shop and badly in a jungle: the mouth catches on vines, the button catches the light, and everything inside ends up on the ground the first time its owner crawls.",
       "The first pattern of the tropical combat jacket carried pocket flaps, but the buttons sat exposed on them. Shelby Stanton's chronology places the approval of coat pocket flaps over pocket buttons at 26 August 1964, explicitly to prevent snagging. The Imperial War Museums' catalogue text corroborates the sequence independently: buttons exposed on Type I, concealed in Type II, introduced in 1964–65. Two records, different kinds — that is what supports a date.",
       "What the army did not do is instructive. It did not switch the front closure to a zip. It kept the buttons and covered them, because a button that snags can be re-sewn in the field while a zipper that seizes cannot.",
-      "On a garment, look at the flap twice: once for shape — period flaps are asymmetric and pointed — and once for the buttons. On the Type III USMC jacket in the IWM collection, each flap closes with two buttons, which means two buttonholes. A single snap is a later, cheaper solution, not a period one."
+      "On a garment, look at the flap twice: once for shape — period flaps are asymmetric and pointed — and once for the buttons. The IWM record for a Type III USMC jacket does not state a button count; the two-button arrangement is reported by collectors, not by the record. A single snap is a later, cheaper solution, not a period one."
     ],
     look: "Flap shape, button count, whether buttons sit proud or covered. Exposed buttons indicate the first pattern; covered flaps and two buttonholes per lower flap indicate Type II or later.",
     claims: [
       { c: "Flaps over pocket buttons approved 26 August 1964, to prevent snagging", s: "Stanton chronology", u: "https://arsipmiliter.com/2023/01/03/jungle-jacket-an-introduction/" },
-      { c: "Buttons exposed on Type I; concealed on Type II, 1964-65", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
-      { c: "Two buttons per flap on a Type III USMC tropical jacket", s: "IWM object 30097577", u: "https://www.iwm.org.uk/collections/item/object/30097577" }
+      { c: "Buttons exposed on Type I; concealed on Type II, 1964-65", s: "IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969 (record description covers the TCU sequence)", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { c: "Two buttons per flap on a Type III USMC tropical jacket (reported, not in the record)", s: "IWM 30097577 — Jacket, Combat, Tropical (Type III, Class 1), UNI 5730", st: "unverified", u: "https://www.iwm.org.uk/collections/item/object/30097577" }
     ],
-    sources: ["Shelby Stanton chronology (secondary)", "IWM object 30097577 — description of a Type III USMC tropical jacket (two buttons per flap)", "IWM object 30096162 — Tropical Combat Uniform pattern sequence"]
+    sources: ["Shelby Stanton chronology (secondary)", "IWM 30097577 — Jacket, Combat, Tropical (Type III, Class 1), UNI 5730 (record does not state a button count)", "IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969 (record description covers the TCU sequence)"]
   },
 
   "bellows": {
@@ -141,22 +146,89 @@ window.ESSAYS = {
     look: "Five buttons on the period pattern, keyhole buttonholes, bartacked ends, and a placket that can be worn open. A zip on the main closure is a later, non-tropical decision.",
     claims: [
       { c: "Separable fastener designed 1913, patent granted 1917 (US 1,219,881)", s: "Patent US1219881", u: "https://patents.google.com/patent/US1219881A/en" },
-      { c: "Button front and concealed buttons from the second pattern", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" }
+      { c: "Button front and concealed buttons from the second pattern", s: "IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969 (record description covers the TCU sequence)", u: "https://www.iwm.org.uk/collections/item/object/30096162" }
     ],
     sources: ["Gideon Sundbäck — separable fastener designed 1913, patent granted 1917 (US 1,219,881)", "IWM catalogue description, tropical uniform types", "Garment records, Smithsonian"]
   },
 
-  "gas-flap": {
-    lede: "A strip of cloth behind the buttons, sewn for a war that never came to the jungle.",
-    paras: [
-      "The gas flap is a second internal door. Behind the button placket, an extra panel overlaps the closure line so that no gap remains between the buttons. It exists because in the First World War men learned that the air itself could kill, and that a buttonhole is a doorway for it. A 1918 British service-dress jacket carries one at the collar.",
-      "The idea travelled forward. Collectors describe an inner gas flap on early Vietnam-era tropical jackets, and institutional catalogue text records its removal on the third pattern in 1966–67 — a detail deleted when the garment was simplified for the field, where gas was not the threat and bulk was.",
-      "It is one of the few details on the jacket that is pure inheritance: not a response to Vietnam, but a habit carried from the trenches. That makes it useful evidence when dating a garment, and a small lesson in how military clothing accumulates history instead of redesigning from scratch.",
-      "On a garment, the gas flap is invisible from the outside. Unbutton the front and look behind the button row: a strip of cloth that overlaps the opening, finished on both edges, is what you are looking for. Reproduction makers often skip it because nobody sees it."
+    "gas-flap": {
+    type: "closure",
+    lede: "An inner panel behind the buttons, sewn so the button line cannot leak.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "A gas flap is a second panel of cloth behind the front opening of a garment, closing the gaps between the buttons.",
+        "An institutional catalogue describes it as part of the anti-gas features added to the M-1943 Special flannel shirt in 1942; early tropical jackets carried one and the third pattern removed it. Confidence: probable — the Second World War evidence is institutional, but the earlier First World War origin has no opened source."
+      ] },
+      { h: "2. What this is", p: [
+        "Gas flap: an internal panel sewn behind the button placket so that no slit remains between the buttons. The same term covers a smaller flap under a cuff opening and the rear collar buttons used to attach a gas hood.",
+        "Placket: the reinforced strip that carries the buttons. Convertible collar: a turn-down collar that can be buttoned closed."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The Imperial War Museums catalogue a Shirt, Flannel, OD, Coat Style (Special), M-1943, UNI 5233, made by The Shirt Company on 7 June 1943. The record describes a version introduced in 1942 with anti-gas features: two buttons at the rear of the collar for a gas hood, a gas flap behind the front opening, and gas flaps beneath the cuff openings.",
+        "For the tropical jacket, the catalogue text records that the gas flap was among the details removed on the third pattern (1966–67), a subtraction rather than an addition."
+      ] },
+      { h: "4. How it works", p: [
+        "The flap overlaps the closure line behind the buttons, so air travelling through the buttonholes meets a second layer of cloth. With the collar buttoned and a gas hood attached, the garment is sealed at the neck, front and cuffs.",
+        "That sealing function is what the catalogue's anti-gas description establishes. How much protection it actually gave is not measured by any source opened for this card."
+      ] },
+      { h: "5. Construction", p: [
+        "Work order readable from the garment: sew the placket, attach a second panel behind it with finished edges, then set the collar and cuff flaps. The inner panel must be wider than the button spacing so that it covers the gap at every button.",
+        "This sequence is inferred from garment construction; no document opened for this card states it."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["First World War service dress", "1918, Britain", "reported gas flap at the collar", "not found in an opened source"],
+        ["M-1943 Special flannel shirt", "1942–43, US", "gas flap behind the front opening; cuff gas flaps; collar hood buttons", "IWM UNI 5233 (object record; description excerpt)"],
+        ["Tropical combat jacket, early patterns", "1963–65, US", "inner gas flap behind the buttons", "IWM catalogue description (excerpt)"],
+        ["Third pattern tropical jacket", "1966–67, US", "gas flap removed", "IWM catalogue description (excerpt)"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "The common account makes the gas flap a First World War invention; the only institutional evidence found documents it as a 1942 addition to an American shirt. A dated specification or a surviving First World War example with a catalogue record would settle the lineage. The evidence currently supports the 1942 anti-gas construction, not the earlier origin."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Common account", "T4", "Gas flaps entered service in the First World War, after gas attacks", "general narrative", "no named document or object"],
+        ["IWM catalogue", "T1", "The 1942 Special shirt added anti-gas features including a gas flap behind the front opening", "object record and description", "describes the 1942 shirt only; silent on earlier usage"]
+      ] } },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Unbutton the front and look behind the button row: an inner panel with finished edges, wider than the button spacing, is the flap. Check the cuffs from the inside and the rear collar for the hood buttons.",
+        "A reproduction often omits the inner panel because it is invisible, or replaces it with a simple facing strip that leaves the buttonholes open."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The first mistake is calling every inner facing a gas flap: a facing finishes the edge, a gas flap overlaps the closure line.",
+        "The second is assuming every tropical jacket had one; the catalogue records its removal on the third pattern."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "With the jacket buttoned to the neck and the collar closed, the difference shows: a gas-flap garment feels sealed across the chest, where a plain placket lets air through the button slits."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The inner flap survives in some field jackets and in tailoring as a hidden closure detail; more often it is deleted as an economy. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what a source states; no reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Gas flap behind the front opening; gas flaps beneath cuff openings; two rear collar buttons for a gas hood (IWM UNI 5233)", "—"],
+        ["Gas flap removed on the third pattern of the tropical jacket, 1966–67 (IWM catalogue text)", "—"],
+        ["First World War gas flap at the collar: not found in an opened source", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Unbutton a jacket and look behind the button row: is there an inner panel? 2) Does the inner panel overlap the buttonholes or only finish the edge? 3) Are there rear collar buttons for a hood?"
+      ] }
     ],
-    fig2: { src: "img/m41.jpg", cap: "The M-41 field jacket closed with a zip behind a band of five buttons — a placket logic related to, but not the same as, the inner gas flap.", credit: "Paris Musées, CC0" },
-    look: "Inside the front placket: an extra overlapping strip, finished on both edges. Absent on late patterns where it was deliberately removed.",
-    sources: ["1918 British service dress (rights-managed record)", "IWM catalogue description, tropical uniform types", "Collector documentation on tropical jacket patterns"]
+    glossary: [
+      { t: "Gas flap", d: "Inner panel behind the front opening." },
+      { t: "Placket", d: "Strip carrying the buttons." },
+      { t: "Gas hood", d: "Hood attached to collar buttons." },
+      { t: "Facing", d: "Strip finishing an edge, not sealing a line." }
+    ],
+    fig2: { src: "img/m41.jpg", cap: "Front closure of an M-1941 jacket: the placket is visible; the inner gas flap is not visible in this photograph.", credit: "Paris Musées, CC0" },
+    sources: [
+      { label: "[S1] [T1] IWM 30097116 — Shirt, Flannel, OD, Coat Style (Special), M-1943, UNI 5233; object details opened, description via excerpt", url: "https://www.iwm.org.uk/collections/item/object/30097116" },
+      { label: "[S2] [T1] IWM 30150059 / 30096162 — TCU label text: gas flap removed on Type III (excerpt)", url: "https://www.iwm.org.uk/collections/item/object/30150059" }
+    ],
+    claims: [
+      { c: "Object: Shirt, Flannel, OD, Coat Style (Special), M-1943; made 7 June 1943 by The Shirt Company; UNI 5233", s: "IWM 30097116", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30097116", st: "verified (object details)" },
+      { c: "1942 Special version added anti-gas features: gas flap behind the front opening, cuff gas flaps, rear collar hood buttons", s: "IWM 30097116 (description excerpt)", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30097116", st: "partially verified (excerpt)" },
+      { c: "Gas flap removed on the third pattern of the tropical jacket, 1966–67", s: "IWM catalogue label text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "partially verified (excerpt)" },
+      { c: "First World War origin of the gas flap", s: "no opened source", tier: "—", u: "", st: "not found" }
+    ]
   },
 
   "epaulette": {
@@ -184,17 +256,79 @@ window.ESSAYS = {
     sources: ["M-1943 / M-51 / M-65 lineage references", "Australian War Memorial records", "Paris Musées M-41 object record (CC0)"]
   },
 
-  "drawcord": {
-    lede: "The invisible belt: a cord inside the waist that does what a belt does without the buckle.",
-    paras: [
-      "An internal drawcord closes the gap where body heat escapes and wind enters, and keeps a loaded jacket from swinging away from the body. Because it sits inside the waistband, it adds no hardware to snag on webbing and no buckle to dig into a pack strap.",
-      "The lineage is a single idea refined three times. The M-1943 carried an internal drawstring; the M-1951 added a second at the hem and holes so the waist could be adjusted from outside; the M-1965 kept the cord inside. Each generation moved the same cord a few centimetres and called it progress.",
-      "There is a design lesson here about restraint. A belt is visible and fashionable; a drawcord is invisible and functional. The military chose the one you cannot see, because the garment was being worn under equipment, not photographed.",
-      "On a jacket, feel inside the waistband for a cord with two exits, usually near the side seams. If it is missing on a garment described as a field jacket, the waist has been simplified — which changes how the jacket sits when loaded."
+    "drawcord": {
+    type: "closure",
+    lede: "The invisible belt: a cord inside the waistband that does what a belt does without the buckle.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "A drawcord is a cord running inside a channel at the waist or hem, tightened to close the garment against weather and to change its fit.",
+        "The US Army maintenance manual describes the M-65 cold weather coat as having waist and hem drawcords. Confidence: probable — the manual records the presence; why they were fitted is inference."
+      ] },
+      { h: "2. What this is", p: [
+        "Drawcord: a cord inside a stitched channel, with exits at one or both sides so it can be pulled and tied. A toggle is a small slider that holds the cord. The channel is the folded and stitched strip that keeps the cord in place.",
+        "The cord may be a flat braid or an elastic braid; the manual's commodity list includes MIL-T-43303, Cord, Elastic, Cotton."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The manual identifies the Coat, Cold Weather as cotton and nylon wind-resistant sateen, MIL-C-43455, class 1, Army Shade OG-107, with NSNs 8415-00-782-2933 through 8415-00-782-2945, and states that waist and hem drawcords are provided.",
+        "The same document's maintenance instructions for the extreme cold weather parka advise fastening the drawstrings at the waist and bottom for maximum warmth, and loosening them to ventilate."
+      ] },
+      { h: "4. How it works", p: [
+        "Closing the waist stops warm air leaving at the largest gap in the garment; closing the hem stops it leaving at the second largest. A third gap, the sleeve cuff, is handled by a separate closure, which is why the cuff tabs exist on the same coat. Tightening also changes the silhouette, which is why the same feature appears on field clothing and on fashion outerwear.",
+        "The warmth argument comes from the maintenance instructions; the fit argument is inference from wear."
+      ] },
+      { h: "5. Construction", p: [
+        "Work order readable from the garment: fold and stitch the channel, leave two openings for the cord, thread the cord, fit the toggle, then close the channel ends. The channel must be stitched on both sides or the cord will pull the fabric.",
+        "This sequence is inferred from garment construction; no document opened for this card states it. The manual lists the cord and the drawcords as supplied components rather than describing the sewing order."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["Internal drawstring, M-1943 field jacket", "1943, US", "single cord inside the waistband", "not verified in an opened source"],
+        ["M-65 cold weather coat", "1965, US", "waist and hem drawcords (MIL-C-43455)", "TM 10-8400-201-23, p. 186 (opened)"],
+        ["Extreme cold weather parka", "later, US", "waist and hem drawstrings with ventilation instructions", "TM 10-8400-201-23, p. 197 (excerpt)"],
+        ["Modern reproduction", "present", "narrow channel, flat cord, missing toggle", "market observation"]
+      ] }, p: [] },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Feel inside the waistband and hem for a cord with two exits; look for a stitched channel on both sides and a toggle or cord lock. On the M-65 coat both waist and hem should be present.",
+        "Reproductions often simplify: one cord instead of two, a channel stitched only at the top, or a plain elastic band."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The first mistake is treating the drawcord as a belt: it is not meant to carry load, only to close the gap.",
+        "The second is assuming the cord is elastic; the manual lists elastic cord as a material but does not state that the coat's drawcords use it."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "Tighten the waist and the jacket stops riding; tighten the hem and the skirt of the coat stops flapping. Both changes are visible from the side, where a plain jacket hangs straight."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "Drawcords are among the most-borrowed functional details in modern outerwear; the buckle-free closure reads as technical even when the garment is not."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what the manual states; the right column is a reproduction suggestion only."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Coat, Cold Weather: MIL-C-43455, cotton/nylon wind-resistant sateen, OG-107, NSNs 8415-00-782-2933 to 2945 (TM 10-8400-201-23, p. 186)", "Cord diameter 3 mm, flat braid"],
+        ["Waist and hem drawcords are provided (TM p. 186)", "Channel width 10 mm, stitched both sides"],
+        ["Commodity list includes MIL-T-43303 Cord, Elastic, Cotton (TM p. 186)", "Two exits per channel, toggle on each"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) How many cords does the jacket in front of you have? 2) Is the channel stitched on both sides? 3) Does the cord carry load, or only close a gap?"
+      ] }
     ],
-    fig2: { src: "img/m65.jpg", cap: "The M-65: the drawcord lives inside the waistband, invisible from the outside.", credit: "Public domain" },
-    look: "A cord inside the waistband with two exits; a second cord at the hem on later patterns. Hardware-free by design.",
-    sources: ["Field jacket lineage references (secondary)", "M-1943 / M-51 / M-65 records"]
+    glossary: [
+      { t: "Drawcord", d: "Cord inside a channel for closing." },
+      { t: "Channel", d: "Folded strip that holds the cord." },
+      { t: "Toggle", d: "Slider that grips the cord." },
+      { t: "MIL-C-43455", d: "Cloth specification for the cold-weather coat." }
+    ],
+    fig2: { src: "img/diagram-drawcord.svg", cap: "Schematic: waist and hem channels, cord exits and toggles. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] TM 10-8400-201-23, Identification and Description, p. 186 — cold weather coat, MIL-C-43455, waist and hem drawcords (opened)", url: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_186.htm" },
+      { label: "[S2] [T1] TM 10-8400-201-23, p. 197 — parka drawstrings and ventilation instructions (excerpt)", url: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_197.htm" }
+    ],
+    claims: [
+      { c: "Coat, Cold Weather: MIL-C-43455, cotton/nylon wind-resistant sateen, OG-107, NSNs 8415-00-782-2933 to 2945", s: "TM 10-8400-201-23, p. 186", tier: "T1", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_186.htm", st: "verified" },
+      { c: "Waist and hem drawcords are provided", s: "TM 10-8400-201-23, p. 186", tier: "T1", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_186.htm", st: "verified" },
+      { c: "Commodity list includes MIL-T-43303 Cord, Elastic, Cotton", s: "TM 10-8400-201-23, p. 186", tier: "T1", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_186.htm", st: "verified (listed; not stated for the coat's drawcords)" },
+      { c: "Parka instructions: fasten drawstrings at waist and bottom for warmth", s: "TM 10-8400-201-23, p. 197", tier: "T1", u: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_197.htm", st: "partially verified (excerpt)" },
+      { c: "Drawcord's purpose is warmth and fit", s: "inference from maintenance instructions", tier: "—", u: "", st: "inference" }
+    ]
   },
 
   "safari-belt": {
@@ -294,7 +428,7 @@ window.ESSAYS = {
     look: "Four cargo pockets, action-back pleats, gussets, split cuffs, thin poplin. The pleats are the structural tell.",
     claims: [
       { c: "Four cargo pockets, action back, thin poplin", s: "Musee de l'Armee object record", u: "https://basedescollections.musee-armee.fr/ark:/66008/2021272/" },
-      { c: "Tropical uniform based closely on the M-1942 parachutist uniform", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" }
+      { c: "Tropical uniform based closely on the M-1942 parachutist uniform", s: "IWM 30096162 — Trousers, Combat, Tropical (Type III ERDL), UNI 4198, 1969 (record description covers the TCU sequence)", u: "https://www.iwm.org.uk/collections/item/object/30096162" }
     ],
     sources: ["M-1942 records (Musée de l'Armée)", "IWM catalogue description (TCU based on M-1942)", "Airborne period photographs (NARA/US Army)"]
   },
@@ -312,22 +446,80 @@ window.ESSAYS = {
     sources: ["Quartermaster Corps history", "M-1943 records (Paris Musées, CC0)", "Field jacket lineage references"]
   },
 
-  "tcu1963": {
-    lede: "The tropical combat uniform was an engineering project, not a design gesture — and the record says so.",
-    paras: [
-      "By the early 1960s American troops in Vietnam were wearing utility clothing built for other climates. The army's research and engineering command was asked for a functional hot-weather uniform, and the tropical combat uniform entered service in June 1963.",
-      "The catalogue record is unusually direct: the garment was based closely on the M-1942 parachutist uniform of the Second World War. It kept the four expandable pockets with concealed-button flaps, the convertible collar and the buttoned cuff tabs, and changed the cloth — poplin first, ripstop from around 1967.",
-      "It then evolved by subtraction. Type I had exposed buttons; Type II, in 1964–65, hid them behind flaps; Type III, in 1966–67, removed the gas flap and the shoulder straps. Each change answered a complaint from the field. Very little was added.",
-      "Look at the details in order and you can almost date the jacket: exposed buttons are early, covered buttons later, no shoulder straps later still. The garment is a record of what soldiers asked to have taken away."
+    "tcu1963": {
+    type: "history",
+    lede: "A uniform built by engineers: introduced in June 1963, then revised twice in four years.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The Tropical Combat Uniform was introduced in June 1963 after development and testing by the US Army Quartermaster Research and Engineering Command, based closely on the M-1942 Parachutist Uniform.",
+        "Three types followed: exposed pocket buttons on Type I, concealed buttons on Type II (1964–65), and on Type III (1966–67) the gas flap and shoulder epaulettes were removed. Confidence: probable — a single institutional catalogue text records the sequence; no independent corroboration was found."
+      ] },
+      { h: "2. What this is", p: [
+        "The Tropical Combat Uniform (TCU): the light cotton uniform issued for hot, humid climates, comprising jacket and trousers in OG-107 and, later, ERDL camouflage. Type I, II and III are successive patterns, not separate garments.",
+        "OG-107 is the olive-green shade code; ERDL is the four-colour leaf pattern. A gas flap is an inner panel behind the front closure; an epaulette is the shoulder strap."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The catalogue text records that the uniform was introduced in June 1963 after extensive development and testing by the Quartermaster Research and Engineering Command, and that it was based closely on the M-1942 Parachutist Uniform worn by airborne troops in the Second World War.",
+        "It was made of thin cotton-poplin, with three types eventually entering service. Types I and II were produced exclusively in Army Shade OG-107; Type III was produced in both OG-107 and ERDL camouflage."
+      ] },
+      { h: "4. How it works", p: [
+        "Thin poplin dries quickly and packs small; a convertible collar and a button front let the jacket be opened for ventilation. The later changes were subtractions: buttons covered so they did not catch, a gas flap deleted when it was no longer needed, shoulder straps removed because they snagged.",
+        "The snagging explanation is inference from the changes; the catalogue describes what changed, not why."
+      ] },
+      { h: "5. Construction", p: [
+        "The trousers are described as having a zip fly with a waist button, waist adjuster straps, seven belt loops, hip and rear slash pockets with concealed button flaps, and large expandable cargo pockets with concealed two-button flaps.",
+        "This describes Type III examples; the earlier types' pocket details are not described in the sources opened. The work order is inferred from garment construction."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Type", "Date", "Change", "Source status"], rows: [
+        ["Type I", "1963", "pocket flaps with exposed buttons; OG-107 only", "IWM catalogue text"],
+        ["Type II", "1964–65", "buttons concealed; OG-107 only", "IWM catalogue text"],
+        ["Type III", "1966–67", "gas flap and shoulder epaulettes removed; OG-107 and ERDL", "IWM catalogue text"],
+        ["Modern reproduction", "present", "often simplified closures and flaps", "market observation"]
+      ] }, p: [] },
+      { h: "7. Telling an original from a reproduction", p: [
+        "The fastest test is the front closure: exposed buttons place a jacket before the Type II change; concealed buttons with a flap place it from 1964–65 onward. Shoulder straps that are present suggest an earlier type; their absence suggests Type III.",
+        "Check the label and the cloth as well: thin poplin with a crisp hand, and period stamping inside the waistband."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The first mistake is calling every jungle jacket a Type III: the three types differ in closure and fittings, and the differences survive on the garment.",
+        "The second is repeating the dates without the source: June 1963, 1964–65 and 1966–67 all come from one institutional description, not from three independent documents."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The uniform reads through the front and the pockets: buttons visible or hidden, flaps present or absent, straps on the shoulders or not. Open the collar and the jacket becomes a shirt-jacket; close it and it reads as a field garment."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The jungle jacket is a standard reference for designers reworking military outerwear, usually keeping the four pockets and changing the cloth or the proportion. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what the catalogue states; the right column is empty because no reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Introduced June 1963 by the QM Research and Engineering Command; based closely on the M-1942 Parachutist Uniform (IWM catalogue text)", "—"],
+        ["Thin cotton-poplin; Types I–II OG-107 only; Type III OG-107 and ERDL (IWM catalogue text)", "—"],
+        ["Type I exposed buttons; Type II concealed buttons 1964–65; Type III gas flap and epaulettes removed 1966–67 (IWM catalogue text)", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Are the pocket buttons on a jacket you own exposed or covered by a flap? 2) Are there shoulder straps? 3) Which type would those two answers indicate, and where would you check the label?"
+      ] }
     ],
-    fig2: { src: "img/nmaahc_2025_29_1_1-_2.jpg", cap: "Jungle fatigues, 1968–69: four pockets, flaps, the mature pattern.", credit: "Smithsonian NMAAHC, CC0" },
-    look: "Four bellows pockets with concealed-button flaps, convertible collar, cuff tabs. Exposed buttons and shoulder straps indicate an earlier pattern.",
+    glossary: [
+      { t: "TCU", d: "Tropical Combat Uniform, 1963 onward." },
+      { t: "OG-107", d: "US olive-green shade code." },
+      { t: "ERDL", d: "Four-colour leaf camouflage pattern." },
+      { t: "Gas flap", d: "Inner panel behind the front closure." },
+      { t: "Epaulette", d: "Shoulder strap on a jacket." }
+    ],
+    fig2: { src: "img/diagram-tcu1963.svg", cap: "Schematic timeline of the three types: exposed buttons, concealed buttons, then removal of the gas flap and epaulettes. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] IWM 30150059 — Trousers, Combat, Tropical (Type III, Class 1); label text on the TCU sequence (index excerpt)", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
+      { label: "[S2] [T1] IWM 30096162 — Trousers, Combat, Tropical (Type III, Class 2 ERDL); same label text (index excerpt)", url: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { label: "[Photo] Smithsonian NMAAHC — jungle tiger fatigues, CC0", url: "https://nmaahc.si.edu/object/nmaahc_2025.29.1.1-.2" }
+    ],
     claims: [
-      { c: "Introduced June 1963; Quartermaster Research and Engineering Command; based closely on the M-1942 parachutist uniform", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
-      { c: "Type III (1966-67) removed the gas flap and shoulder straps", s: "IWM object 30096162", u: "https://www.iwm.org.uk/collections/item/object/30096162" },
-      "A caution about specifications: military clothing is also a compromise. Details survive because a contractor, a stock position or a procurement decision allowed them, not only because they worked, and soldiers modified garments in theatre — sleeves shortened, pockets moved for helicopter work. A guide that reads only the issued pattern is reading half the garment."
-    ],
-    sources: ["IWM catalogue records (30096162, 30150059)", "Shelby Stanton chronology", "Smithsonian object records"]
+      { c: "TCU introduced June 1963 after development and testing by the QM Research and Engineering Command", s: "IWM catalogue label text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (catalogue statement)" },
+      { c: "Based closely on the M-1942 Parachutist Uniform", s: "IWM catalogue label text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (catalogue statement)" },
+      { c: "Thin cotton-poplin; Types I–II OG-107 only; Type III OG-107 and ERDL", s: "IWM catalogue label text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30096162", st: "verified (catalogue statement)" },
+      { c: "Type I exposed buttons; Type II concealed 1964–65; Type III gas flap and epaulettes removed 1966–67", s: "IWM catalogue label text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (catalogue statement)" }
+    ]
   },
 
   "bdu": {
@@ -422,33 +614,159 @@ window.ESSAYS = {
     sources: ["Red Kap product specifications", "WWII production records", { label: "Red Kap work coat — listing photo © @TheFlex", url: "https://www.grailed.com/listings/77260569" }]
   },
 
-  "flat-felled": {
-    lede: "The flat-felled seam is why a uniform survives being washed, dragged and repaired.",
-    paras: [
-      "Sew a plain seam, trim one allowance, wrap the wider one over it and stitch again. The result shows two rows on the face and one inside, with no raw edge anywhere. Nothing can fray because nothing is exposed, and the stress line carries two layers of cloth instead of one.",
-      "That is why it is the load-bearing seam of military clothing: shoulders, yokes, side seams, sleeve seams. It is also why the allowance must be wider than usual — around 15 mm, trimmed to 8 mm on the inside — because the fold needs cloth to wrap with. Grade it down to 10 mm and the seam will not close.",
-      "The French seam is the alternative for very light cloth: two passes, fully enclosed, softer against the body but limited to straight seams and not strong enough for a shoulder.",
-      "On a garment, look at the inside of a side seam. If you can see a clean folded edge and a second row of stitching, the maker spent the time. If you see an overlocked edge, they did not."
+    "flat-felled": {
+    type: "howto",
+    lede: "The seam that encloses its own raw edges and takes two rows of stitches on the face.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "A flat-felled seam joins two pieces, trims one allowance, wraps the other over it and stitches again, so no raw edge is exposed.",
+        "The construction is documented in sewing textbooks and classified in ISO 4916; no military specification was opened for this card. Confidence: probable — the method is well documented in T2 sources, the numbers are a working sheet."
+      ] },
+      { h: "2. What this is", p: [
+        "Flat-felled seam: a self-finished seam with two rows of stitching on the face and one inside, used where the seam takes load and must not fray. French seam: a different self-finished seam, sewn twice with the raw edges enclosed inside a tube.",
+        "Seam allowance: the cloth left beyond the stitching line. Grade: to trim one allowance shorter than the other so the seam lies flat."
+      ] },
+      { h: "3. Standards and origin", p: [
+        "ISO 4916 classifies seams; the flat seam is class 4, and the lap-felled type is described as a strong seam made with one stitching operation that protects edges from fraying. The ISO standard itself was not opened; the classification is cited from an industry reference that summarises it.",
+        "Sewing textbooks describe the same construction in practice, including the allowances used on shirts: one section 1/4 inch, the other 5/8 inch, with a finished seam of 3/8 inch."
+      ] },
+      { h: "4. Tools and materials", p: [
+        "A sewing machine with a straight stitch; matching thread; an iron and pressing surface; a seam gauge or ruler; the two garment pieces with an allowance wide enough to wrap — around 15 mm for a 8 mm finished seam.",
+        "A sharp needle and a slightly longer stitch help on heavy cloth; pressing after each step is what makes the seam lie flat."
+      ] },
+      { h: "5. How it works: the steps", p: [
+        "1) Sew a plain seam with the wider allowance on the underlayer. 2) Grade: trim the underlayer allowance to about half. 3) Press the wider allowance over the trimmed one, folding it around the raw edge. 4) Stitch close to the fold. 5) Stitch a second row at the width that gives a straight, even seam, and press again.",
+        "The fold must wrap completely; if the trimmed allowance is still wider than the folded one, the raw edge will show after washing."
+      ] },
+      { h: "6. Variants of the method", table: { cols: ["Method", "Operations", "Where used"], rows: [
+        ["Flat-felled seam", "two stitching rows; one allowance wrapped over the other", "shirts, workwear, military garments"],
+        ["French seam", "two stitching rows; raw edges enclosed inside a tube", "light cloth, straight seams"],
+        ["Lap-felled seam", "one stitching operation; edges folded together", "jeans and heavy workwear"],
+        ["Plain seam, overlocked", "one row, raw edges overlocked", "cheap production, not a felled seam"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "Textbook practice and this site's working sheet use different allowance pairs, because they describe different garments. A shirt example uses 1/4 inch and 5/8 inch for a 3/8 inch finished seam; the site's field-jacket sheet uses 15 mm and 8 mm for a heavier cloth. Neither is a military specification. A dated garment specification with a stated seam allowance would settle the figures for a particular garment."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Sewing textbook", "T2", "Shirt sleeve: allowances 1/4 inch and 5/8 inch; finished seam 3/8 inch", "worked example with steps", "general textbook, not a garment specification"],
+        ["Site working sheet", "—", "Allowance 15 mm, finished 8 mm, 10–12 stitches per inch", "site's own working figures", "no external source"]
+      ] } },
+      { h: "7. Telling a correct seam from a wrong one", p: [
+        "Correct: two even rows on the face, a folded edge inside, no raw edge visible, no puckering, and the seam lies flat after pressing. Wrong: an overlocked edge inside, a single row with a raw edge, or a fold that does not cover the trimmed allowance.",
+        "Check the inside of a side seam on any garment; the presence of a fold and a second row is the test."
+      ] },
+      { h: "8. Common mistakes", p: [
+        "Cutting the allowance too narrow to wrap; forgetting to grade the underlayer; starting the second row before pressing the fold; catching the fold unevenly so the seam twists.",
+        "On heavy cloth, a fifth mistake is using a needle too fine for the layers, which bends the stitch line instead of penetrating it."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "A felled seam keeps its shape through washing and takes abrasion without opening; a plain overlocked seam shows a ridge and frays at the edges over time."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The felled seam is the construction detail behind much of the visual language of workwear: visible double stitching exists because the seam must hold, not because it decorates."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what a source states; the right column is the site's working sheet."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["ISO 4916: flat seam class 4; lap-felled seam described as one stitching operation (standard not opened)", "Allowance 15 mm, trimmed to 8 mm"],
+        ["Shirt example: allowances 1/4 inch and 5/8 inch, finished seam 3/8 inch (textbook)", "Finished seam 8 mm; 10–12 stitches per inch"],
+        ["—", "Two rows on the face, one inside"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Turn a side seam inside out: can you see a folded edge and a second row? 2) Is the folded allowance wide enough to cover the trimmed one? 3) What would happen to this seam after ten washes?"
+      ] }
     ],
-    fig2: { src: "img/diagram-flatfelled.svg", cap: "Cross-section of a flat-felled seam: no exposed edge, two stitch rows, allowance 15 mm trimmed to 8 mm.", credit: "Original diagram, garmentsucks" },
-    look: "Inside a side seam: folded edge, second row, no overlocking. Allowance 15 mm, finished 8 mm, 10–12 stitches per inch.",
-    sources: ["ISO 4916 seam classification", "Flat seam illustration (1921, PD)", "Military garment seam records"]
+    glossary: [
+      { t: "Flat-felled seam", d: "Self-finished seam with two face rows." },
+      { t: "French seam", d: "Self-finished seam enclosing edges in a tube." },
+      { t: "Seam allowance", d: "Cloth beyond the stitching line." },
+      { t: "Grade", d: "Trim one allowance shorter to reduce bulk." }
+    ],
+    fig2: { src: "img/diagram-flatfelled.svg", cap: "Cross-section: two rows on the face, folded allowance inside, no raw edge. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T2] Sewing textbook excerpt — self-finished seams, allowances and steps", url: "https://www.pearson.de/media/muster/ext/9781292055336.pdf" },
+      { label: "[S2] [T3] Coats Group — seam types and ISO 4916 classification", url: "https://www.coats.com/pl/info-hub/seam-types" }
+    ],
+    claims: [
+      { c: "Flat-felled seam construction: plain seam, grade one allowance, wrap the other, stitch again", s: "Sewing textbook excerpt", tier: "T2", u: "https://www.pearson.de/media/muster/ext/9781292055336.pdf", st: "partially verified (excerpt)" },
+      { c: "Shirt example: allowances 1/4 inch and 5/8 inch, finished 3/8 inch", s: "Sewing textbook excerpt", tier: "T2", u: "https://www.pearson.de/media/muster/ext/9781292055336.pdf", st: "partially verified (excerpt)" },
+      { c: "ISO 4916 class 4 flat seam; lap-felled type with one stitching operation", s: "Coats Group summary", tier: "T3", u: "https://www.coats.com/pl/info-hub/seam-types", st: "partially verified (standard not opened)" },
+      { c: "Site figures: 15 mm allowance, 8 mm finished, 10–12 SPI", s: "site working sheet", tier: "—", u: "", st: "working specification" }
+    ]
   },
 
-  "pom": {
-    lede: "Five numbers decide whether a jacket reads correctly, before any styling begins.",
-    paras: [
-      "Chest, shoulder, body length, sleeve, cuff. Get the first two right and the garment reads as the thing it is meant to be; the rest is refinement. A jungle-fatigue jacket in a modern size M measures roughly 110 cm chest, 47 cm shoulder, 73 cm body, 63 cm sleeve and 13 cm cuff, flat.",
-      "Those figures come from reproduction size charts and original contract labels, and they differ from what a fashion label might use. A modern cut narrows the shoulder and lengthens the body; the military pattern is boxier and shorter. Neither is wrong; they are answers to different questions.",
-      "Tolerance matters as much as the number. A centimetre and a half on the chest is a production reality; half a centimetre on a pocket is a specification. Confusing the two is how garments end up technically within tolerance and visibly wrong.",
-      "When you measure a jacket, lay it flat, close the front, and measure the chest at a fixed point below the armhole — then double it. Consistency of method matters more than the exact figure."
+    "pom": {
+    type: "howto",
+    lede: "Five measurements decide whether a jacket reads correctly, before any styling begins.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "Five flat measurements — chest, shoulder, body length, sleeve and cuff — describe a jacket well enough to compare one garment with another.",
+        "The figures used on this site are a reproduction working specification, not a period document. Confidence: probable — the method is standard practice; the numbers are a working sheet."
+      ] },
+      { h: "2. What this is", p: [
+        "Point of measure (POM): a defined place on a garment where a tape is placed, so that two people measuring the same jacket get the same number. A flat measurement is taken with the garment closed and lying flat; a body measurement is taken on a person.",
+        "HPS is the high point of shoulder, the seam where the shoulder meets the collar. Half-chest is the chest measured across the front and doubled."
+      ] },
+      { h: "3. Standards and origin", p: [
+        "Body measurement points are defined in standards: ISO 8559-1:2017 and ASTM D5219-15 both give named points and procedures. The standards themselves were not opened for this card; the definitions are cited through a published comparison that quotes them.",
+        "Flat garment measurement is a trade convention rather than one universal standard, which is why sellers publish their own measurement charts."
+      ] },
+      { h: "4. Tools and materials", p: [
+        "A flexible, non-stretch tape measure; a flat surface large enough to lay the garment out; the garment itself, buttoned or zipped closed; a notepad or a spreadsheet to record the numbers in the same order each time.",
+        "No specialist tool is needed. A second pair of hands helps with long sleeves and with holding the tape level."
+      ] },
+      { h: "5. How it works: the five steps", p: [
+        "1) Close the front and lay the jacket flat, smoothing out folds without stretching the cloth. 2) Chest: measure straight across from one armhole seam to the other at a fixed point below the armhole, then double it. 3) Shoulder: measure from shoulder seam to shoulder seam across the back. 4) Body length: measure from the HPS straight down to the hem. 5) Sleeve: measure from the shoulder seam to the cuff edge; cuff: measure the cuff opening flat.",
+        "Record the numbers in the same order every time. Consistency of method matters more than the exact figure: a jacket measured at a different point is not comparable."
+      ] },
+      { h: "6. Variants of measurement", table: { cols: ["Measure", "How taken", "Use"], rows: [
+        ["Chest (flat)", "armhole to armhole below the armhole, doubled", "the first comparison between two jackets"],
+        ["Shoulder", "seam to seam across the back", "checks whether the shoulder line will sit on the wearer's shoulder"],
+        ["Body length", "HPS to hem", "reads as short, regular or long"],
+        ["Sleeve", "shoulder seam to cuff", "checks whether the cuff reaches the wrist"],
+        ["Cuff", "cuff opening flat", "checks whether it will close over a sleeve"]
+      ] }, p: [] },
+      { h: "7. Telling a correct measurement from a wrong one", p: [
+        "A correct chart states the points and whether chest is doubled. A wrong chart gives one number with no method, mixes body and flat measurements, or rounds inconsistently.",
+        "Check by measuring a garment you own and comparing it with the chart of the same size: if the numbers differ by more than the tolerance, the charts use different points."
+      ] },
+      { h: "8. Common mistakes", p: [
+        "Measuring across the armpits instead of a fixed point below them; forgetting to double the chest; measuring a knit while stretched; mixing centimetres and inches; rounding one figure and not the next.",
+        "A fifth mistake is measuring a garment while it is hanging, which stretches the body and shortens the length."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "Two jackets with the same chest can hang differently if the shoulder and length differ; the measurements read as a set, not as a single number."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "Grading a collection means moving these points by fixed increments per size; the measurement sheet is where a design becomes a product. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what a source states; the right column is the site's working sheet."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Body measurement points defined by ISO 8559-1:2017 and ASTM D5219-15 (standards not opened)", "Chest 110 cm, shoulder 47 cm, body 73 cm"],
+        ["Flat garment measurement is a trade convention, not one universal standard", "Sleeve 63 cm, cuff 13 cm (working sheet, size M)"],
+        ["—", "Tolerance ±1 cm body, ±0.5 cm pockets"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Measure a jacket you own with the five steps and write the numbers down. 2) Measure it again tomorrow: do you get the same numbers? 3) Which of your numbers would you trust least, and why?"
+      ] }
     ],
-    fig2: { src: "img/pom.jpg", cap: "A tailor takes measurements for a uniform (FSA/OWI, Esther Bubley).", credit: "Library of Congress, public domain" },
-    look: "Measure flat, chest ×2 at a fixed point, shoulder edge to edge. Tolerances: body ±1 cm, pockets ±0.5 cm.",
+    glossary: [
+      { t: "Point of measure", d: "Defined place where the tape is placed." },
+      { t: "HPS", d: "High point of shoulder, where shoulder meets collar." },
+      { t: "Half-chest", d: "Chest measured across and doubled." },
+      { t: "Tolerance", d: "Allowed variation around a target figure." }
+    ],
+    fig2: { src: "img/diagram-pom.svg", cap: "Schematic: the five measurement points on a jacket. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] ISO 8559-1:2017 and ASTM D5219-15 — body measurement points (specification-type sources; not opened, cited via a published comparison)", url: "https://ruor.uottawa.ca/bitstreams/2c518609-2235-486d-a58a-01cc19f76286/download" },
+      { label: "[S2] [T3] Reproduction size charts (commercial) — working figures", url: "" }
+    ],
     claims: [
-      { c: "Chest 110 / shoulder 47 / body 73 / sleeve 63 / cuff 13 cm", s: "Author's compilation from commercial reproduction size charts - a working spec, not a period specification", u: "" }
-    ],
-    sources: ["Reproduction size charts (1960s TCU)", "Original contract label measurements"]
+      { c: "Body measurement points are defined by ISO 8559-1:2017 and ASTM D5219-15", s: "published comparison quoting the standards", tier: "T1", u: "https://ruor.uottawa.ca/bitstreams/2c518609-2235-486d-a58a-01cc19f76286/download", st: "partially verified (standards not opened)" },
+      { c: "Flat garment measurement is a trade convention, not one universal standard", s: "no standard opened", tier: "—", u: "", st: "inference" },
+      { c: "Chest 110 / shoulder 47 / body 73 / sleeve 63 / cuff 13 cm", s: "site working sheet", tier: "—", u: "", st: "working specification, not a period document" },
+      { c: "Tolerances ±1 cm body, ±0.5 cm pockets", s: "site working sheet", tier: "—", u: "", st: "working specification" }
+    ]
   },
 
   "margiela": {
@@ -515,52 +833,326 @@ window.ESSAYS = {
     sources: ["NSN 8305-00-132-1080 datasheet (MIL-C-342 field data, opened 13 Nov 2026)", "OG-107 and olive drab colour references (secondary)", "Museum object records for the M-1943 and utility uniforms"]
   }
 ,
-  "m41-jacket": {
-    lede: "The M-1941 replaced the long coat of the previous war with something a soldier could move in.",
-    paras: [
-      "By 1941 the American field jacket was still a long, heavy garment inherited from the First World War. The M-1941 changed the shape: short, light, with a zip front hidden behind a button placket, four pockets with flaps, and shoulder straps. It was the jacket airborne troops wore into North Africa and Sicily.",
-      "Its cloth was the problem. Light cotton poplin saved weight and packed small, but it wore through quickly in hard service, and the army moved on to the heavier M-1943. That is why the M-1941 is now both a scarce original and a template: the proportions of almost every field jacket that followed were settled here.",
-      "For a collector, the M-1941 is a lesson in condition: originals are often repaired, re-stitched or re-lined, because the cloth did not survive the war the way the design did."
+    "m41-jacket": {
+    type: "history",
+    ogImage: "img/diagram-m41-jacket.png",
+    lede: "The first American field jacket, and the object record that proves what it was called.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The M-1941 field jacket — Jacket, Field, O.D. — replaced the long service coat with a short cotton jacket for field wear in the Second World War.",
+        "An Imperial War Museums object record confirms the designation and the wartime association; the development story and the garment's features were not found in an opened primary source. Confidence: probable — the designation is verified by an object record, but the development story is T3-only."
+      ] },
+      { h: "2. What this is", p: [
+        "Jacket, Field, O.D., M-1941: a short, light cotton field jacket with a front closure and four pockets, worn over the shirt instead of the wool service coat.",
+        "O.D. is the olive-drab shade family; the M-1941 is often called the Parsons jacket after the officer credited with its design."
+      ] },
+      { h: "3. Origin and context", p: [
+        "An Imperial War Museums record (UNI 13235) catalogues a Jacket, Field, OD, M-1941 associated with the US Army 2nd Ranger Battalion in the Second World War. The record confirms the designation and the period association; it does not describe the cut or the development history.",
+        "A museum object record aggregated by the Digital Public Library of America describes a Jacket, Field, od, Stock No. 55-J-200-55-J-304 with the designer named as Major General J. K. Parsons, and states that the jacket was later designated the M-1941. That record was reachable only as an excerpt.",
+        "Marketplace listings place the authorisation of development in November 1939 and describe the design as based on a civilian windbreaker suggested by Parsons. Those details are T3 and stay unverified."
+      ] },
+      { h: "4. How it works", p: [
+        "A short jacket moves with the torso instead of binding at the thigh, and light cotton packs small. The field jacket was a compromise between warmth and mobility: the wool service coat was warmer but heavier and longer.",
+        "The mobility argument is inference from the garment's role; no period evaluation was opened for this card."
+      ] },
+      { h: "5. Construction", p: [
+        "The work order readable from the garment type: cut the body, attach the four pockets with flaps, build the front closure and collar, set the sleeves, then the hems and hardware.",
+        "This sequence is inferred from garment construction; no document opened for this card describes it. Features often listed for the M-1941 — a zip hidden behind a button placket, four flap pockets, shoulder straps — were not confirmed from an opened source and are not asserted here."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["M-1941 field jacket", "1941, US", "short light cotton field jacket", "designation per IWM object record"],
+        ["M-1943 field jacket", "1943, US", "heavier sateen shell, layering system", "site card m43; independent record"],
+        ["M-1951 field jacket", "1951, US", "post-war revision of the field jacket", "not found"],
+        ["Modern reproduction", "present", "often heavier cotton, corrected hardware", "market observation"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "The museum record supports Parsons as the designer but does not date the authorisation; the 1939 date comes only from a dealer. A dated authorisation, a Quartermaster specification, or a contract would settle it. The evidence currently favours Parsons as designer; the 1939 authorisation stays unverified."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Weitze (dealer)", "T3", "Development authorised in November 1939; based on a civilian windbreaker by Parsons", "dealer description", "no document; commerce context"],
+        ["DPLA / History Colorado", "T1", "Designer named as Maj. Gen. J. K. Parsons; later designated M-1941; stock number given", "museum record excerpt", "no authorisation date; excerpt only"],
+        ["Encyclopaedic summary", "T4", "Phased in from 1941 and replaced around 1943", "summary text", "no citation"]
+      ] } },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Check the label and the stock number if one survives; an original will carry a period stock number and contractor marking. Compare the cloth weight: the M-1941 is a light cotton, not a heavy sateen.",
+        "Reproductions tend to be heavier and cleaner, and often add features from the later M-43."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The common mistake is describing the M-1941 from the M-1943: the later jacket is a different cloth and a different system.",
+        "A second mistake is repeating the Parsons story as if it were documented in a primary source; on this card it rests on a museum record excerpt and dealer descriptions."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The jacket reads as a light layer: short body, plain front, four pockets. It sits under a coat rather than over one."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The field jacket's proportions are a standard reference in menswear. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records only what a source states; no reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Jacket, Field, OD, M-1941 (IWM UNI 13235; object record opened)", "—"],
+        ["Stock No. 55-J-200-55-J-304; designer named as Maj. Gen. J. K. Parsons (DPLA museum record excerpt)", "—"],
+        ["Cut and closure details: not found in opened sources", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Does a jacket you own carry a stock number, and can you read it? 2) Is the cloth light enough to fold into a small bundle? 3) Which claims here are T1, and which are T3?"
+      ] }
     ],
-    look: "Zip front behind a button placket, four flap pockets, shoulder straps, light poplin. Repairs and replaced zips are normal on originals.",
-    sources: ["Musée de l'Armée / Paris Musées object record 2002.1766 (M-41 field jacket, CC0 photograph)", "US Army field clothing records (secondary)"]
+    glossary: [
+      { t: "Field jacket", d: "Short jacket worn over the shirt in the field." },
+      { t: "Service coat", d: "Long wool coat the field jacket replaced." },
+      { t: "O.D.", d: "Olive-drab shade family." },
+      { t: "Stock number", d: "Quartermaster catalogue number on a label." }
+    ],
+    fig2: { src: "img/diagram-m41-jacket.svg", cap: "Schematic of the M-1941 field jacket: short body, four flap pockets, front closure. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] IWM object 30101005 — Jacket, Field, OD, M-1941, UNI 13235 (opened)", url: "https://www.iwm.org.uk/collections/item/object/30101005" },
+      { label: "[S2] [T1] DPLA / History Colorado record — Jacket, Field, od, Stock No. 55-J-200-55-J-304, designer J. K. Parsons (excerpt; original record not opened)", url: "https://dp.la/search?subject=%22World+War+II%22%7C%22Jacket%22&type=%22physical+object%22" },
+      { label: "[S3] [T3] Weitze — US M-41 jacket descriptions (1939 authorisation; Parsons windbreaker)", url: "https://www.weitze.com/militaria/88/USA_World_War_2_USMC_M_41_Jacket_for_a_Marines_named_W_R_Weathersby__526588.html" },
+      { label: "[Photo] Paris Musées — US M-1941 field jacket, CC0", url: "https://basedescollections.musee-armee.fr/ark:/66008/2021272/" }
+    ],
+    claims: [
+      { c: "Designation: Jacket, Field, OD, M-1941; WWII association (2nd Ranger Battalion)", s: "IWM 30101005, UNI 13235", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30101005", st: "verified" },
+      { c: "Stock No. 55-J-200-55-J-304; designer named as Maj. Gen. J. K. Parsons; later designated M-1941", s: "DPLA/History Colorado record", tier: "T1", u: "https://dp.la/search?subject=%22World+War+II%22%7C%22Jacket%22&type=%22physical+object%22", st: "partially verified (excerpt)" },
+      { c: "Development authorised in November 1939; based on a civilian windbreaker", s: "Weitze (dealer)", tier: "T3", u: "https://www.weitze.com/militaria/88/USA_World_War_2_USMC_M_41_Jacket_for_a_Marines_named_W_R_Weathersby__526588.html", st: "contested" },
+      { c: "Zip behind button placket, four flap pockets, shoulder straps", s: "no opened source", tier: "—", u: "", st: "not found" },
+      { c: "Replaced by the M-1943", s: "secondary accounts only", tier: "T4", u: "", st: "unverified" }
+    ]
   },
 
-  "n1-jacket": {
-    lede: "The N-1 was equipment for men working on a steel deck in freezing spray.",
-    paras: [
-      "The US Navy issued the N-1 deck jacket from 1944. The shell was a tight cotton jungle cloth, the lining an alpaca pile, the cuffs and collar knit, and the front closed with a zip under a storm flap. The short cut kept it clear of equipment; the pile kept a man warm even when it was damp.",
-      "It is a useful counter-example to the tropical story: the same war produced a garment engineered for the opposite problem, and the engineering shows. Nothing on an N-1 is decorative — the collar, the flap, the knit cuffs are all there to keep weather out.",
-      "Original N-1s are identified by the stencil, the state of the alpaca, and period hardware. The reproductions that followed tend to be cleaner and warmer than the originals ever were."
+    "n1-jacket": {
+    type: "construction",
+    ogImage: "img/diagram-n1-jacket.png",
+    lede: "The deck jacket built for men working in freezing spray — as its reproducers describe it.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The N-1 is a short US Navy deck jacket: a cotton jungle-cloth shell over an alpaca and wool pile lining, closed with a zip.",
+        "No specification, manual or museum record was found or opened for this garment, so the dating and materials rest on reproducer notes and marketplace listings. Confidence: probable — no T1 source was found; the dating and materials rest on T3 notes."
+      ] },
+      { h: "2. What this is", p: [
+        "Jacket, Deck, Zip, Type N-1: a hip-length jacket for crews working on open decks. Jungle cloth is a tightly woven cotton grosgrain with a pronounced rib; the pile lining is a deep wool-alpaca fleece.",
+        "Reproducer notes describe a Navy Department label, a metal zip and urea buttons as period details."
+      ] },
+      { h: "3. Origin and context", p: [
+        "Per marketplace listings, the navy-blue model was adopted in 1944 and a khaki model was issued in 1945; the colour change also dropped some alpaca details and simplified the cord fittings.",
+        "No T1 source was found: neither a Navy specification nor a museum object record for the N-1 was located. The 1944 date therefore stays unverified and is stated in the essay as per marketplace listings."
+      ] },
+      { h: "4. How it works", p: [
+        "A tight cotton shell blocks wind; a pile lining traps air next to the body and keeps working when damp. The short body stays clear of a deck and of equipment. The knit cuffs and collar close the two places where cold air enters and where cloth would otherwise trail into machinery, and the zip front can be opened from the top for ventilation while the jacket stays on.",
+        "The wind and warmth mechanism is a property of the materials as described by the reproducer; the reason for the short cut is inference."
+      ] },
+      { h: "5. Construction", p: [
+        "The work order readable from the garment: cut the shell, attach the lining, set the sleeves and knit cuffs, assemble the front zip, then the knit collar and hem.",
+        "This sequence is inferred from garment construction; no document opened for this card states it. Period details claimed by reproducers include a Talon-style metal zip and a Navy Department label."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["N-1, navy blue", "1944 (per marketplace listings), US", "jungle cloth, alpaca/wool pile, zip front", "unverified (T3 only)"],
+        ["N-1, khaki", "1945 (per marketplace listings), US", "colour change; some alpaca details deleted", "unverified (T3 only)"],
+        ["N-2 / N-3", "later 1940s, US", "other deck and cold-weather jackets in the N series", "not found"],
+        ["Modern reproduction", "present", "heavier cloth, cleaner finish", "market observation"]
+      ] }, p: [] },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Per marketplace listings and reproducer photographs: check the jungle-cloth rib, the pile lining, the knit cuffs and collar, and the label. Reproductions tend to be cleaner, heavier and warmer than the originals ever were, and their labels are usually modern prints rather than period stamps.",
+        "No period hardware was examined for this card, so the only safe test is comparing a candidate against the photographs on the listing pages cited here."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The common mistake is dating an N-1 from a reproduction's label or from the 1944 figure seen on retail pages: those pages are T3.",
+        "A second mistake is assuming every short knit-cuffed jacket is an N-1; the N-2 and N-3 are different garments."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The jacket reads from the hem and cuffs: short body, ribbed finishes, zip front. Worn over heavy knitwear, the short cut is the point."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The deck jacket's shape — short body, knit collar, zip — is a recurring outerwear reference. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what reproducer notes state; the right column is empty because no reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Shell: cotton jungle cloth (cotton grosgrain); lining: alpaca and wool pile (per reproducer notes, T3)", "—"],
+        ["Front zip: metal, Talon-type; buttons: urea (per reproducer notes, T3)", "—"],
+        ["Date: navy model 1944, khaki 1945 (per marketplace listings, T3; no T1 found)", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Can you find a Navy Department label in a jacket you own? 2) Does the lining read as pile or as synthetic fleece? 3) Which claims on this card would change if a Navy specification were found?"
+      ] }
     ],
-    look: "Alpaca pile lining, tight cotton shell, knit cuffs and collar, storm flap over the zip, stencilled identification on the chest.",
-    sources: ["Grailed listing: WWII USN N-1 deck jacket — listing photograph © @VintagecollectionsID", "US Navy clothing records (secondary)"]
+    glossary: [
+      { t: "Jungle cloth", d: "Tight cotton grosgrain with a pronounced rib." },
+      { t: "Pile lining", d: "Deep fleece, here alpaca and wool." },
+      { t: "Deck jacket", d: "Short jacket for crews working on open decks." },
+      { t: "Navy Department label", d: "Period label type cited by reproducers." }
+    ],
+    fig2: { src: "img/diagram-n1-jacket.svg", cap: "Schematic section: jungle-cloth shell, pile lining, knit cuff and collar, zip front. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T3] Buzz Rickson's — Type N-1 Navy jacket notes (1944 navy model, 1945 khaki; jungle cloth; alpaca and wool pile; Talon zip; Navy Department label)", url: "https://www.buzzricksons.jp/news/2969/" },
+      { label: "[S2] [T3] Hinoya — Buzz Rickson's N-1 materials listing", url: "https://hinoya.shop/ja-cn/collections/outer/products/br15340" },
+      { label: "[S3] [T3] Grailed listing 87694552 — listing photo, @VintagecollectionsID, Grailed, accessed 2026-11-13", url: "https://www.grailed.com/listings/87694552" }
+    ],
+    claims: [
+      { c: "Navy model adopted 1944; khaki model issued 1945", s: "Buzz Rickson's; Hinoya", tier: "T3", u: "https://www.buzzricksons.jp/news/2969/", st: "unverified (no T1 found)" },
+      { c: "Shell is cotton jungle cloth; lining is alpaca and wool pile", s: "Buzz Rickson's; Hinoya", tier: "T3", u: "https://hinoya.shop/ja-cn/collections/outer/products/br15340", st: "unverified (no T1 found)" },
+      { c: "Metal zip and urea buttons; Navy Department label", s: "Buzz Rickson's", tier: "T3", u: "https://www.buzzricksons.jp/news/2969/", st: "unverified" },
+      { c: "Short cut keeps the jacket clear of a deck", s: "inference from garment", tier: "—", u: "", st: "inference" }
+    ]
   },
 
-  "sailor-trousers": {
-    lede: "The widest trousers in uniform were an engineering answer to working at sea.",
-    paras: [
-      "US Navy dress blue trousers were wool flannel, cut high in the waist with a broad buttoned fall front and a bell-shaped hem. The flare has a job: it lets the leg be rolled over a boot, and it comes off fast in water.",
-      "The wool matters too. It keeps warmth when wet, which is why naval clothing stayed wool long after armies moved to cotton. The trousers were worn as workwear at sea long before workwear became a category.",
-      "Original pairs are identified by the wool, the fall front and the absence of modern interlining. They are also a reminder that the trouser half of a uniform is where much of the practical engineering sits — and it is usually the half that fashion forgets."
+    "sailor-trousers": {
+    type: "construction",
+    ogImage: "img/diagram-sailor-trousers.png",
+    lede: "The widest trousers in uniform, and an engineering answer to working at sea.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "US Navy dress blue trousers for enlisted sailors are wool, cut with a high rise, a buttoned broad fall front and a bell-shaped hem.",
+        "The wool and the dress-blue designation are recorded in a museum catalogue; the cut details were not found in a document opened for this card. Confidence: probable — wool and designation come from museum metadata; the cut was not found."
+      ] },
+      { h: "2. What this is", p: [
+        "Dress blue trousers: the dark-blue lower half of the Navy dress uniform, worn by enlisted sailors. The broad fall front is a flap that buttons across the belly instead of a fly; the bell-bottom is a hem that widens toward the shoe.",
+        "Wool flannel is a soft, brushed wool with a warm hand; it insulates even when damp, which is why naval clothing stayed wool long after field clothing moved to cotton."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The 1941 US Navy Uniform Regulations, issued on 31 May 1941, define the dress uniforms of the period. The regulations are an official publication, but this card did not open the full text, so no wording from them is quoted here.",
+        "A Smithsonian National Museum of American History record catalogues a pair of enlisted dress blue trousers in wool with a WWII association (object 2017.0228.02). The record was reachable only as metadata, not as an opened page."
+      ] },
+      { h: "4. How it works", p: [
+        "A wide hem can be rolled up over a boot, and it sheds quickly in water. The high rise and the fall front keep the waist clear of a jumper and a belt.",
+        "That explanation is inference from the garment, not a statement from a document. The surviving evidence establishes the material and the uniform designation; it does not establish why the hem was shaped this way."
+      ] },
+      { h: "5. Construction", p: [
+        "The work order readable from the garment: cut the legs wide, join the fall front to the waistband with buttons, set the pockets into the side seams, close the legs, then face and finish the hem at the bell width.",
+        "This sequence is inferred from garment construction; no document opened for this card states it. Original wool is heavy and slightly hairy, and the fall front closes with a row of buttons rather than a zip."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["Dress blue trousers, wool", "WWII period, US", "wool, high rise, fall front, bell hem", "material and designation per museum metadata; cut unverified"],
+        ["White dress trousers", "same period, US", "cotton drill for summer dress", "not found"],
+        ["Dungarees / working blues", "same period, US", "denim work trousers, not dress", "not found"],
+        ["Modern reproduction", "present", "lighter wool, shorter rise", "market observation"]
+      ] }, p: [] },
+      { h: "7. Telling an original from a reproduction", p: [
+        "On a genuine pair the wool is thick and soft, the fall front is a full flap rather than a fly, and the hem is cut wide. Reproductions often use lighter wool, a zip fly, or a narrower hem.",
+        "Check the inside waistband for a contractor stamp or name; the absence of a stamp is not proof either way on a garment this old."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The first myth is that the flare is decorative. It has a working purpose, though the sources on this card do not state it in writing.",
+        "The second is treating every dark-blue Navy trouser as the same garment: officers' service trousers are a different cut and cloth from the enlisted dress blue."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The trousers read through the hem: how wide the leg falls over the shoe, and how high the waist sits under a jumper. A narrow hem changes the whole uniform."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The wide-leg sailor trouser is a recurring reference in workwear and avant-garde collections, usually with the rise lowered and the wool replaced. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records only what a source states. No reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Enlisted dress blue trousers; wool (Smithsonian NMAH 2017.0228.02; metadata excerpt)", "—"],
+        ["Dress uniform defined by US Navy Uniform Regulations, 31 May 1941 (official publication; full text not opened)", "—"],
+        ["Cut details (rise, fall front, bell hem): not found in opened sources", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Is the fly on a pair you own a fall front or a zip? 2) Does the wool feel heavy and soft, or thin and dry? 3) Which claims on this card would change if the 1941 regulations were opened?"
+      ] }
     ],
-    look: "High rise, buttoned fall front, wool flannel, bell-bottom hem. Original issue is heavy and hairy, not pressed and crisp.",
-    sources: ["Grailed listing: WWII USN wool bell-bottom trousers — listing photograph © @coveManor", "US Navy uniform regulations (secondary)"]
+    glossary: [
+      { t: "Fall front", d: "Flap that buttons across the belly instead of a fly." },
+      { t: "Bell-bottom", d: "Hem that widens toward the shoe." },
+      { t: "Wool flannel", d: "Soft brushed wool with a warm hand." },
+      { t: "Rise", d: "Distance from crotch to waistband." }
+    ],
+    fig2: { src: "img/diagram-sailor-trousers.svg", cap: "Schematic of the dress blue trouser: high rise, buttoned fall front, bell hem. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] Smithsonian NMAH, object 2017.0228.02 — Enlisted dress blue trousers, wool, WWII (metadata excerpt; page not opened)", url: "https://americanhistory.si.edu/collections/object/nmah_1846409" },
+      { label: "[S2] [T1] US Navy Uniform Regulations, 31 May 1941 (official publication; PDF not opened)", url: "https://media.defense.gov/2022/Apr/01/2002968209/-1/-1/0/1941_USN-UNIFORM_REGS_W_CG_ADDITIONS.PDF" },
+      { label: "[S3] [T3] Grailed listing 95633828 — listing photo, @coveManor, Grailed, accessed 2026-11-13", url: "https://www.grailed.com/listings/95633828" }
+    ],
+    claims: [
+      { c: "Enlisted dress blue trousers; wool; WWII association", s: "Smithsonian NMAH 2017.0228.02", tier: "T1", u: "https://americanhistory.si.edu/collections/object/nmah_1846409", st: "partially verified (metadata excerpt)" },
+      { c: "Dress uniform defined by US Navy Uniform Regulations, 31 May 1941", s: "US Navy Uniform Regulations 1941", tier: "T1", u: "https://media.defense.gov/2022/Apr/01/2002968209/-1/-1/0/1941_USN-UNIFORM_REGS_W_CG_ADDITIONS.PDF", st: "unverified (full text not opened)" },
+      { c: "High rise, buttoned fall front, bell-shaped hem", s: "no opened source", tier: "—", u: "", st: "not found" },
+      { c: "Flare allows the leg to be rolled or shed in water", s: "inference from garment", tier: "—", u: "", st: "inference" }
+    ]
   },
 
-  "og107-trousers": {
-    lede: "The trousers were the same cloth and the same mistake as the jacket.",
-    paras: [
-      "The OG-107 utility uniform was cut plainly: a jacket and trousers in cotton sateen, with slash and back pockets but no cargo pockets. Cargo pockets belong to the jungle fatigue pattern, a different garment.",
-      "The trousers were worn in Vietnam and on bases everywhere, and they share the jacket's problem. Sateen is dense, sheds wind and holds water — right for a European winter, wrong for a monsoon. Reading the jacket without the trousers is reading half the system.",
-      "Original 1970s pairs are common enough to be a cheap lesson: check the sateen face, the stamp inside the waistband, and whether the trousers were cut for a belt or for the suspenders of the period."
+    "og107-trousers": {
+    type: "history",
+    ogImage: "img/diagram-og107-utility.png",
+    lede: "The utility trousers that carried the OG-107 colour — and are not the M-65 field trousers.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The OG-107 utility trousers are sateen work trousers in the US olive-green shade, with slash and rear pockets and no cargo pockets.",
+        "They belong to the utility uniform, not to the M-65 field clothing system: the M-65 field trousers (specification MIL-T-43497) are a separate cotton-nylon wind-resistant sateen garment with cargo pockets. Confidence: probable — the specification designation appears in a museum catalogue record, but the shape details rest on marketplace listings and reproducer notes."
+      ] },
+      { h: "2. What this is", p: [
+        "Trousers, Utility, often called fatigue trousers: straight-leg work trousers in cotton sateen, dyed Army Shade OG-107, closed with a button fly and cut with slash pockets at the side seams and buttoned pockets at the rear.",
+        "The sateen is a tight weave with a smooth face; OG-107 is the shade code, not the cloth. A cargo pocket is a large patch pocket with a pleat, attached to the thigh — the utility trousers do not have one."
+      ] },
+      { h: "3. Origin and context", p: [
+        "A Smithsonian National Museum of American History catalogue record describes a pair as Trousers, Utility, with the designer number OLIVE GREEN 107 and MIL-T-838-A; the credit line is the U.S. Army Quartermaster Museum. The record was reachable only as a catalogue excerpt, not as an opened page.",
+        "Marketplace listings and reproducer notes date the sateen version to the mid-1950s and describe the trousers as remaining in issue until the mid-1970s, when they were followed by OG-507. No specification document was found or opened for this garment, so the dating is per marketplace listings."
+      ] },
+      { h: "4. How it works", p: [
+        "Sateen is dense: it blocks wind and resists abrasion, which suits work and garrison use, but it holds water and dries slowly. The slash pocket sits where a hand falls; the rear pockets are buttoned so contents stay put when seated.",
+        "The climate argument is an inference from the cloth, not a statement from a document: in humid heat the same density that makes sateen useful in winter makes it a poor field cloth."
+      ] },
+      { h: "5. Construction", p: [
+        "The work order readable from the garment: cut the legs, attach the slash pocket bags at the side seams, build the rear pockets with flaps, sew the fly and waistband, close the leg seams, then the hems.",
+        "This sequence is inferred from garment construction; no document opened for this card describes the manufacturing order. The pocket set is the identifying feature: two slash pockets, two rear pockets, no thigh cargo pockets."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["Utility trousers, OG-107", "mid-1950s to mid-1970s, US", "cotton sateen; slash and rear pockets; no cargo pockets", "spec designation per museum excerpt; dates per marketplace listings"],
+        ["M-65 field trousers", "1965, US", "MIL-T-43497 cotton-nylon wind-resistant sateen; cargo pockets; snap front and rear pockets", "TM 10-8400-201-23 excerpt; a different garment"],
+        ["Utility trousers, OG-507", "mid-1970s onward, US", "polyester-cotton replacement", "per marketplace listings"],
+        ["Modern reproduction", "present", "often tighter sateen, corrected pockets", "market observation"]
+      ] }, p: [] },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Look for the sateen face, the button fly, and the absence of thigh cargo pockets. Original pairs carry a stamped/printed stock label inside the waistband; the shade should read as a flat olive rather than a warm khaki.",
+        "Per marketplace listings, reproductions often use a lighter sateen, add cargo pockets for a field look, or print the OG-107 designation without a stock number."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The most common error is treating the OG-107 utility trousers as M-65 field trousers: the two share the shade and the word sateen but differ in specification, closure, pockets and weight.",
+        "A second error is assuming that a cargo pocket belongs to the utility pattern; it does not."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The straight leg and flat pocket set read as workwear; the same trousers become a field garment only when paired with the jungle jacket. Check how the waistband sits when a jacket hangs over it."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The utility trouser is the quieter half of the military wardrobe: designers borrow its plain front and straight leg rather than its insignia. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records only what a source states; the right column is empty because no reproduction figures are proposed for this card."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Trousers, Utility; designer number OLIVE GREEN 107, MIL-T-838-A (Smithsonian NMAH catalogue excerpt)", "—"],
+        ["Cotton sateen, OG-107 shade (museum excerpt; consistent with marketplace listings)", "—"],
+        ["Not this garment: M-65 field trousers, MIL-T-43497, cargo pockets (TM 10-8400-201-23 excerpt)", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Does a pair you own have cargo pockets? If so, it is not this garment. 2) Can you find a stock label inside the waistband, and does it carry a number? 3) Which source on this card is T1, and what does it actually prove?"
+      ] }
     ],
-    look: "Sateen face, straight leg, no cargo pockets, period stamp inside the waistband. The dense hand is the tell.",
-    sources: ["Grailed listing: 1970s OG-107 utility trousers — listing photograph © @vintage_estate", "OG-107 uniform references (secondary)"]
+    glossary: [
+      { t: "Utility uniform", d: "Work clothing for garrison and fatigue duties." },
+      { t: "Sateen", d: "Tight weave with a smooth face; wind-resistant, slow to dry." },
+      { t: "OG-107", d: "US olive-green shade code." },
+      { t: "Cargo pocket", d: "Large thigh pocket with a side pleat." },
+      { t: "MIL-T-43497", d: "Specification for the M-65 field trousers, not this garment." }
+    ],
+    fig2: { src: "img/diagram-og107-utility.svg", cap: "Schematic layout of utility trousers: slash and rear pockets, straight leg, no cargo pocket. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] Smithsonian NMAH, record nmah_444668 — Trousers, Utility, OLIVE GREEN 107, MIL-T-838-A (catalogue excerpt; page not opened)", url: "https://collections.si.edu/search/detail/edanmdm:nmah_444668" },
+      { label: "[S2] [T1] TM 10-8400-201-23, Identification and Description, p. 187 — M-65 field trousers, MIL-T-43497 (excerpt; page did not open on retry)", url: "https://www.clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_187.htm" },
+      { label: "[S3] [T3] The Real McCoy's — TROUSERS, MEN'S, COTTON SATEEN, OG-107 notes (sateen from the mid-1950s; issue to the mid-1970s; OG-507)", url: "https://therealmccoys.jp/products/mp26005/150-olv" },
+      { label: "[Photo] Grailed listing 75525594 — listing photo, @vintage_estate, Grailed, accessed 2026-11-13", url: "https://www.grailed.com/listings/75525594" }
+    ],
+    claims: [
+      { c: "Trousers, Utility; designer number OLIVE GREEN 107, MIL-T-838-A", s: "Smithsonian NMAH nmah_444668", tier: "T1", u: "https://collections.si.edu/search/detail/edanmdm:nmah_444668", st: "partially verified (catalogue excerpt; page not opened)" },
+      { c: "Cotton sateen in OG-107", s: "Smithsonian excerpt; The Real McCoy's", tier: "T1", u: "", st: "partially verified" },
+      { c: "Sateen version dated from the mid-1950s; issue to the mid-1970s; replaced by OG-507", s: "The Real McCoy's", tier: "T3", u: "https://therealmccoys.jp/products/mp26005/150-olv", st: "unverified" },
+      { c: "Slash and rear pockets, no cargo pockets", s: "Marketplace listings and images", tier: "T3", u: "", st: "unverified (per marketplace listings)" },
+      { c: "M-65 field trousers are MIL-T-43497 with cargo pockets — not this garment", s: "TM 10-8400-201-23, p. 187", tier: "T1", u: "https://www.clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_187.htm", st: "partially verified (excerpt)" }
+    ]
   },
 
       "m65-trousers": {
     type: "construction",
+    ogImage: "img/diagram-m65-trousers.png",
     lede: "M-65 field trousers: the manual records the cloth, not the date.",
     blocks: [
       { h: "1. Summary", p: [
@@ -571,34 +1163,40 @@ window.ESSAYS = {
         "The M-65 field trouser: the lower half of the M-65 field jacket, worn over ordinary trousers or with a liner. Terms: cargo pocket (a large patch pocket with a side pleat), drawcord (a cord inside the hem channel used to close the leg), sateen (a tight weave with a smooth face), OG-107 (the US olive-green colour code), liner (a separate warm layer buttoned inside)."
       ] },
       { h: "3. Origin and context", p: [
-        "An earlier version of this card said issued from 1965 as if that were recorded. What was found: the US Army maintenance manual TM 10-8400-201-23 lists TROUSERS, MEN'S COTTON-NYLON WIND RESISTANT SATEEN, OG107 with stock numbers by size, and lists a Liner, Cold Weather Trouser Field, Arctic, M-65.",
-        "The 1965 date appears in two commercial sources, not in any document opened for this card. No official specification number was found for the trousers. MIL-T-43566 was tested and rejected: that document refers to Oxford nylon cloth and wet-weather parka and trousers, not to the M-65 trousers, so the number must not be used here."
+        "Per marketplace listings, the adoption year is 1965; no document opened for this card states it. The US Army maintenance manual TM 10-8400-201-23 lists TROUSERS, MEN'S COTTON-NYLON WIND RESISTANT SATEEN, OG107 with stock numbers by size, and lists a Liner, Cold Weather Trouser Field, Arctic, M-65.",
+        "No official specification number was found for the trousers. MIL-T-43566 was checked and rejected: it covers Oxford nylon cloth and wet-weather parka and trousers, not the M-65 trousers, so the number must not be used here."
       ] },
       { h: "4. How it works", p: [
         "The tight sateen blocks wind without turning stiff; two cargo pockets move load onto the thighs so the contents stay reachable when seated or inside a vehicle; the hem drawcord closes the gap above a boot. The mechanism makes sense from the construction, but no document explains the design intent."
       ] },
       { h: "5. Construction: how it is made", p: [
-        "The work order readable from the garment: cut the leg panels, attach the cargo pockets (side pleat, flap, bartacks at four corners), sew the inner and outer leg seams, build the hem drawcord channel, then the waistband and fly.",
-        "The main cloth is cotton-nylon sateen; the liner is a separate component fastened with buttons. The hem channel is usually made by folding the cloth twice and stitching two rows, so the cord does not rub against a raw edge. Cargo pockets are attached before the leg seam is closed, because the inside of the pocket has to be caught by that seam. The diagram on this page shows both parts; it is not a period photograph."
+        "The work order readable from the garment: cut the leg panels, attach the cargo pockets (side pleat, flap, bartacks at four corners), sew the inner and outer leg seams, build the hem drawcord channel, then the waistband and fly. This sequence is inferred from garment construction; no document states it.",
+        "The main cloth is cotton-nylon sateen; the liner is a separate component fastened with buttons. The hem channel is usually made by folding the cloth twice and stitching two rows, so the cord does not rub against a raw edge. Cargo pockets are attached before the leg seam is closed, because the inside of the pocket has to be caught by that seam."
       ] },
       { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Technical difference", "Source status"], rows: [
         ["M-51 field trousers", "1951, US", "predecessor system, heavier cloth", "not verified in documents opened"],
-        ["M-65 OG-107", "1965 (reported), US", "cotton-nylon sateen OG-107, separate liner", "name and cloth: manual; date: commercial"],
+        ["M-65 OG-107", "1965 (per marketplace listings), US", "cotton-nylon sateen OG-107, separate liner", "name and cloth: manual; date: per marketplace listings"],
         ["M-65 woodland / BDU", "1981, US", "woodland pattern, NYCO ripstop cloth", "secondary"],
         ["Modern reproduction", "present", "often no drawcord, lighter cloth", "market observation"]
       ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "There is no competing date so much as a missing one: the T1 manual describes the garment, the cloth and the stock numbers but gives no year, while T3 listings give 1965. A dated specification or a contract would settle it. Until then the date stays unverified rather than contested against a named alternative."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["Marketplace listings", "T3", "Adoption year 1965", "reseller product notes", "no document; resellers repeat one another"],
+        ["TM 10-8400-201-23", "T1", "Names the trousers, cloth, stock numbers and liner; gives no date", "manual excerpt", "silent on the adoption date"]
+      ] } },
       { h: "7. Telling an original from a reproduction", p: [
         "On an original: sateen with a smooth face and a stiff fall, a label carrying stock numbers 8405-782-2948 to 8405-782-2960 (short/regular sizes), liner buttons, and a drawcord channel at the hem.",
         "On a reproduction: lighter cloth, no drawcord, cargo pockets without a pleat, few or no bartacks. Check the liner buttons inside the waistband as well; reproductions often omit them because they are not visible in wear."
       ] },
       { h: "8. Common mistakes and myths", p: [
-        "Myth one: the M-65 trouser cloth is poplin. The manual says sateen; poplin is the jacket cloth. Myth two: 1965 is a date recorded in the specification; only two commercial sources give it. Mistake three: treating a reproduction as issue without checking the stock-number label."
+        "Myth one: the M-65 trouser cloth is poplin. The manual says sateen; poplin is the jacket cloth. Myth two: 1965 is a date recorded in the specification; only marketplace listings give it. Mistake three: treating a reproduction as issue without checking the stock-number label."
       ] },
       { h: "9. How to read it in wear", p: [
         "Look at the hem: does the leg still fall straight when the drawcord is tightened, and do the cargo pockets stay flat when empty. This garment is read from the lower silhouette, not from the jacket above it."
       ] },
       { h: "10. Modern designer trail", p: [
-        "The cargo pocket and the drawcord are the two details streetwear borrows most; the one that usually disappears is the drawcord, because silhouette matters more than function. The same pattern is recorded on the brands cards of this site."
+        "The cargo pocket and the drawcord are the two details streetwear borrows most; the one that usually disappears is the drawcord, because silhouette matters more than function."
       ] },
       { h: "11. Specification", p: [
         "The left column holds only what is recorded in a source; the right column is a reproduction working suggestion, not a period figure."
@@ -608,10 +1206,7 @@ window.ESSAYS = {
         ["Liner: Cold Weather Trouser Field, Arctic, M-65, stock 8405-00-935-0546/0547", "Cargo pocket 18 × 20 cm, pleat 28 mm"],
         ["1965 date: not in any document opened", "—"]
       ] } },
-      { h: "12. Sources", p: [
-        "The full list is in the Sources section below; every numbered claim also appears in the Claims table with its status."
-      ] },
-      { h: "13. Questions and exercises", p: [
+      { h: "12. Questions and exercises", p: [
         "1) Check the hem of a pair you own: is there a channel and a cord, or only a seam? 2) Find the stock-number label and compare it with the manual table — does it match? 3) Why does this card keep the 1965 date when no document gives it? The answer is in the claims table."
       ] }
     ],
@@ -622,25 +1217,22 @@ window.ESSAYS = {
       { t: "OG-107", d: "US olive-green colour code." },
       { t: "Liner", d: "Separate warm layer buttoned inside." }
     ],
-    look: "At the hem: a channel with a cord. On the thigh: a cargo pocket with a pleat and bartacks. On the label: stock numbers 8405-782-29xx. No drawcord and light cloth means a reproduction.",
-    fig2: { src: "img/diagram-m65-trousers.svg", cap: "Construction diagram: hem drawcord channel and cargo pocket. Schematic, not a period photograph.", credit: "Original diagram, garmentsucks" },
+    fig2: { src: "img/diagram-m65-trousers.svg", cap: "Schematic construction diagram: hem drawcord channel and cargo pocket. Original diagram, garmentsucks (CC0); not a period photograph.", credit: "Original diagram, garmentsucks" },
     sources: [
-      { label: "[S1] [Primary (transcription)] TM 10-8400-201-23, labeling of men's trousers, p. 185", url: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm" },
-      { label: "[S2] [Primary (transcription)] TM 10-8400-201-23, cold weather liner label (index excerpt), p. 186", url: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_254.htm" },
-      { label: "[S3] [Secondary (commercial)] Maisonspecial — M-65 field pants, 1965", url: "https://maisonspecial.co.jp/en/collections/special-gift-men/products/26ss-pre-orderfrieren-stripeprime-wide-two-tuck-trousers-4" },
-      { label: "[S4] [Secondary (commercial)] FUDGE.jp — history of the M-65 field pants", url: "https://fudge.jp/fashion/feature/240166/" },
-      { label: "[S5] [Secondary (aggregator)] NSN 8415-00-782-2952 Trousers, Cold Weather (page could not be opened)", url: "https://www.6240.iso-group.com/NSN/8415-00-782-2952" },
-      { label: "[S6] [Commercial] WorthPoint — M-65 trousers, 50/50 cotton-nylon", url: "https://www.worthpoint.com/worthopedia/65-cold-weather-field-trousers-small-1946674537" },
-      { label: "[Photo] Grailed listing — listing photo © @sosadon", url: "https://www.grailed.com/listings/19347509" }
+      { label: "[S1] [T1] TM 10-8400-201-23, labeling of men's trousers, p. 185", url: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm" },
+      { label: "[S2] [T1] TM 10-8400-201-23, cold weather liner label (index excerpt), p. 186", url: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_254.htm" },
+      { label: "[S3] [T3] Maisonspecial — M-65 field pants, 1965", url: "https://maisonspecial.co.jp/en/collections/special-gift-men/products/26ss-pre-orderfrieren-stripeprime-wide-two-tuck-trousers-4" },
+      { label: "[S4] [T3] FUDGE.jp — history of the M-65 field pants", url: "https://fudge.jp/fashion/feature/240166/" },
+      { label: "[S5] [T3] WorthPoint — M-65 trousers, 50/50 cotton-nylon", url: "https://www.worthpoint.com/worthopedia/65-cold-weather-field-trousers-small-1946674537" },
+      { label: "[Photo] Grailed listing 19347509 — listing photo, @sosadon, Grailed, accessed 2026-11-13", url: "https://www.grailed.com/listings/19347509" }
     ],
     claims: [
-      { c: "M-65 trousers: cotton-nylon wind resistant sateen, OG-107", s: "TM 10-8400-201-23, p. 185 (transcription)", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm", st: "verified" },
-      { c: "Stock numbers 8405-782-2948 … 8405-782-2960", s: "TM 10-8400-201-23", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm", st: "verified" },
-      { c: "Liner Cold Weather Trouser Field, Arctic, M-65 (stock 8405-00-935-0546/0547)", s: "TM 10-8400-201-23, p. 186 (index excerpt)", u: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_254.htm", st: "partially verified" },
-      { c: "Adoption date 1965", s: "Maisonspecial; FUDGE", u: "https://fudge.jp/fashion/feature/240166/", st: "unverified (no primary source)" },
-      { c: "Two thigh cargo pockets; hem drawcord", s: "Maisonspecial; FUDGE", u: "https://maisonspecial.co.jp/en/collections/special-gift-men/products/26ss-pre-orderfrieren-stripeprime-wide-two-tuck-trousers-4", st: "unverified (no primary source)" },
-      { c: "50/50 cotton-nylon composition", s: "WorthPoint (reseller)", u: "https://www.worthpoint.com/worthopedia/65-cold-weather-field-trousers-small-1946674537", st: "unverified" },
-      { c: "NSN 8415-00-782-2952 = Trousers, Cold Weather", s: "NSN aggregator", u: "https://www.6240.iso-group.com/NSN/8415-00-782-2952", st: "unverified (source could not be opened)" }
+      { c: "M-65 trousers: cotton-nylon wind resistant sateen, OG-107", s: "TM 10-8400-201-23, p. 185 (transcription)", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm", tier: "T1", st: "verified" },
+      { c: "Stock numbers 8405-782-2948 … 8405-782-2960", s: "TM 10-8400-201-23", u: "https://clothingandindividualequipment.tpub.com/TM-10-8400-201-23/css/TM-10-8400-201-23_203.htm", tier: "T1", st: "verified" },
+      { c: "Liner Cold Weather Trouser Field, Arctic, M-65 (stock 8405-00-935-0546/0547)", s: "TM 10-8400-201-23, p. 186 (index excerpt)", u: "https://clothingandindividualequipment.tpub.com//TM-10-8400-201-23/css/TM-10-8400-201-23_254.htm", tier: "T1", st: "partially verified" },
+      { c: "Adoption date 1965", s: "Maisonspecial; FUDGE", u: "https://fudge.jp/fashion/feature/240166/", tier: "T3", st: "unverified (no primary source)" },
+      { c: "Two thigh cargo pockets; hem drawcord", s: "Maisonspecial; FUDGE", u: "https://maisonspecial.co.jp/en/collections/special-gift-men/products/26ss-pre-orderfrieren-stripeprime-wide-two-tuck-trousers-4", tier: "T3", st: "unverified (no primary source)" },
+      { c: "50/50 cotton-nylon composition", s: "WorthPoint (reseller)", u: "https://www.worthpoint.com/worthopedia/65-cold-weather-field-trousers-small-1946674537", tier: "T3", st: "unverified" },
     ]
   }
 ,
@@ -656,16 +1248,91 @@ window.ESSAYS = {
     sources: ["Wikimedia Commons: M-51 fishtail parka photograph (PD, uploader TheModGy1964)", "M-1951 parka references (secondary)"]
   },
 
-  "tanker-jacket": {
-    lede: "A jacket designed around a cramped steel box, not around style.",
-    paras: [
-      "The winter combat jacket — the tanker jacket — was standardised in the early 1940s for armoured crews. It was cut short because a long jacket catches on levers, hatches and seats, and it was kept simple: a cotton shell, a wool melton lining, knit collar, cuffs and waist, and a zip front.",
-      "The knit waist and cuffs are the functional core. They seal the garment at the two places where cold air enters and where cloth would otherwise trail into machinery. The short body lets a crewman sit, climb and reach without the hem catching.",
-      "It was replaced in the field by the M-1943 and M-1951 systems, but the shape survived: short body, ribbed hem, zip front. Bomber jackets and later fashion took it up, usually keeping the silhouette and losing the wool lining that made it work.",
-      "The period photograph shows the environment the garment was issued for: a US Third Army tank crew working in Belgium in January 1945. The jacket is not the subject of the picture, and that is the point — it was equipment."
+    "tanker-jacket": {
+    type: "construction",
+    ogImage: "img/diagram-tanker-jacket.png",
+    lede: "The winter combat jacket: short body, knit seals, zip front — and a specification story that does not agree with itself.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The Winter Combat Jacket — the tanker jacket — is a short, lightly padded jacket with a zip front, knit collar, cuffs and waistband, issued to US armoured crews in the Second World War.",
+        "An object record confirms the designation and materials; the specification number and model dates come from reproducer accounts that contradict each other. Confidence: probable — the object record verifies designation and materials; the specification number and dating rest on conflicting T3 accounts."
+      ] },
+      { h: "2. What this is", p: [
+        "Jacket, Combat, Winter: a hip-length jacket in cotton twill with a wool blanket lining, closed with a zip, with knit collar, cuffs and waistband and slash pockets.",
+        "The opening visible in the listing photograph is a plain zip with a knit collar — no lapels and no storm collar. Knit seals are the ribbed cuffs, waistband and collar that close the garment at wrist, waist and neck."
+      ] },
+      { h: "3. Origin and context", p: [
+        "A Smithsonian record catalogues a Jacket, Combat, Winter; Model 1942 with a wool lining, cotton overall material, brass zipper and light olive drab colour, used in 1942.",
+        "Reproducer accounts place its introduction in 1941 or 1942 and disagree on the specification: one describes QMC P.Q.D. Spec. No. 26 as the first model from early 1941 and 26A as the more common model from early 1942; another states the jacket was designated 26 March 1942 as P.Q.D. Spec. No. 26. Both are T3, and the conflict is recorded rather than resolved."
+      ] },
+      { h: "4. How it works", p: [
+        "The knit hems seal the jacket at the three places where air enters — neck, wrists and waist — while the short body keeps it clear of a hatch, a seat and a weapon. A wool blanket lining traps air next to the body.",
+        "The sealing and mobility argument is inference from the construction and from the garment's issue to armoured crews; no document opened for this card states the design intent."
+      ] },
+      { h: "5. Construction", p: [
+        "Visible in the listing photograph: a central zip, a knit collar, knit cuffs and a ribbed knit waistband, two slash pockets at the waist, and a short body finishing at the hip. A stencilled triangle mark and a number are visible on the chest in the inset.",
+        "Per reproducer descriptions: cotton twill shell, wool blanket lining, two-needle seams, back pleats for arm movement, and an early patch-pocket type versus a later slash-pocket type. These details are T3 and marked unverified."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["Winter Combat Jacket, early model", "1941–42, US", "patch pockets; spec number disputed (26 or 26A)", "T3 only; conflicting"],
+        ["Winter Combat Jacket, later model", "1942 onward, US", "slash pockets; wool-backed wind flap", "T3 only"],
+        ["M-1943 field jacket", "1943, US", "longer field jacket, different system", "site card m43"],
+        ["Modern reproduction", "present", "heavier shell, cleaner finish", "market observation"]
+      ] }, p: [] },
+      { h: "Competing accounts", p: [
+        "Both accounts come from reproducers, not from Quartermaster documents. The museum record confirms the garment and its materials but is silent on the specification. A dated specification, a contract label, or a surviving label carrying a P.Q.D. number would settle it. The evidence currently favours neither account; the number and date stay unresolved."
+      ], table: { cols: ["Account", "Source (tier)", "What it claims", "Evidence offered", "Weak point"], rows: [
+        ["AtTheFront", "T3", "Spec. No. 26 is the first model, early 1941; the more common model is 26A, early 1942", "reproducer product notes", "no document cited; commerce context"],
+        ["Bronson", "T3", "Designated 26 March 1942 as P.Q.D. Spec. No. 26", "reproducer product notes", "no document cited; conflicts with the account above"],
+        ["Smithsonian NMAH", "T1", "Jacket, Combat, Winter; Model 1942, cotton with wool lining", "object metadata", "silent on the specification number and date"]
+      ] } },
+      { h: "7. Telling an original from a reproduction", p: [
+        "Look at the knit parts first: original knit is dense and often felted, and the waistband is a wide rib rather than a narrow elastic band. Then the zip and the label: period hardware and a Quartermaster label.",
+        "Reproductions tend to be heavier and cleaner; some replace the knit waistband with elastic or drop the back pleats."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The common mistake is repeating a specification number as fact: the reproducer accounts disagree, so the number stays unresolved on this card.",
+        "A second mistake is treating the tanker jacket as the M-1943 field jacket: they are different garments with different bodies and closures."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The jacket reads through the knit seals and the short body: it stops at the hip and grips at the waist, so it sits above a belt and under a coat. Worn with high-waisted trousers it shortens the torso; worn over a longer shirt it reads as a bomber."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The tanker jacket's shape — short body, knit collar and cuffs, zip front — has been a recurring reference in menswear. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what a source states; the right column is empty because no reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Jacket, Combat, Winter; Model 1942; cotton, wool lining, brass zipper, light olive drab (Smithsonian NMAH 1992.3091.05; metadata excerpt)", "—"],
+        ["Knit collar, cuffs and waistband; zip front; slash pockets; short body (visible in the listing photograph)", "—"],
+        ["Specification number/date: 26 (1941) vs 26A (1942) vs 26 designated March 1942 (T3 reproducer accounts; conflicting)", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Is the waistband on a jacket you own knit or elastic? 2) Does the zip have a wind flap behind it? 3) Which of the two specification accounts would you need a primary document to settle?"
+      ] }
     ],
-    look: "Short body, knit collar/cuffs/waist, zip front, wool melton lining. A long body or a missing knit hem means it is the later field jacket, not the tanker.",
-    sources: ["NARA period photograph: M-7 tank crew, US Third Army, Belgium, January 1945 (PD)", "US armoured-crew clothing records (secondary)"]
+    glossary: [
+      { t: "Tanker jacket", d: "Collector name for the Winter Combat Jacket." },
+      { t: "Knit seals", d: "Ribbed collar, cuffs and waistband." },
+      { t: "Wool blanket lining", d: "Heavy wool lining used instead of a thin lining." },
+      { t: "Specification number", d: "Quartermaster document number for a garment." }
+    ],
+    fig2: { src: "img/diagram-tanker-jacket.svg", cap: "Schematic: short body, knit collar/cuffs/waist, zip front, slash pockets, wool lining. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] Smithsonian NMAH 1992.3091.05 — Jacket, Combat, Winter; Model 1942 (metadata excerpt; page not opened)", url: "https://americanhistory.si.edu/collections/object/nmah_686618" },
+      { label: "[S2] [T1] Smithsonian NMAH AF.74757M — Jacket, Tankers; Jacket, Combat, associated date 1941–1945 (metadata excerpt)", url: "https://americanhistory.si.edu/collections/object/nmah_447097" },
+      { label: "[S3] [T3] AtTheFront — Winter Combat Jacket notes (Spec. 26 first model 1941; 26A more common 1942)", url: "https://www.atthefront.com/product-p/usujtank.htm" },
+      { label: "[S4] [T3] Bronson — Winter Combat Jacket notes (designated 26 March 1942 as P.Q.D. Spec. No. 26)", url: "https://bronsonshop.com/products/bronson-replica-world-war-ii-mens-military-taxi-driver-model-tank-winter-combat-jacket" },
+      { label: "[Photo] Listing photo, IMA-USA, ima-usa.com, https://www.ima-usa.com/products/original-u-s-wwii-winter-combat-tanker-jacket-in-excellent-condition-with-tactical-markings, accessed 2026-11-13", url: "https://www.ima-usa.com/products/original-u-s-wwii-winter-combat-tanker-jacket-in-excellent-condition-with-tactical-markings" }
+    ],
+    claims: [
+      { c: "Jacket, Combat, Winter; Model 1942; cotton, wool lining, brass zipper, light olive drab", s: "Smithsonian NMAH 1992.3091.05", tier: "T1", u: "https://americanhistory.si.edu/collections/object/nmah_686618", st: "partially verified (metadata excerpt)" },
+      { c: "Object associated with 1941–1945", s: "Smithsonian NMAH AF.74757M", tier: "T1", u: "https://americanhistory.si.edu/collections/object/nmah_447097", st: "partially verified (metadata excerpt)" },
+      { c: "Knit collar, cuffs and waistband; zip front; slash pockets; short body", s: "Listing photograph (IMA-USA)", tier: "T3", u: "https://www.ima-usa.com/products/original-u-s-wwii-winter-combat-tanker-jacket-in-excellent-condition-with-tactical-markings", st: "visible in photo" },
+      { c: "Spec. No. 26 (1941) / 26A (1942)", s: "AtTheFront", tier: "T3", u: "https://www.atthefront.com/product-p/usujtank.htm", st: "contested" },
+      { c: "Designated 26 March 1942 as P.Q.D. Spec. No. 26", s: "Bronson", tier: "T3", u: "https://bronsonshop.com/products/bronson-replica-world-war-ii-mens-military-taxi-driver-model-tank-winter-combat-jacket", st: "contested" },
+      { c: "Early patch-pocket type and later slash-pocket type; back pleats; wool-backed wind flap", s: "Reproducer descriptions", tier: "T3", u: "", st: "unverified" }
+    ]
   },
 
   "hbt-trousers": {
@@ -680,16 +1347,81 @@ window.ESSAYS = {
     sources: ["Paris Musées object record 2012.0.4: American HBT fatigue trousers for female personnel (CC0)", "US HBT utility uniform references (secondary)"]
   },
 
-  "jungle-trousers": {
-    lede: "The trousers were issued in 1963 and modified in country almost immediately.",
-    paras: [
-      "The tropical combat trousers were poplin, later ripstop, with two large cargo pockets on the thighs and a drawcord at the hem. They were issued with the jungle jacket and shared its logic: light cloth, quick drying, pockets placed where a seated or crawling man can reach them.",
-      "In Vietnam the garment was modified constantly. Soldiers and local tailors took in the leg, shortened the hem, moved pockets, added panels. A pair that left the specification exactly is now rarer than one that was altered, which makes the issued pattern and the worn garment two different objects.",
-      "The period photograph shows the environment: soldiers of the 199th Light Infantry Brigade moving through a rice paddy in 1967. The trousers in the picture are the point of the exercise — cloth that dries, pockets that work, a hem that does not drag.",
-      "For the archive, the lesson is that the issued pattern is only half the history. The other half is what soldiers did to it."
+    "jungle-trousers": {
+    type: "details",
+    lede: "The trousers half of the tropical uniform: cargo pockets, a drawcord hem, and a zip fly.",
+    blocks: [
+      { h: "1. Summary", p: [
+        "The tropical combat trousers are light cotton trousers with large expandable cargo pockets and drawstring adjusters at the cuffs.",
+        "The features below come from an institutional catalogue description of Type III examples; the first pattern is not described in the sources opened. Confidence: probable — a single institutional source, and it describes the later type."
+      ] },
+      { h: "2. What this is", p: [
+        "Trousers, Combat, Tropical: the lower half of the Tropical Combat Uniform, cut in thin cotton poplin and closed with a zip fly and a button at the waist.",
+        "Cargo pocket: a large patch pocket with a pleated side that expands. Drawcord: a cord inside the hem channel. Poplin: a plain weave with a fine crosswise rib."
+      ] },
+      { h: "3. Origin and context", p: [
+        "The uniform was introduced in June 1963 after development and testing by the US Army Quartermaster Research and Engineering Command, and was based closely on the M-1942 Parachutist Uniform. The trousers share that ancestry.",
+        "Two Imperial War Museums records describe surviving Type III trousers. The Class 1 record (olive green) describes thin cotton-poplin trousers; the Class 2 record (ERDL camouflage) describes the same construction in ERDL poplin."
+      ] },
+      { h: "4. How it works", p: [
+        "Cargo pockets put load on the thigh instead of the hip, so the contents stay reachable when seated or moving through vegetation. The drawcord closes the hem against insects and weather, and the waist adjuster straps let the trousers be worn without a belt.",
+        "That reasoning is inference from the construction; no document opened for this card explains the design intent."
+      ] },
+      { h: "5. Construction", p: [
+        "The catalogue description lists: zip fly with button fastening at the waist; adjuster straps to either side of the waist with sliding metal fasteners; seven belt loops; hip pockets; rear slash pockets with concealed button flaps; large expandable cargo pockets with concealed two-button flaps; drawstring adjusters through the cuff hems.",
+        "The ERDL record adds double-pleated cargo pockets, an additional smaller pocket inside the left cargo pocket, and drawstring adjusters at the cuffs. The work order is inferred from garment construction; no document states the sequence."
+      ] },
+      { h: "6. Variants across eras", table: { cols: ["Variant", "Year/country", "Difference", "Source status"], rows: [
+        ["TCU trousers, Types I–II (OG-107)", "1963–65, US", "poplin; early pocket and flap details", "not described in the records opened"],
+        ["TCU trousers, Type III (OG-107)", "1966–67, US", "poplin; concealed-flap cargo pockets; waist adjusters; hem drawcords", "IWM 30150059 (catalogue description)"],
+        ["TCU trousers, Type III (ERDL)", "1966–67, US", "ERDL poplin; double-pleated cargo pockets; inner pocket; hem drawcords", "IWM 30096162 (catalogue description)"],
+        ["Modern reproduction", "present", "heavier cloth, simplified pockets", "market observation"]
+      ] }, p: [] },
+      { h: "7. Telling an original from a reproduction", p: [
+        "On the Type III examples described by the IWM: a zip fly with a waist button, sliding metal waist adjusters, seven belt loops, concealed button flaps on the rear pockets, and cargo pockets that expand with a pleated side. The hem carries a drawcord channel.",
+        "A reproduction often simplifies the pocket flaps to a single button, drops the waist adjusters, or replaces the drawcord with a plain hem."
+      ] },
+      { h: "8. Common mistakes and myths", p: [
+        "The first mistake is assuming the jungle trousers are the OG-107 utility trousers: the utility pattern has slash and rear pockets and no cargo pockets.",
+        "The second is treating the popularity of the cargo pocket as evidence that every pattern had one; the records here describe Type III only."
+      ] },
+      { h: "9. How to read it in wear", p: [
+        "The trousers read from the pocket line and the hem: cargo pockets sit on the thigh, and the drawcord changes how the leg falls over a boot. Tighten the hem and the silhouette becomes a blouse; leave it open and the leg falls straight."
+      ] },
+      { h: "10. Modern designer trail", p: [
+        "The cargo pocket and the drawcord hem are the two details designers borrow most from this garment. No direct-influence claim is made here."
+      ] },
+      { h: "11. Specification", p: [
+        "The left column records what the catalogue states; no reproduction figures are proposed."
+      ], table: { cols: ["Recorded in sources", "Reproduction suggestion"], rows: [
+        ["Thin cotton-poplin trousers; zip fly with waist button (IWM 30150059, Type III Class 1)", "—"],
+        ["Waist adjuster straps with sliding metal fasteners; seven belt loops; hip pockets; rear slash pockets with concealed button flaps (IWM 30150059)", "—"],
+        ["Large expandable cargo pockets with concealed two-button flaps; drawstring cuff adjusters (IWM 30150059/30096162)", "—"],
+        ["ERDL version: double-pleated cargo pockets; inner pocket in the left cargo pocket (IWM 30096162)", "—"]
+      ] } },
+      { h: "12. Questions and exercises", p: [
+        "1) Does the cargo pocket on a pair you own have a pleated side? 2) Count the buttonholes on a cargo flap: one or two? 3) Is the hem a drawcord channel or a plain hem?"
+      ] }
     ],
-    look: "Two thigh cargo pockets, drawcord hem, poplin or ripstop. In-country alterations are normal and are part of the object's history, not damage.",
-    sources: ["NARA period photograph: 199th LIB, Operation Rang Dong, 1967 (PD)", "Tropical Combat Uniform records (secondary)"]
+    glossary: [
+      { t: "Cargo pocket", d: "Large thigh pocket with a pleated side that expands." },
+      { t: "Drawcord", d: "Cord inside the hem channel, used to close the leg." },
+      { t: "Poplin", d: "Plain weave with a fine crosswise rib." },
+      { t: "Concealed flap", d: "Flap whose buttons are hidden from the outside." }
+    ],
+    fig2: { src: "img/diagram-jungle-trousers.svg", cap: "Schematic of the tropical trousers: cargo pockets with two-button flaps, waist adjusters, zip fly, drawcord hem. Original diagram, garmentsucks (CC0).", credit: "Original diagram, garmentsucks" },
+    sources: [
+      { label: "[S1] [T1] IWM 30150059 — Trousers, Combat, Tropical (Type III, Class 1), physical description (index excerpt)", url: "https://www.iwm.org.uk/collections/item/object/30150059" },
+      { label: "[S2] [T1] IWM 30096162 — Trousers, Combat, Tropical (Type III, Class 2 ERDL), physical description (index excerpt)", url: "https://www.iwm.org.uk/collections/item/object/30096162" },
+      { label: "[Photo] NARA period photograph — public domain; jacket and trousers in wear, not a studio object", url: "" }
+    ],
+    claims: [
+      { c: "Thin cotton-poplin trousers; zip fly with waist button", s: "IWM 30150059", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (catalogue description)" },
+      { c: "Waist adjuster straps, seven belt loops, hip pockets, rear slash pockets with concealed flaps", s: "IWM 30150059", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (catalogue description)" },
+      { c: "Large expandable cargo pockets with concealed two-button flaps; drawstring cuff adjusters", s: "IWM 30150059; IWM 30096162", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30096162", st: "verified (catalogue description)" },
+      { c: "ERDL version: double-pleated cargo pockets; inner pocket; cuff drawstrings", s: "IWM 30096162", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30096162", st: "verified (catalogue description)" },
+      { c: "Uniform introduced June 1963 by the QM Research and Engineering Command", s: "IWM catalogue label text", tier: "T1", u: "https://www.iwm.org.uk/collections/item/object/30150059", st: "verified (catalogue statement)" }
+    ]
   }
 ,
 

@@ -14,7 +14,7 @@
   "related": "Related",
   "published": "Published",
   "lastChecked": "last checked",
-  "footerNote": "All imagery CC0 / PD",
+  "footerNote": "Images: public-domain/CC0 where marked; some images are credited marketplace listings and remain the property of their owners.",
   "diagramCredit": "Original diagram, garmentsucks",
   "statusVerified": "verified",
   "statusPartiallyVerified": "partially verified",
@@ -25,5 +25,8 @@
   "evidenceSecondaryCommercial": "Secondary (commercial)",
   "specRecorded": "Recorded in sources",
   "specSuggestion": "Reproduction suggestion",
-  "page": "p."
+  "page": "p.",
+  "takedownNote": "Takedown / corrections:",
+  "takedownLink": "open an issue on GitHub",
+  "tier": "Tier"
 }

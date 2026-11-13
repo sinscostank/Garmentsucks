@@ -42,10 +42,10 @@ window.FEED = [
     src: "Patent records (Sundbäck, US 1,219,881) · IWM catalogue description"
   },
   {
-    id: "gas-flap", cat: "closure", era: "1918", conf: "probable",
-    title: "The ghost of Ypres",
-    dek: "An inner strip behind the buttons, meant to keep gas out.",
-    body: "The gas flap is a second internal door behind the placket, sizing the gaps between buttons. It traces to WWI chemical warfare — a 1918 British officer's jacket carries one at the collar. Collectors record an inner gas flap on early Vietnam tropical jackets and its removal on the third pattern. Institutional confirmation of the exact pattern is still open.",
+    id: "gas-flap", cat: "closure", era: "1942", conf: "probable",
+    title: "The gas flap: an anti-gas panel behind the buttons",
+    dek: "An inner panel behind the front opening, documented on the 1942 anti-gas shirt and deleted from the tropical jacket by 1966-67.",
+    body: "A gas flap is an inner panel behind the front opening, closing the gaps between buttons. An institutional catalogue records it among the anti-gas features added to the 1942 M-1943 Special flannel shirt; early tropical jackets carried one and the third pattern removed it.",
     src: "1918 Service Dress · collector documentation"
   },
   {
@@ -63,10 +63,10 @@ window.FEED = [
     src: "M-1943 / M-51 / M-65 lineage · AWM records"
   },
   {
-    id: "drawcord", cat: "closure", era: "1943", conf: "probable",
-    title: "The invisible belt",
-    dek: "A cord inside the waist: warmth, seal, fit over webbing.",
-    body: "An internal drawcord closes the gap where heat escapes and wind enters, and keeps a loaded jacket from catching on gear. The M-1943 had one; the M-1951 added a second at the hem and holes to adjust from outside; the M-65 kept it inside the waistband. The sequence is consistently described across references but rests on secondary literature. On the M-65 the cord is invisible from outside; on a safari jacket the equivalent is an external belt.",
+    id: "drawcord", cat: "closure", era: "1965", conf: "probable",
+    title: "The drawcord: waist and hem, no buckle",
+    dek: "A cord inside a stitched channel at the waist and hem of the M-65 cold weather coat, recorded in the maintenance manual.",
+    body: "A drawcord runs inside a stitched channel at the waist or hem; the M-65 cold weather coat (MIL-C-43455) is recorded as having waist and hem drawcords. The manual also lists MIL-T-43303 elastic cord among materials.",
     src: "Field jacket lineage references (secondary)"
   },
   {
@@ -148,9 +148,9 @@ window.FEED = [
   },
   {
     id: "tcu1963", cat: "history", era: "1963", conf: "probable",
-    title: "A uniform built by engineers, not designers",
-    dek: "June 1963, Quartermaster Research & Engineering Command — per one institutional record.",
-    body: "The tropical combat uniform entered service in June 1963, developed by the Army's research and engineering command and based closely on the M-1942 parachutist uniform. It inherited the four expandable pockets with their flaps; what changed across patterns was the exposure of the buttons, the presence of a gas flap, and the shoulder straps. Type I had exposed buttons, Type II (1964–65) concealed them, Type III (1966–67) removed the gas flap and epaulettes. None of this was designed in one go: the garment is a record of field complaints.",
+    title: "The tropical combat uniform: 1963, then two revisions",
+    dek: "Introduced in June 1963 and revised twice within four years — exposed buttons, then concealed, then the gas flap and epaulettes removed.",
+    body: "Tropical Combat Uniform: introduced June 1963 after development by the QM Research and Engineering Command, based closely on the M-1942 Parachutist Uniform, in thin cotton-poplin. Type I exposed pocket buttons; Type II concealed them (1964-65); Type III removed the gas flap and shoulder epaulettes (1966-67).",
     src: "IWM object records (institutional, single source)"
   },
   {
@@ -203,17 +203,17 @@ window.FEED = [
     src: "Red Kap product specifications"
   },
   {
-    id: "flat-felled", cat: "howto", era: "—", conf: "established",
-    title: "How a flat-felled seam works",
-    dek: "No raw edge, twice the cloth at the stress line.",
-    body: "Sew a plain seam, trim one allowance, wrap the wider one over it, and stitch again so two rows show on the face. The fold encloses both raw edges — nothing frays — and doubles the fabric where stress concentrates. It is the load-bearing seam of the military vocabulary: about 15 mm allowance, 8 mm finished.",
+    id: "flat-felled", cat: "howto", era: "—", conf: "probable",
+    title: "How a flat-felled seam is built",
+    dek: "A self-finished seam: trim one allowance, wrap the other over it, stitch again — two rows on the face, no raw edge.",
+    body: "A flat-felled seam trims one allowance, wraps the other over it and stitches again, so no raw edge is exposed and the seam takes two rows on the face. Documented in sewing textbooks and classified in ISO 4916; no military specification was opened.",
     src: "Seam construction · ISO 4916 2.04.06"
   },
   {
     id: "pom", cat: "howto", era: "—", conf: "probable",
-    title: "The five measurements that decide a jacket",
-    dek: "Chest, shoulder, length, sleeve, cuff — in that order.",
-    body: "Five measurements decide whether a jacket reads correctly: chest, shoulder, body length, sleeve, cuff. The figures used on this site — 110 cm chest, 47 shoulder, 73 body, 63 sleeve, 13 cuff — are a reproduction working specification compiled from commercial size charts and original contract labels, not a period specification. Original military documents are in inches and vary by contract. Tolerance is a production limit: ±1 cm on the body, ±0.5 cm on pockets.",
+    title: "The five flat measurements that describe a jacket",
+    dek: "Chest, shoulder, body length, sleeve and cuff — measured flat, at defined points, in the same order every time.",
+    body: "Five flat measurements — chest, shoulder, body length, sleeve and cuff — describe a jacket well enough to compare garments. The figures used on this site are a reproduction working sheet, not a period document.",
     src: "Reproduction size charts (commercial) · original contract labels"
   },
   {
@@ -224,66 +224,66 @@ window.FEED = [
     src: "Maison Margiela product notes (four stitches) · Vogue Business/Vogue (Martens appointment, 2025)"
   },
   {
-    id: "m41-jacket", cat: "issue", era: "1941", conf: "probable",
-    title: "M-1941: the first modern field jacket",
-    dek: "Light poplin, a zip behind buttons, four pockets — and cloth thin enough to wear out in a season.",
-    body: "The M-1941 replaced the long coats of the previous war with something a soldier could move in: a short cotton-poplin jacket with a zip front hidden behind a button placket, four pockets with flaps, and shoulder straps. It was the jacket the airborne troops wore into North Africa and Sicily. Its cloth proved too thin for hard service, and the army replaced it with the heavier M-1943 — which is why the M-1941 is now a scarce original and a template for every field jacket that followed.",
+    id: "m41-jacket", cat: "history", era: "1941", conf: "probable",
+    title: "M-1941 field jacket: the first American field jacket",
+    dek: "Jacket, Field, O.D., M-1941 — a short light cotton field jacket, confirmed as an object record by the Imperial War Museums.",
+    body: "M-1941 field jacket, Jacket, Field, O.D.: short light cotton field jacket of the Second World War. Designation confirmed by an IWM object record; development story and cut details remain unverified.",
     src: "Paris Musées object record (2002.1766) · museum records"
   },
   {
-    id: "n1-jacket", cat: "issue", era: "1944", conf: "probable",
-    title: "N-1: the deck jacket built for a steel deck",
-    dek: "Alpaca lining, a tight cotton shell, knit cuffs — equipment for men working in freezing spray.",
-    body: "The US Navy's N-1 deck jacket was issued from 1944 to crews working on open decks: a tight cotton jungle-cloth shell with an alpaca pile lining, knit cuffs and collar, and a storm flap over the zip. It was not designed to look like anything. The lining stayed warm when damp, the shell shed spray, and the short cut kept it out of the way. Original N-1s are identified by the stencil, the alpaca condition and the hardware; the reproductions that followed are usually cleaner than the originals ever were.",
+    id: "n1-jacket", cat: "construction", era: "1944", conf: "probable",
+    title: "N-1 deck jacket: jungle cloth, pile lining, zip front",
+    dek: "The short US Navy deck jacket, described by its reproducers as 1944 issue: cotton jungle-cloth shell, alpaca and wool pile lining.",
+    body: "N-1 deck jacket: cotton jungle-cloth shell over alpaca and wool pile, zip front, short cut. No T1 specification or museum record found; dating and materials per marketplace listings and reproducer notes.",
     src: "Grailed listing (WWII issue) · USN clothing records"
   },
   {
-    id: "sailor-trousers", cat: "issue", era: "1943", conf: "probable",
-    title: "The sailor's bell-bottoms",
-    dek: "The widest trousers in uniform, and an engineering answer to working at sea.",
-    body: "US Navy dress blue trousers were wool flannel, high-rise, with a broad fall front and a bell-shaped hem. The flare is not decoration: it lets the trouser leg be rolled up over a boot or shed fast in water, and the wool keeps warmth even when wet. They were issued through the Second World War and worn as workwear at sea long before workwear was a category. Original pairs are identified by the wool, the buttoned fall front and the absence of modern interlining.",
+    id: "sailor-trousers", cat: "construction", era: "1943", conf: "probable",
+    title: "The sailor's bell-bottoms: wool, fall front, wide hem",
+    dek: "US Navy enlisted dress blue trousers in wool, cut high with a buttoned fall front and a bell-shaped hem.",
+    body: "US Navy enlisted dress blue trousers in wool, high rise, buttoned broad fall front, bell-shaped hem. Material and designation recorded in museum metadata; cut details not found in an opened document.",
     src: "Grailed listing (WWII issue) · USN uniform records"
   },
   {
-    id: "og107-trousers", cat: "issue", era: "1970", conf: "probable",
-    title: "OG-107: the other half of the uniform",
-    dek: "Sateen trousers that outlived the jacket, and carried the same climate mistake.",
-    body: "The OG-107 utility uniform was cotton sateen: a jacket and trousers cut plainly, with slash and back pockets but no cargo pockets — those belong to the jungle fatigue pattern. The trousers were worn in Vietnam and on bases everywhere, and they share the jacket's problem: sateen is dense, sheds wind and holds water. Original 1970s pairs are a lesson in how a uniform is a system rather than a garment, and in how the same cloth that works in a European winter fails in a monsoon.",
+    id: "og107-trousers", cat: "history", era: "1970", conf: "probable",
+    title: "OG-107 utility trousers: not the M-65 field trousers",
+    dek: "Sateen work trousers in the OG-107 shade, with slash and rear pockets and no cargo pockets — a different garment from the M-65 field trousers (MIL-T-43497).",
+    body: "OG-107 utility trousers: cotton sateen work trousers with slash and rear pockets and no cargo pockets. They are not the M-65 field trousers (MIL-T-43497, cargo pockets). Specification designation per Smithsonian catalogue excerpt; shape details per marketplace listings.",
     src: "Grailed listing (1970s issue) · uniform references"
   },
   {
-    id: "m65-trousers", cat: "issue", era: "1965", conf: "probable",
+    id: "m65-trousers", cat: "construction", era: "1965", conf: "probable",
     title: "M-65 field trousers: the manual records the cloth, not the date",
     dek: "Cotton-nylon sateen, cargo pockets, a hem drawcord — and a 1965 date that only secondary sources give.",
     body: "M-65 field trousers: cotton-nylon wind-resistant sateen in OG-107, cargo pockets, hem drawcord. The maintenance manual records the name, cloth, stock numbers and liner; the 1965 date and the pocket details come from commercial sources only.",
     src: "TM 10-8400-201-23 (transcription) · commercial secondary sources"
   },
   {
-    id: "m51-parka", cat: "issue", era: "1951", conf: "probable",
+    id: "m51-parka", cat: "history", era: "1951", conf: "probable",
     title: "M-51: the fishtail parka",
     dek: "A Korean War over-garment that ended up on the backs of English Mods.",
     body: "The M-1951 parka was designed as an outer layer to be worn over the field jacket: a cotton shell with a detachable hood and liner, a fishtail hem that could be drawn between the legs or snapped up, and a front closure covered by a storm flap. It was issued in the Korean War and stayed in service long after. In the 1960s it was bought surplus in Britain and became the coat of the Mod movement — the fishtail worn over a suit, a use the army never intended. It is the clearest example in this archive of a garment leaving its issue and becoming a style.",
     src: "Wikimedia Commons (PD photograph) · M-1951 parka references"
   },
   {
-    id: "tanker-jacket", cat: "issue", era: "1941", conf: "probable",
-    title: "The tanker jacket: short by necessity",
-    dek: "A jacket designed around a cramped steel box, not around style.",
-    body: "The US Army's winter combat jacket — known to everyone as the tanker jacket — was standardised in the early 1940s for armoured crews. It was deliberately short, because a longer jacket catches on levers and hatches, and deliberately simple: a cotton shell, a wool melton lining, knit collar, cuffs and waist, and a zip front. It was warm, it packed small, and it was replaced later by the M-1943 and M-1951 systems. Its silhouette — short body, ribbed hem — later reappeared on bombers and on runways, but the logic was a tank interior.",
+    id: "tanker-jacket", cat: "construction", era: "1941", conf: "probable",
+    title: "The tanker jacket: short body, knit seals, zip front",
+    dek: "The Winter Combat Jacket issued to US armoured crews — and a specification story that does not agree with itself.",
+    body: "Jacket, Combat, Winter: short cotton-twill jacket with wool blanket lining, zip front, knit collar, cuffs and waistband, and slash pockets, issued to US armoured crews in the Second World War. Specification number and dates rest on conflicting reproducer accounts.",
     src: "NARA period photograph (PD) · armoured-crew clothing records"
   },
   {
-    id: "hbt-trousers", cat: "issue", era: "1942", conf: "probable",
+    id: "hbt-trousers", cat: "construction", era: "1942", conf: "probable",
     title: "HBT trousers: the utility half",
     dek: "Herringbone twill trousers, issued to women as well as men.",
     body: "The herringbone twill fatigue trousers were the lower half of the American utility uniform: a button fly, two front pockets, two back pockets, and a loose straight leg in a cloth that resisted abrasion and ventilated better than sateen. They were issued in the P-41 and P-42 uniforms and worn in the Pacific, where the open twill mattered. This pair belonged to Madeleine Collomb and was cut for female personnel — a reminder that the utility uniform was issued to women during the war, and that the archive's 'military clothing' is not automatically menswear.",
     src: "Paris Musées object record 2012.0.4 (CC0) · HBT uniform references"
   },
   {
-    id: "jungle-trousers", cat: "issue", era: "1963", conf: "probable",
-    title: "Jungle fatigue trousers: pockets where they were needed",
-    dek: "The tropical combat trousers, and the in-country tailoring that changed them.",
-    body: "The tropical combat uniform trousers were poplin, later ripstop, with two large cargo pockets on the thighs and a drawcord at the hem. They were issued with the jungle jacket from 1963 and worn in Vietnam, where the climate made the dense sateen of the utility uniform impossible. Soldiers and local tailors modified them in country — taking in the leg, moving pockets, shortening the hem — so many surviving pairs are not exactly what the specification described. The garment in the archive is the issued pattern; the garment in the photographs is often the modified one.",
+    id: "jungle-trousers", cat: "details", era: "1963", conf: "probable",
+    title: "Jungle fatigue trousers: cargo pockets and a drawcord hem",
+    dek: "The trousers half of the tropical uniform: expandable cargo pockets, waist adjusters and drawstring cuffs.",
+    body: "Tropical combat trousers: thin cotton poplin, zip fly with waist button, waist adjuster straps, seven belt loops, rear slash pockets with concealed flaps, large expandable cargo pockets with concealed two-button flaps, and drawstring cuff adjusters. Features per an institutional catalogue description of Type III examples.",
     src: "NARA period photograph (PD) · tropical uniform records"
   },
   {

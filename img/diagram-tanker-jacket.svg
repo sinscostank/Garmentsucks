@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500"><style>
+ .bg{fill:#f4f2ec}
+ .fr{fill:none;stroke:#d6d2c6;stroke-width:2}
+ .o{fill:none;stroke:#1b1b18;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+ .thin{fill:none;stroke:#1b1b18;stroke-width:1}
+ .dash{fill:none;stroke:#1b1b18;stroke-width:1.2;stroke-dasharray:5 4}
+ .f1{fill:#e7e2d3;stroke:#1b1b18;stroke-width:1.3}
+ .f2{fill:#f2eee2;stroke:#1b1b18;stroke-width:1.3}
+ .acc{fill:none;stroke:#5c6040;stroke-width:1.8}
+ .caps{fill:#5c6040;font-family:'Segoe UI',Arial,sans-serif;font-size:13px;letter-spacing:3.5px}
+ .lab{fill:#6f6c63;font-family:'Segoe UI',Arial,sans-serif;font-size:12.5px}
+ .small{fill:#8a877c;font-family:'Segoe UI',Arial,sans-serif;font-size:11px}
+</style><rect class="bg" x="0" y="0" width="820" height="500"/><rect class="fr" x="14" y="14" width="792" height="472"/><text class="caps" x="40" y="52">WINTER COMBAT JACKET / SCHEMATIC</text><text class="lab" x="60" y="96">winter combat jacket / front</text><path class="o" d="M250,120 L430,120 L430,380 L250,380 Z"/><path class="f2" d="M250,120 L280,120 L280,380 L250,380 Z"/><line class="thin" x1="250" y1="150" x2="430" y2="150"/><text class="lab" x="150" y="144">knit collar</text><rect class="f2" x="250" y="150" width="180" height="34"/><text class="lab" x="440" y="172">zip front</text><rect class="f2" x="250" y="184" width="180" height="30"/><text class="lab" x="440" y="204">ribbed knit waistband</text><path class="f2" d="M250,214 L300,214 L300,260 L250,260 Z"/><text class="lab" x="150" y="250">knit cuff</text><path class="dash" d="M300,300 L390,300 L390,340 L300,340 Z"/><text class="lab" x="400" y="322">slash pocket</text><text class="small" x="60" y="450">Original diagram — garmentsucks. Schematic; features visible in the listing photograph; no scale.</text></svg>
