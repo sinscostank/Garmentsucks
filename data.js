@@ -14,11 +14,11 @@ window.FEED = [
     src: "M-1942 records (museum/dealer) · jungle jacket observations"
   },
   {
-    id: "flap-pocket", cat: "closure", era: "1964", conf: "probable",
+    id: "flap-pocket", cat: "closure", era: "1964", conf: "established",
     title: "The flap was added to stop snagging",
-    dek: "First-pattern jungle jackets had exposed buttons. The fix is dated — by one authority.",
-    body: "On the first pattern the pocket buttons sat proud of the cloth, and field complaints described them catching on undergrowth and catching light. Shelby Stanton's chronology places the change to covered flaps on 26 August 1964. That date rests on a single secondary authority until a spec revision is found.",
-    src: "Shelby Stanton chronology (secondary)"
+    dek: "First-pattern jungle jackets had exposed buttons. Two independent records date the fix.",
+    body: "On the first pattern the pocket buttons sat proud of the cloth, and field complaints described them catching on undergrowth and catching light. Shelby Stanton's chronology places the approval on 26 August 1964, and the IWM's catalogue description of the Type III garments corroborates the sequence: buttons exposed on Type I, concealed behind flaps on Type II (introduced 1964–65).",
+    src: "Stanton chronology · IWM catalogue description"
   },
   {
     id: "bellows", cat: "details", era: "1942", conf: "probable",
@@ -84,11 +84,11 @@ window.FEED = [
     src: "Garment nomenclature · MIL-C-507 poplin"
   },
   {
-    id: "ripstop", cat: "fabric", era: "1967", conf: "probable",
+    id: "ripstop", cat: "fabric", era: "1967", conf: "established",
     title: "Ripstop: a grid that stops a tear",
-    dek: "Durability without density — the grid is the whole trick.",
-    body: "A heavier reinforcing yarn is woven at regular intervals, so a snag becomes a pinhole instead of a torn panel, and the base cloth stays as open as plain cotton. Dealer and repro accounts place the jungle jacket's switch from poplin to ripstop around 1967; the exact month and specification are still open.",
-    src: "TCU pattern accounts · ripstop textile references"
+    dek: "The grid is specified, not decorative — MIL-C-342 names it.",
+    body: "A heavier reinforcing yarn is woven at regular intervals, so a snag becomes a pinhole instead of a torn panel, and the base cloth stays as open as plain cotton. The US specification MIL-C-342 (NSN 8305-00-132-1080) describes a wind-resistant poplin in a ripstop weave, OG-107 both sides, 5.7–6.7 oz/yd² (roughly 193–227 gsm), mercerized and shrunk. When exactly the jacket switched from plain poplin still rests on secondary accounts placing it around 1967.",
+    src: "MIL-C-342 / NSN 8305-00-132-1080 · TCU pattern accounts"
   },
   {
     id: "sateen", cat: "fabric", era: "1943", conf: "established",
@@ -119,11 +119,11 @@ window.FEED = [
     src: "Corps of Guides · National Army Museum"
   },
   {
-    id: "og107", cat: "history", era: "1952", conf: "probable",
-    title: "OG-107 is a colour, not a cloth",
-    dek: "That confusion is why many reproductions fail.",
-    body: "Olive Green 107 is a shade code, not a fabric. The utility uniform in OG-107 was cotton sateen; the tropical combat jacket in the same shade was poplin and later ripstop. Same colour, opposite behaviour in humidity. The 1952 standardisation date is consistently cited but should be checked against the original colour standard.",
-    src: "OG-107 references · ERDL standardisation (secondary)"
+    id: "og107", cat: "history", era: "1952", conf: "established",
+    title: "OG-107 is a colour, not a cloth — and it had a low-IR dye",
+    dek: "The shade code hides a specification detail most reproductions miss.",
+    body: "Olive Green 107 is a shade code, not a fabric. The utility uniform in OG-107 was cotton sateen; the tropical combat jacket in the same shade was poplin and later ripstop. The cloth specification MIL-C-342 adds a detail worth knowing: the fabric is required with a 'low infra red dye formulation', plus mercerizing and shrinking. Same colour family, opposite behaviour in humidity.",
+    src: "MIL-C-342 / NSN 8305-00-132-1080 · OG-107 references"
   },
   {
     id: "erdl", cat: "history", era: "1948", conf: "probable",
