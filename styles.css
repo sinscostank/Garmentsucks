@@ -1,0 +1,75 @@
+:root{
+  --paper:#f4f2ec; --ink:#1b1b18; --muted:#6f6c63; --line:#d6d2c6; --olive:#5c6040; --card:#fffdf8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.6;
+}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+
+/* header */
+.site-head{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;padding:18px 0 10px;border-bottom:2px solid var(--ink)}
+.brand{font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;font-weight:600}
+.topnav a{font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-left:18px}
+.topnav a:hover{color:var(--olive)}
+.tagline{font-size:17px;max-width:46em;margin:14px 0 16px;color:#2c2c27}
+.controls{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  padding:6px 12px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;border-radius:999px}
+.chip:hover{border-color:var(--olive);color:var(--olive)}
+.chip[aria-pressed="true"]{background:var(--olive);border-color:var(--olive);color:#fff}
+.search input{
+  font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;padding:8px 12px;min-width:260px;
+  border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;outline:none
+}
+.search input:focus{border-color:var(--olive)}
+.count{font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--olive);margin:10px 0 14px}
+.sr{position:absolute;left:-9999px}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px;padding-bottom:20px}
+.card{background:var(--card);border:1px solid var(--line);padding:0 0 16px;display:flex;flex-direction:column;break-inside:avoid}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-bottom:1px solid var(--line)}
+.card .meta{display:flex;justify-content:space-between;font-family:'Segoe UI',system-ui,sans-serif;
+  font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:14px 16px 4px}
+.card .era{color:var(--olive)}
+.card h3{font-size:19px;line-height:1.25;margin:4px 16px 6px;font-weight:normal}
+.card .dek{margin:0 16px 10px;font-size:14px;color:#3a3a33}
+.card details{margin:auto 16px 0;font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;color:#33332d}
+.card summary{cursor:pointer;color:var(--olive);font-size:11px;letter-spacing:.16em;text-transform:uppercase;list-style:none}
+.card summary::-webkit-details-marker{display:none}
+.card summary::after{content:" +";}
+.card details[open] summary::after{content:" −";}
+.card details p{margin:10px 0 4px;line-height:1.6}
+.card .src{font-size:11px;color:var(--muted);font-style:italic}
+.card .conf-row{margin:0 16px 10px}
+.conf{font-family:'Segoe UI',system-ui,sans-serif;font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  padding:2px 8px;border-radius:999px;border:1px solid;display:inline-block}
+.conf-established{color:var(--olive);border-color:var(--olive)}
+.conf-probable{color:#8a6a2f;border-color:#c9b58a}
+.conf-unresolved{color:#8a4a3f;border-color:#d0b0a8}
+
+.sentinel{text-align:center;padding:24px 0 40px;font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+.about{border-top:1px solid var(--line);margin-top:20px;padding-top:24px;padding-bottom:10px}
+.about h2{font-weight:normal;font-size:22px;margin:0 0 8px}
+.small{font-size:12px;color:var(--muted)}
+
+.site-foot{border-top:1px solid var(--line);margin-top:24px;padding:18px 0 40px;font-family:'Segoe UI',system-ui,sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.site-foot .wrap{display:flex;justify-content:space-between}
+
+@media (max-width:640px){
+  .search input{min-width:0;width:100%}
+  .card h3{font-size:17px}
+}
+@media print{
+  .site-head{position:static}
+  .controls,.sentinel,.topnav{display:none}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .card{break-inside:avoid}
+}
