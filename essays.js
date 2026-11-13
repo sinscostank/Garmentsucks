@@ -414,9 +414,9 @@ window.ESSAYS = {
       "Its decline is equally instructive. HBT was a compromise: durable enough for utility wear, but still a comparatively heavy cotton. The tropical jacket moved to poplin and then ripstop, chasing weight and drying speed rather than abrasion resistance.",
       "For a maker, HBT is the shirt-jacket cloth. It takes a flat-felled seam beautifully, softens with washing, and its diagonal texture reads at a distance without needing a print. The tell is the direction of the zigzag: real herringbone reverses, and the reversal should be visible across the width of the cloth."
     ],
-    fig2: { src: "img/ripstop.jpg", cap: "Its successor in the field: a ripstop tropical uniform in Vietnam, decades later.", credit: "NARA, public domain" },
+    fig2: { src: "img/grailed-hbt.jpg", cap: "French M-47 herringbone twill field jacket, 1950s-60s issue: an original-issue example of the cloth.", credit: "Listing photo © @ROAMWALK, Grailed" },
     look: "Hold the cloth at an angle to the light: the zigzag should change direction in visible bands. A printed herringbone has no depth and does not catch light.",
-    sources: ["US WWII HBT utility uniform records", "Navy specification 55-J-9", "Tropical Combat Uniform lineage"]
+    sources: ["US WWII HBT utility uniform records", "Navy specification 55-J-9", "Tropical Combat Uniform lineage", { label: "French M-47 HBT field jacket — listing photo © @ROAMWALK", url: "https://www.grailed.com/listings/101120408" }]
   },
 
   "khaki": {

@@ -134,5 +134,15 @@
     "sold": true,
     "note": "Listing photograph used for identification, with seller credit and link.",
     "credit": "Listing photo © @TheFlex — Lab coat for men student Red Kap Made in/Hecho En Honduras, Grailed, sold"
+  },
+  "grailed-hbt.jpg": {
+    "title": "HBT 50s 60s French Army M-47 HBT Field Jacket Brown Size 26",
+    "artist": "@ROAMWALK",
+    "license": "listing photograph — all rights reserved by the seller",
+    "source": "https://www.grailed.com/listings/101120408",
+    "price": 153,
+    "sold": false,
+    "note": "Listing photograph used for identification, with seller credit and link.",
+    "credit": "Listing photo © @ROAMWALK — HBT 50s 60s French Army M-47 HBT Field Jacket Brown Size 26"
   }
 }

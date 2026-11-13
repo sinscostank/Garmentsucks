@@ -32,7 +32,9 @@
     "hysteric": "img/grailed-hysteric.jpg",
     "mihara": "img/grailed-mihara.jpg",
     "ventile": "img/grailed-ventile.jpg",
-    "redkap": "img/grailed-redkap.jpg"
+    "redkap": "img/grailed-redkap.jpg",
+    "gas-flap": "img/diagram-gasflap.svg",
+    "drain-eyelet": "img/diagram-draineyelet.svg"
   };
   /* Kredit gambar — wajib, mengikuti provenance sumber. */
   var CREDIT = {
@@ -64,7 +66,9 @@
     "hysteric": "Hysteric Glamour Napoleon military jacket · listing photo © @style_c0re, Grailed",
     "mihara": "Mihara Yasuhiro cotton/corduroy long jacket · listing photo © @PARCOS30_exported, Grailed",
     "ventile": "Stone Island Ventile liner jacket · listing photo © @ELITEOUTERWEARII, Grailed",
-    "redkap": "Red Kap work coat · listing photo © @TheFlex, Grailed"
+    "redkap": "Red Kap work coat · listing photo © @TheFlex, Grailed",
+    "gas-flap": "Original diagram, garmentsucks — inner placket section, schematic",
+    "drain-eyelet": "Original diagram, garmentsucks — pocket base and eyelet, schematic"
   };
   var CATS = [
     ["all", "All"],
